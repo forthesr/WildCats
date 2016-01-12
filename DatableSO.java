@@ -1,4 +1,4 @@
-public class Playa extends Character {
+public class DatableSO extends Character {
 
     private String name;
     private String appearence;
@@ -6,5 +6,4 @@ public class Playa extends Character {
     private int emotion;
 
     private int affection;
-
 }
