@@ -1,0 +1,22 @@
+DevLog
+Development Log for Final Project:
+
+January 6, 2016
+  Lisa: created WildCats
+  
+January 7, 2016
+  Lisa + Jordan: Brainstorming about project. Set up general skeleton plan. 
+
+January 8, 2016
+  Jordan: opened issue 1, added gitignore, added DatingSim
+  Lisa: opened issue 2, closed issues 1 + 2
+  Lisa + Jordan: Submitted project proposal. Continued talk about formatting.
+
+January 11, 2016
+  Jordan: Updated reader, added Character and Playa
+  Lisa: opened issue 3, added DatableSO, Setting, Home, Sans, and DevLog, closed issue 3
+  Lisa + Jordan: Review of skeleton and crucial updates
+  
+January 12, 2016
+
+
