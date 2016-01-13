@@ -35,8 +35,17 @@ public class TsundereDonut extends DatableSO {
     //set methods
     
     public setAppearance() {
-      if (appearance.equals("happy") ){
-        
+      if (image == 1 ){
+        appearance = "     	  .~I==========+..   
+      	     	    	    .:=			    =.. 
+     	     	     	   .?~	   / .         . \    =.  
+       	     	     	 .? 	\\		  \\	=.
+     	     	        .?~		  w		 =.  
+      	     	     	.?=	        .....	         =.
+      	     	     	 I=	       =.   .I	         =.
+      	     	     	 $	       =.   ..           =,
+      	     	     	 7=	       =... .?	         =.
+      	     	     	    .=++===~=:=====+========.		"
       }
     
     }
