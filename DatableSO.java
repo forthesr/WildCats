@@ -1,9 +1,9 @@
 public class DatableSO extends Character {
 
-    private String name;
-    private String appearence;
-    private String dialogue;
-    private int emotion;
+    protected String name;
+    protected String appearence;
+    protected String dialogue;
+    protected int emotion;
 
-    private int affection;
+    protected int affection;
 }
