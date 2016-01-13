@@ -18,9 +18,9 @@ January 11, 2016
   Lisa + Jordan: Review of skeleton and crucial updates
   
 January 12, 2016
-  Jordan: Added issue 4, updated readme, updated Setting
+  Jordan: Added issue 4, updated readme, updated Setting, added School
   Lisa: Opened issue 5+6, closed issue4, updated datableSO, Home, Sans, devlog. Created TsundereDonut and Map.
   Lisa + Jordan: Discussed settings and chat. 
-  
+   
 January 13, 2016
 
