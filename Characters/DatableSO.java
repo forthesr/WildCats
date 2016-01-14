@@ -6,4 +6,5 @@ public class DatableSO extends Character {
     protected int emotion;
 
     protected int affection;
+    protected boolean firstMeeting;
 }
