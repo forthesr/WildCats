@@ -23,4 +23,7 @@ January 12, 2016
   Lisa + Jordan: Discussed settings and chat. 
    
 January 13, 2016
+  Jordan: *****WRITE OVERLAY METHOD****
+  Lisa: Opened isse 7-9, closed issue 7, updated datableSO, TsundereDonut appearances and text. Added Mall.
+  Lisa + Jordan: Planned out overlay method.
 
