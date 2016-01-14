@@ -4,16 +4,21 @@ Daphne
 "Welcome to McDonuds. What's your order?"
 ~
 You
+1
 "This is my first time here, what do you recommend?"
 ~
 Daphne
+1
 "Plain cinnamon rolls. PLain vanilla donuts. Black coffee. How many do you want?"
 ~
 You
+1
 "Er, do you have anything more flavorful?"
 ~
 Daphne
 2
 "..."
+~
+Daphne
 3
 "Hurry up and ORDER!"
