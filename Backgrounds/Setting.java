@@ -26,6 +26,21 @@ public class Setting {
     protected String[][] image;
     protected String text;
 
-   
+
+    
+
+    public String[][] overlay(String[][] place){ //should it be void?
+
+	//for loop to go through String[][]
+	for (int x = 7; x < 20; x++) {   
+	// replace String[r][f] with String[w][f]
+	    DatingSim.view[x][2] = place[x-7];
+	}
+
+	
+    }
+
+    datableSO.overlay(place)
+
     }
 }

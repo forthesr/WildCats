@@ -9,8 +9,9 @@ public class Map extends Setting {
   public Map(){
   image = "";
   text = "Where would you like to go?
-          You can go to the following places(type them into the terminal):
-            Mall  ";
+          You can go to the following places:\n" +
+      "1-School\t2-Mall\3-Hospital/Doctor's Office\n" + 
+      "Enter the number of the place you wish to go:";
   }
   
   //methods
@@ -22,26 +23,23 @@ public class Map extends Setting {
     return text;}
     
     public void transport(){
+	String location;
         System.out.println(text);
-        String location = Keyboard.readString();
-        image = location.getImage();
-        System.out.println(image);
-        System.out.println("You are now at" + location);
-    }
-
-     public void pickPlace {
-	System.out.println ("1-School\t2-Mall\3-Hospital/Doctor's Office");
-	System.out.println ("Enter the number of the place you wish to go:");
-	String choice = Keyboard.readInt();
-
+        int choice = Keyboard.readInt();
 	if (choice = 1) {
-	    //School
+	    DatingSim.view = School.getImage();
+	    location = "The School";
 	}
 	if (choice = 2) {
-	    //Mall
+	    DatingSim.view = Mall.getImage();
+	    location = "The Mall";
 	}
 	if (choice = 3) {
-	    //Hospital/Doctor's Office
+	    DatingSim.view = Hospital.getImage();
+	    location = "The Hospital";
 	}
-
+      
+        System.out.println(DatingSim.view);
+        System.out.println("You are now at " + location);
+    }
 }
