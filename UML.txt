@@ -1,31 +1,136 @@
 UML diagram
 
 Classes:
-DatingSim.java -- Game class that will play the game
-                  Variables: view, date
- Characters.java -- Variables for all characters
-                    Variables: 
- Setting.java -- Variables for all settings
-                Variables: image, text
- 
- Characters:
-  Playa -- the Player/user file
-     Includes Characters variable, adds a few independent ones
-     methods: get and sets. 
+DatingSim.java -- Game class that will play the game 
+        //Variables
+	-DatableSO datingPartner
+	-String[][] view
+	-final int VIEW_LENGTH
 
-  DatableSO -- Dating partners
-      Includes Character variables, adds a few independent ones
-      methods: chat, date, kiss
+	//Methods
+
+	//Constructors
+	+DatingSim()
+
+	//Accessors
+	+String[][] getView()
+	+DatableSO getDAtingPartner
+
+	//Mutators
+	+void setView(STring[][])
+	+void setDatingPartner(DatableSO)
+
+	+void overlay (DatableSO)
+
+	+void main (STring[] args)
+	
+ Characters.java -- Variables for all characters
+        //Variables
+	-String name
+	-String appearence
+	-String dialogue
+	-int emotion
+ Setting.java -- Variables for all settings
+        //Variables
+	-String[][] image
+	-STring text
+
+	//Methods
+	+void overlay (String[][])
+ 
+ Characters: (Many SO's need to be created)
+  Playa -- the Player/user file
+         //Variables
+	 -String name
+	 -String appearence
+	 -String dialogue
+	 -int emotion
+
+	 -int stamina
+	 -int days
+
+	 //Methods
+
+	 +String getName()
+	 +String getAppearence()
+	 +String getDialogue()
+	 +int getEmotion()
+
+	 +int getStamina()
+	 +int getDays()
+
+	 +void setName(STring)
+	 +void setAppearence(STring)
+	 +void setDialogue(STRing)
+	 +void setEmotion(int)
+
+	 +void setStamina(int)
+	 +void setDays(int)
+     
+  DatableSO -- Dating partners: TsundereDonut, Cashier
+	//Variables
+        -String name
+	-String appearence
+	-String dialogue
+	-int emotion
+	-int affection
+	-boolean firstMeeting
+
+	//Methods
+
+	+String getName()
+	+String getAppearence()
+	+String getDialogue()
+	+int getEmotion()
+
+	+void setName(String)
+	+void setAppearence(STring)
+	+void setDialogue(String)
+	+void setEmotion(int)
+
+	+String chat()
+	+String date()
+	+String kiss()
 
 Settings:
     Methods: transport (aka change view)
             Overlay (put datableSO over view)
 
-    Home 
-    Methods: sleep
+    Home
+	-String[] image
+	-STring text
+
+	+Home()
+
+	+STring[] getImage()
+	+String getTExt()
+
+	+void sleep
     
     Map
-    
+        //varibles
+	-String image
+	-String text
+
+	//methods
+	+Map()
+
+	+String getImage()
+	+String getText()
+
+	+void trasnport()
+
+    School (all below locations have these)
+        - STring[][] image
+	-STring text
+
+	//methods
+	+School()
+
+	+String toSTring()
+	+void transport()
+	
+    //Various locations
     School
      Classroom
      Roof
