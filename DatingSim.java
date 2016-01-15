@@ -7,4 +7,7 @@
 
 public class DatingSim {
     
+    protected String datingPartner;
+    protected String[][] view;
+    
 }
