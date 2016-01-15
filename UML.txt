@@ -1,0 +1,48 @@
+UML diagram
+
+Classes:
+DatingSim.java -- Game class that will play the game
+                  Variables: view, date
+ Characters.java -- Variables for all characters
+                    Variables: 
+ Setting.java -- Variables for all settings
+                Variables: image, text
+ 
+ Characters:
+  Playa -- the Player/user file
+     Includes Characters variable, adds a few independent ones
+     methods: get and sets. 
+
+  DatableSO -- Dating partners
+      Includes Character variables, adds a few independent ones
+      methods: chat, date, kiss
+
+Settings:
+    Methods: transport (aka change view)
+            Overlay (put datableSO over view)
+
+    Home 
+    Methods: sleep
+    
+    Map
+    
+    School
+     Classroom
+     Roof
+     Cafeteria
+    
+    City
+      Theater
+      Boardwalk
+    
+    Park
+      Ball Court
+      Lawn
+      Lake
+      
+    Mall
+      McDonuds
+      Never21
+      ???
+
+
