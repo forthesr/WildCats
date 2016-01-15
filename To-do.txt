@@ -5,7 +5,11 @@ To-do list
 
 Premise: Need a date for prom
 
-Order of work: Priorities: Start/End screens General Map (go to home, date, etc.) Home (regain stamina, day++) Date (chat, go on actual date, etc.)
+Order of work: Priorities:
+Actual gameplay method
+Start/End screens General Map (go to home, date, etc.)
+Home (regain stamina, day++)
+Date (chat, go on actual date, etc.)
 
 Also important:
 Gift/money
