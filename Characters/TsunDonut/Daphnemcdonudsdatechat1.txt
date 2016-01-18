@@ -1,0 +1,31 @@
+Daphne
+3
+"Hey! Why is our date at my workplace again?"
+~
+Daphne
+3
+"Jeez! This is so embarassing! I don't want to buy my own goods!"
+~
+Daphne
+3
+"H-hey! Don't laugh at me! Say something!"
+~
+name
+1
+"Don't you think it's nice? Being together at someplace so familiar?"
+-
+name
+1
+"I just want to see you at a place that I know you like."
+~
+Daphne
+1
+""
+-
+Daphne
+2
+"I guess. It's just not... well. No, nevermind."
+-
+Daphne
+1
+"Ah, okay then."
