@@ -26,7 +26,9 @@ public class Setting {
     protected String[][] image;
     protected String text;
 
-
+    public String[][] getImage() {
+	return image;
+    }
     
 
     /*public String[][] overlay(String[][] place){ //should it be void?

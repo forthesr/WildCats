@@ -9,7 +9,8 @@
 public class DatingSim {
     
     protected DatableSO datingPartner;
-    protected String[][] view; 
+    private String[][] view;
+    private Setting currentPlace;
 
     public DatingSim(){
       datingPartner = "";
@@ -55,15 +56,12 @@ public class DatingSim {
     }
 
      public void transport(){
-	String location;
         //System.out.println(text);
         Setting choice = Keyboard.readString();
 
-	DatingSim.view = choice.getImage();
-	System.out.println (choice);
-	
-        System.out.println(DatingSim.view);
-        System.out.println("You are now in " + location);
+	setView(choice.getImage());
+	currentPlace = choice;
+        System.out.println(DatingSim);
     }
     
     public void overlay(DatableSO person){
