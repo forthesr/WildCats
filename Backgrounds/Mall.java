@@ -1,3 +1,5 @@
+import java.util.Scanner;
+
 public class Mall extends Setting {
     private String[][] image;
     private String text = "";
@@ -6,7 +8,7 @@ public class Mall extends Setting {
 	//20 X 3 array, 20, 30, 20 characters, temp design to test
 	image = new String[][]
 	    {{"____________________","___________________________________","____________________"}, //0
-	     {"||||||||||||||||||||","||||||||||THE SCHOOL|||||||||||||||","||||||||||||||||||||"}, //1
+	     {"||||||||||||||||||||","||||||||||||||THE MALL|||||||||||||","||||||||||||||||||||"}, //1
 	     {"||||||||||||||||||||","|||||||||||||||||||||||||||||||||||","||||||||||||||||||||"},
 	     {"||||||||||||||||||||","|||||||||||||||||||||||||||||||||||","||||||||||||||||||||"}, //3
 	     {"||||||||||||||||||||","|||||||||||||||||||||||||||||||||||","||||||||||||||||||||"},
@@ -52,19 +54,6 @@ public class Mall extends Setting {
 	DatingSim.view = choice.getImage();
 	System.out.println (choice);
 	
-	/*if (choice = 1) {
-	    DatingSim.view = Class.getImage();
-	    location = "The Classroom";
-	}
-	if (choice = 2) {
-	    DatingSim.view = Cafeteria.getImage();
-	    location = "The Cafeteria";
-	}
-	if (choice = 3) {
-	    DatingSim.view = Auditorium.getImage();
-	    location = "The Auditorium";
-	    }*/
-      
         System.out.println(DatingSim.view);
         System.out.println("You are now in " + location);
     }

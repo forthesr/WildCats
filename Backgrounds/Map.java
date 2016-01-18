@@ -24,9 +24,11 @@ public class Map extends Setting {
     
     public void transport(){
 	String location;
+	//outputs question
         System.out.println(text);
-        int choice = Keyboard.readInt();
-	if (choice = 1) {
+        Setting choice = Keyboard.readString();
+
+	/*if (choice = 1) {
 	    DatingSim.view = School.getImage();
 	    location = "The School";
 	}
@@ -37,7 +39,10 @@ public class Map extends Setting {
 	if (choice = 3) {
 	    DatingSim.view = Hospital.getImage();
 	    location = "The Hospital";
-	}
+	    }*/
+
+	DatingSim.view = choice.getImage();
+	System.out.println (choice);
       
         System.out.println(DatingSim.view);
         System.out.println("You are now at " + location);
