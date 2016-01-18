@@ -1,10 +1,10 @@
 import java.util.Scanner;
 
-public class Mall extends Setting {
+public class McDonuds extends Setting {
     //20 X 3 array, 20, 30, 20 characters, temp design to test
     private String[][] image = new String[][]
 	    {{"____________________","___________________________________","____________________"}, //0
-	     {"||||||||||||||||||||","||||||||||||||THE MALL|||||||||||||","||||||||||||||||||||"}, //1
+	     {"||||||||||||||||||||","||||||||||||||McDonuds|||||||||||||","||||||||||||||||||||"}, //1
 	     {"||||||||||||||||||||","|||||||||||||||||||||||||||||||||||","||||||||||||||||||||"},
 	     {"||||||||||||||||||||","|||||||||||||||||||||||||||||||||||","||||||||||||||||||||"}, //3
 	     {"||||||||||||||||||||","|||||||||||||||||||||||||||||||||||","||||||||||||||||||||"},
@@ -24,9 +24,9 @@ public class Mall extends Setting {
 	     {"||||||||||||||||||||","|||||||||||     |||     |||||||||||","||||||||||||||||||||"},
 	     {"||||||||||||||||||||","|||||||||||     |||     |||||||||||","||||||||||||||||||||"}  //19
 	    };;
-    private String text = "Welcome to the Mall! " +
-	    "Where in the Mall would you like to go?\n" +
-	    "McDonuds\tNever21\t\n" +
-	    "Enter the name of the place you wish to go:";
+    private String text = "Welcome to McDonuds! " +
+	    "There are two people in the store:\n" +
+	    "Daphne\tName\t\n" +
+	    "Enter the name of the person you wish to talk to:";
    
 }
