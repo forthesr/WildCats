@@ -1,0 +1,35 @@
+Daphne
+1
+"Ooh! Cute shoes! Nice dress! Everything is so... SPARKLY!"
+~
+name
+1
+"Do you like sparkly things?"
+~
+Daphne
+1
+"Hm? Ah, y-yeah. Sometimes I guess I just want to. Well, how to say it?"
+~
+name
+1
+"You can be as sparkly as you like."
+-
+name
+1
+"Sometimes you just want to be a little brighter."
+-
+name
+1
+"You are fantastic just the way you are."
+~
+Daphne
+2
+"It doesn't work that way..."
+-
+Daphne
+1
+"Y-yeah! Sometimes you just want to... shine. Just a little. Just a little bit brighter."
+-
+Daphne
+3
+"...That doesn't help me."
