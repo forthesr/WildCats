@@ -1,0 +1,37 @@
+Daphne
+3
+"I c=can't believe I'm buying food from my own workplace!"
+~
+Daphne
+3
+"Actually, why the heck don't I get free food! I made this stuff!"
+~
+Daphne
+1
+"Okay, whatever. Well, what would you like?"
+~
+name
+1
+"Let's indulge in some flavorful donuts."
+-
+name
+1
+"Hmm, well actually, I was hoping you'd pick since you know what you made the best."
+-
+name
+1
+"Whatever you like."
+~
+Daphne
+2
+"...don't you think at all?"
+-
+Daphne
+1
+".... You freeloader."
+-
+Daphne
+3
+"...Make your own decision!"
+
+
