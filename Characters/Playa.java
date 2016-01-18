@@ -1,7 +1,7 @@
 public class Playa extends Character {
 
     protected String name;
-    protected String appearence;
+    protected String appearence; //dont need?
     protected String dialogue;
     protected int emotion;
 
@@ -10,6 +10,12 @@ public class Playa extends Character {
     
     
     //Constructors
+    public Playa(String n) {
+	name = n;
+	emotion = 1;
+	stamina = 12;
+	dialogue = "";
+    }
     /*    setName - replace default name "" to user input
     setAppearance - set as ""
     setEmotion - default 1, happy

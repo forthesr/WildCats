@@ -7,14 +7,15 @@
 
 
 public class DatingSim {
-    
-    protected DatableSO datingPartner;
+
+    private Playa playa;
+    private DatableSO datingPartner;
     private String[][] view;
     private Setting currentPlace;
 
     public DatingSim(){
-      datingPartner = "";
-     view = new String[][]
+	//datingPartner = "";
+	view = new String[][]
 	    {{"____________________","___________________________________","____________________"}, //0
 	     {"||||||||||||||||||||","||||||||||||||WELCOME||||||||||||||","||||||||||||||||||||"}, //1
 	     {"||||||||||||||||||||","|||||||||||||||||||||||||||||||||||","||||||||||||||||||||"},
@@ -36,9 +37,9 @@ public class DatingSim {
 	     {"||||||||||||||||||||","|||||||||||     |||     |||||||||||","||||||||||||||||||||"},
 	     {"||||||||||||||||||||","|||||||||||     |||     |||||||||||","||||||||||||||||||||"}  //19
 	    };
+	newGame();
     }
-    newGame();
-
+    
     public String[][] getView(){
       return view;
     }
@@ -85,11 +86,28 @@ public class DatingSim {
     }
 
     public void newGame() {
-	
+	String s;
+	String name = "";
+	System.out.println(DatingSim);
+
+	//Set name
+	s = "What is your name?: ";
+	System.out.print(s);
+
+	try {
+	    name = Keyboard.readString();
+	}
+	catch (IOEXception e) {}
+
+	playa = new Playa( name );
     }
     
     public static void main(String[] args){
+	DatingSim game = new DatingSim();
 
+	while( Playa.days > 0) {
+	    
+	}
      // System.out.println(view.overlay(person) );
 
     }
