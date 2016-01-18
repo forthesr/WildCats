@@ -26,4 +26,12 @@ January 13, 2016
   Jordan: *****WRITE OVERLAY METHOD****
   Lisa: Opened isse 7-9, closed issue 7, updated datableSO, TsundereDonut appearances and text. Added Mall.
   Lisa + Jordan: Planned out overlay method.
+  
+January 17, 2016
+  Jordan: changed School, added never21 and McDonuds, 
+  Lisa:
+  
+January 18, 2016
+  Jordan: Made newGame() in DatingSim, 
+  Lisa:
 
