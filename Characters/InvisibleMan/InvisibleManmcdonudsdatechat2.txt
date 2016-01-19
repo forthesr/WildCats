@@ -1,0 +1,27 @@
+InvisibleMan
+1
+"So many people here... are doughnuts really so popular?"
+~
+name
+1
+"Hm? Oh, I guess so."
+~
+InvisibleMan
+1
+"W-wah. Despite tasting it already, people are back for more. They can't forget it, huh?"
+~
+name
+1
+"Well, that's what favorite foods are."
+-
+name
+1
+"Well, I wouldn't say being unable to forget, exactly."
+~
+InvisibleMan
+1
+"Hm. Is that so?"
+-
+InvisibleMan
+1
+"Ah, is that so?"
