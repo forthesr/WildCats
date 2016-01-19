@@ -5,8 +5,9 @@
 
 //Driver File
 
-import java.io.*;
 import java.util.Scanner;
+import cs1.Keyboard;
+
 
 public class DatingSim {
 
@@ -48,8 +49,8 @@ public class DatingSim {
       return view;
     }
 
-    public void setView(String[][] bg){
-      view = bg;
+    public void setView(Setting bg){
+	view = bg.getImage();
     }
 
     public DatableSO getDatingPartner(){
@@ -60,7 +61,7 @@ public class DatingSim {
       datingPartner = person;
     }
 
-     public void transport(){
+    public void transport(){
         //System.out.println(text);
         Setting choice = Keyboard.readString();
 
@@ -76,7 +77,7 @@ public class DatingSim {
         for (int i = 0; i < person.getAppearance().length; i++){
         view[x][2] = person[i];
       } }
-    }
+      }
 
      public String toString() {
 	String s = "";
@@ -92,24 +93,27 @@ public class DatingSim {
     public void newGame() {
 	String s;
 	String name = "";
-	System.out.println(DatingSim);
+	System.out.println(this);
 
 	//Set name
 	s = "What is your name?: ";
 	System.out.print(s);
-
-	try {
-	    name = Keyboard.readString();
-	}
-	catch (IOEXception e) {}
+	name = Keyboard.readString();
 
 	playa = new Playa( name );
+    }
+
+    public void oneDay(){
+	
+
+	//Subtracting days
+	playa.days--;
     }
     
     public static void main(String[] args){
 	DatingSim game = new DatingSim();
 
-	/*while( Playa.days > 0) {
+	/*while( playa.days > 0) {
 	    
 	  }*/
      // System.out.println(view.overlay(person) );

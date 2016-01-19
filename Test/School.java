@@ -1,27 +1,14 @@
-//Team WildCats - Lisa Shi and Jordan Louie
-//APCS1 pd5
-//Final Project -- Dating Sim
-//2016-01-08
-
-//Driver File
-
-import java.io.*;
 import java.util.Scanner;
 
-public class DatingSim {
+public class School extends Setting {
+    private String[][] image;
+    private String text = "";
 
-    //~~~~~~~~~~~~~~~INSTANCE VARS~~~~~~~~~~~~~~~~
-    private Playa playa;
-    private DatableSO datingPartner;
-    private String[][] view;
-    private Setting currentPlace;
-
-    //~~~~~~~~~~~~~~DEFAULT CONSTRUCTOR~~~~~~~~~~
-    public DatingSim(){
-	//datingPartner = "";
-	view = new String[][] //Welcome Screen
+    public School() {
+	//20 X 3 array, 20, 30, 20 characters, temp design to test
+	image = new String[][]
 	    {{"____________________","___________________________________","____________________"}, //0
-	     {"||||||||||||||||||||","||||||||||||||WELCOME||||||||||||||","||||||||||||||||||||"}, //1
+	     {"||||||||||||||||||||","||||||||||THE SCHOOL|||||||||||||||","||||||||||||||||||||"}, //1
 	     {"||||||||||||||||||||","|||||||||||||||||||||||||||||||||||","||||||||||||||||||||"},
 	     {"||||||||||||||||||||","|||||||||||||||||||||||||||||||||||","||||||||||||||||||||"}, //3
 	     {"||||||||||||||||||||","|||||||||||||||||||||||||||||||||||","||||||||||||||||||||"},
@@ -41,46 +28,16 @@ public class DatingSim {
 	     {"||||||||||||||||||||","|||||||||||     |||     |||||||||||","||||||||||||||||||||"},
 	     {"||||||||||||||||||||","|||||||||||     |||     |||||||||||","||||||||||||||||||||"}  //19
 	    };
-	newGame();
-    }
-    
-    public String[][] getView(){ //not sure need bc never getting view from othter place
-      return view;
-    }
-
-    public void setView(String[][] bg){
-      view = bg;
+	
+	text = "Welcome to the School! " +
+	    "Where in the School would you like to go?\n" +
+	    "1-Classroom\t2-Cafeteria\t3-Auditorium\n" +
+	    "Enter the number of the place you wish to go:";
     }
 
-    public DatableSO getDatingPartner(){
-      return datingPartner;
-    }
-
-    public void setDatingPartner(DatableSO person){
-      datingPartner = person;
-    }
-
-     public void transport(){
-        //System.out.println(text);
-        Setting choice = Keyboard.readString();
-
-	setView(choice.getImage());
-	currentPlace = choice;
-        System.out.println(DatingSim);
-    }
-    
-    public void overlay(DatableSO person){
-
-      //Person = new PErson(spersonNAme)
-      for (int x = view.length- person.getAppearance().length; x < view.length; x++){
-        for (int i = 0; i < person.getAppearance().length; i++){
-        view[x][2] = person[i];
-      } }
-    }
-
-     public String toString() {
+    public String toString() {
 	String s = "";
-	for (String[] a : view) {
+	for (String[] a : image) {
 	    for (String b : a) {
 		s += b;
 	    }
@@ -88,32 +45,30 @@ public class DatingSim {
 	}
 	return s;
     }
-
-    public void newGame() {
-	String s;
-	String name = "";
-	System.out.println(DatingSim);
-
-	//Set name
-	s = "What is your name?: ";
-	System.out.print(s);
-
-	try {
-	    name = Keyboard.readString();
+    
+    /* public void transport(){
+	String location;
+        System.out.println(text);
+        int choice = Keyboard.readInt();
+	if (choice = 1) {
+	    DatingSim.view = Class.getImage();
+	    location = "The Classroom";
 	}
-	catch (IOEXception e) {}
+	if (choice = 2) {
+	    DatingSim.view = Cafeteria.getImage();
+	    location = "The Cafeteria";
+	}
+	if (choice = 3) {
+	    DatingSim.view = Auditorium.getImage();
+	    location = "The Auditorium";
+	}
+      
+        System.out.println(DatingSim.view);
+        System.out.println("You are now in " + location);
+	}*/
 
-	playa = new Playa( name );
+    public static void main(String[] args) {
+	Setting foo = new School();
+	System.out.print(foo);
     }
-    
-    public static void main(String[] args){
-	DatingSim game = new DatingSim();
-
-	/*while( Playa.days > 0) {
-	    
-	  }*/
-     // System.out.println(view.overlay(person) );
-
-    }
-    
 }
