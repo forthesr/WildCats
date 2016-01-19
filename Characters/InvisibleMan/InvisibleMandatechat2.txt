@@ -1,0 +1,27 @@
+InvisibleMan
+1
+"Um, maybe I should go. Talking to me is weird, isn't it?"
+~
+name
+1
+"Weird? How so?"
+~
+InvisibleMan
+1
+"Other people can't see me... It looks like you're talking to air."
+~
+name
+1
+"So? If I know you're here, that's good enough."
+-
+name
+1
+"Who cares what other people think?"
+~
+InvisibleMan
+1
+"  Heh. Ah. Haha. That's... you're ridiculous. You're. Ahaha. Heh. You're. Well. Ehehe. Not wrong. If I'd have to say. "
+-
+InvisibleMan
+1
+"... Can't I?"
