@@ -1,0 +1,35 @@
+InvisibleMan
+1
+"Going to a place like this... aren't you worried?"
+~
+name
+1
+"Worried? Why?"
+~
+InvisibleMan
+1
+"Fate is always watching, regardless of where we escape to. Along with fate, comes... de-"
+~
+name
+1
+"Stop. Don't worry about that. I'll be here, protecting you. Always."
+-
+name
+1
+"Death? At a place like this, it won't come. Definetly."
+-
+name
+1
+"Y-you're kidding right? Waiting for death, can you live like that?"
+~
+InvisibleMan
+1
+"...Ah. Again, with that speech. You're... something else."
+-
+InvisibleMan
+1
+"If it's here, is it?"
+-
+InvisibleMan
+1
+"Living like this. Invisible. Without death?"
