@@ -38,6 +38,6 @@ January 17, 2016
   
 January 18, 2016
   Jordan: Made newGame() in DatingSim, 
-  Lisa: 
+  Lisa: Added all text files for InvisibleMan.
   Jordan + Lisa: Finishing game files
 
