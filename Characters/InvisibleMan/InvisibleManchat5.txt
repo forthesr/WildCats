@@ -1,0 +1,27 @@
+InvisibleMan
+1
+"Life as threads. Wandering spaces. Hidden inbetween... life?"
+~
+InvisibleMan
+1
+"Oh, sorry. Somehow, you were the one invisible just then."
+~
+Invisible
+1
+"Is that life? That fleeting thought proccess?"
+~
+name
+1
+"Life is short but worthwhile."
+-
+name
+1
+"Life feels like forever."
+~
+InvisibleMan
+1
+"You are... not wrong."
+-
+InvisibleMan
+1
+"Ah, I thought so too."
