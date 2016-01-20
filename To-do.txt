@@ -24,3 +24,9 @@ inventory
 skeletons
 minigames (ways to get money, maybe)
 bonus stats(attractiveness)
+
+Jordan:
+-Scanner class for responses (check Lisa example)
+-oneDay
+-Reporter lady dialogue
+-

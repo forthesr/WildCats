@@ -1,10 +1,5 @@
 public class DatableSO extends Character {
 
-    /* protected String name;
-    
-    protected String dialogue;
-    protected int emotion;*/
-
     protected String[] appearence;
     protected int affection;
     protected boolean firstMeeting;
@@ -14,8 +9,24 @@ public class DatableSO extends Character {
 	return appearence;
     }
 
-    //Mutators
-    public void setAppearence() {
+    public int getAffection() {
+	return affection;
+    }
 
+    public boolean getFirstMeeting() {
+	return firstMeeting;
+    }
+
+    //Mutators
+    public void setAppearence(String[] newApp) {
+	appearence = newApp;
+    }
+
+     public void setAffection(int aff) {
+	affection+= aff;
+    }
+
+    public void setFirstMeeting() {
+	firstMeeting = false;
     }
 }
