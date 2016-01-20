@@ -1,0 +1,48 @@
+&
+       MNNNNNNNNN.           
+     NNNNNNNNNMNNNN.         
+   ,NNNNNNNNNNNMNNNN+        
+   NNNN  NNNNNNNMNNNN        
+  MNNNN -      ^ 8MNNN       
+  MNNNM 0      0  MMNN       
+  NNNN     c      :NM        
+  .MNM     __     MNN.        
+   NNMMM        MMMNN        
+    MNNMMO   $$MMMMN         
+    MMMN$     $$MMMN         
+&
+       MNNNNNNNNN.           
+     NNNNNNNNNMNNNN.         
+   ,NNNNNNNNNNNMNNNN+        
+   NNNN  NNNNNNNMNNNN        
+  MNNNN /      \ 8MNNN       
+  MNNNM 0      0  MMNN       
+  NNNN     c      :NM        
+  .MNM     __     MNN.        
+   NNMMM        MMMNN        
+    MNNMMO   $$MMMMN         
+    MMMN$     $$MMMN         
+&
+       MNNNNNNNNN.           
+     NNNNNNNNNMNNNN.         
+   ,NNNNNNNNNNNMNNNN+        
+   NNNN  NNNNNNNMNNNN        
+  MNNNN \      / 8MNNN       
+  MNNNM 0      0  MMNN       
+  NNNN     c      :NM        
+  .MNM     O     MNN.        
+   NNMMM        MMMNN        
+    MNNMMO   $$MMMMN         
+    MMMN$     $$MMMN         
+&
+       MNNNNNNNNN.           
+     NNNNNNNNNMNNNN.         
+   ,NNNNNNNNNNNMNNNN+        
+   NNNN  NNNNNNNMNNNN        
+  MNNNN  ~     ~ 8MNNN       
+  MNNNM  0     0  MMNN       
+  NNNN   灬 c 灬   :NM        
+  .MNM      w    MNN.        
+   NNMMM        MMMNN        
+    MNNMMO   $$MMMMN         
+    MMMN$     $$MMMN         
