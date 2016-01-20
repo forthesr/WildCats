@@ -2,7 +2,7 @@ ReporterWaifu
 1
 "Well hello. What's this you want to give little ol me a chat? What's your name sport?"
 ~
-You
+name
 1
 "Hi! My name is-""
 ~
@@ -10,7 +10,7 @@ ReporterWaifu
 1
 "Oh Sport! That's perfect! You're gonna be Sport from now on. Oh aren't I great with names?"
 ~
-You
+name
 1
 "But, that's not right...I'm-"
 ~
@@ -18,6 +18,6 @@ ReporterWaifu
 2
 "What do you mean that's not right? It certainly sounds good enough. And..Euch, you look enough like a Sport."
 ~
-You
+name
 1
 "...Okay...I guess I'm Sport."

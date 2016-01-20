@@ -103,10 +103,10 @@ public class DatingSim {
     }
 
     public void oneDay(){
-    	while (stamina > 0) {
-	setView(Map);//maybe make transport work for this
-	Map.transport();
-	currentPlace.transport();
+	while (stamina > 0) {
+	    setView(Map);//maybe make transport work for this
+	    Map.transport();
+	    currentPlace.transport();
 	
     	}
     	currentPlace.transportToHome(); //need to maybe make seperate method for this?
