@@ -103,13 +103,14 @@ public class DatingSim {
     }
 
     public void oneDay(){
+    	while (stamina > 0) {
 	setView(Map);//maybe make transport work for this
 	Map.transport();
 	currentPlace.transport();
 	
-
-	//Subtracting days
-	playa.days--;
+    	}
+    	currentPlace.transportToHome(); //need to maybe make seperate method for this?
+    	Home.sleep();
     }
     
     public static void main(String[] args){
