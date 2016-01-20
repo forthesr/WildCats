@@ -1,0 +1,35 @@
+ReporterWaifu
+1
+"This is my favorite part of the park. It gives me the perfect vantage point to see everything that is going on. Oh, did I forget to tell you, Sport? I'm a reporter."
+~
+name
+1
+"That's cool. I am actually a-"
+~
+ReporterWaifu
+1
+"So, what are you doing here anyway, Sport?"
+~
+name
+1
+"I don't know. I just felt like taking a walk."
+-
+name
+1
+"Why, I came to find you, you beautiful creature."
+-
+name
+1
+"Eh, wanted to find someone to annoy."
+~
+ReporterWaifu
+1
+"Well, that's good enough of a reason for coming here as any. "
+-
+ReporterWaifu
+4
+"Oh, you...Wow Sport, you sure know how to make a gal feel good."
+-
+ReporterWaifu
+3
+"'Came to annoy!' Well, that is not a nice thing to do, Sport. "
