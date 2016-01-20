@@ -42,7 +42,7 @@ January 18, 2016
   Jordan + Lisa: Finishing game files
 
 January 19, 2016
-  Jordan: Began text files for ReporterWaifuForLaifu
+  Jordan: Began text files for ReporterWaifuForLaifu, updated newDay in DatingSim.java
   Lisa: Updated Scanner, created readerIntro, created ReporterWaifuForLaifuDesign, updated all Settings
   
 January 20, 2016
