@@ -79,7 +79,6 @@ public class DatingSim {
       } }
       }
 
-     public String toString() {
 	String s = "";
 	for (String[] a : view) {
 	    for (String b : a) {
@@ -104,6 +103,9 @@ public class DatingSim {
     }
 
     public void oneDay(){
+	setView(Map);//maybe make transport work for this
+	Map.transport();
+	currentPlace.transport();
 	
 
 	//Subtracting days
