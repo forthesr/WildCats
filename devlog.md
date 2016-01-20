@@ -37,7 +37,12 @@ January 17, 2016
   Jordan + Lisa: Planned out remaining mechanics
   
 January 18, 2016
-  Jordan: Made newGame() in DatingSim, 
+  Jordan: Made newGame() in DatingSim
   Lisa: Added all text files for InvisibleMan.
   Jordan + Lisa: Finishing game files
 
+January 19, 2016
+  Jordan: Began text files for ReporterWaifuForLaifu
+  Lisa: Updated Scanner, created readerIntro, created ReporterWaifuForLaifuDesign, created CharacterList, updated all Settings
+  
+  
