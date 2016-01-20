@@ -12,20 +12,24 @@ Daphne
 ~
 name
 1
-"Hire some models" -
+"Hire some models"
+-
 name
 1
-"I'll help hand out advertisements" -
+"I'll help hand out advertisements"
+-
 name
 1 
 "Beat up the pizza crew"
 ~
 Daphne
 3
-"What are you thinking right now, pervert?" - 
+"What are you thinking right now, pervert?"
+- 
 Daphne
 3
-"I-I don't need your help!... But thanks, I guess." - 
+"I-I don't need your help!... But thanks, I guess."
+- 
 Daphne
 3
 "What's wrong with your violent mind?"
