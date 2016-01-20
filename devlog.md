@@ -43,6 +43,10 @@ January 18, 2016
 
 January 19, 2016
   Jordan: Began text files for ReporterWaifuForLaifu
-  Lisa: Updated Scanner, created readerIntro, created ReporterWaifuForLaifuDesign, created CharacterList, updated all Settings
+  Lisa: Updated Scanner, created readerIntro, created ReporterWaifuForLaifuDesign, updated all Settings
+  
+January 20, 2016
+  Jordan:
+  Lisa: created CharacterList
   
   
