@@ -25,8 +25,8 @@ public class McDonuds extends Setting {
 	     {"||||||||||||||||||||","|||||||||||     |||     |||||||||||","||||||||||||||||||||"}  //19
 	    };;
     private String text = "Welcome to McDonuds! " +
-	    "There are two people in the store:\n" +
-	    "Daphne\tName\t\n" +
+	    "There are two workers currently." +
+	    "Daphne and Richard" +
 	    "Enter the name of the person you wish to talk to:";
    
 }
