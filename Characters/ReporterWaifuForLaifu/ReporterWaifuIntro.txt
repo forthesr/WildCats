@@ -1,7 +1,6 @@
 ReporterWaifu
 1
-"Well hello. What's this you want to give little ol me a chat?"
-"What's your name sport?"
+"Well hello. What's this you want to give little ol me a chat? What's your name sport?"
 ~
 You
 1
@@ -22,7 +21,3 @@ ReporterWaifu
 You
 1
 "...Okay...I guess I'm Sport."
-~
-ReporterWaifu
-1
-"Of course you are! I said so didn't I?"
