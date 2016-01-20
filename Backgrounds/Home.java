@@ -8,7 +8,7 @@ public class Home extends Setting {
   //constructors
   public Home(){
     image = "";
-    text = "Welcome home! WOuld you like to rest?
+    text = "Welcome home! Would you like to rest?
             Resting will regain full stamina and one day will pass."
   }
   
@@ -29,6 +29,7 @@ public class Home extends Setting {
     days --;
     System.out.println(image);
     System.out.println(text);
+    setView(map.getImage() );
   }
   
 
