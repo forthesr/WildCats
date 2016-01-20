@@ -10,8 +10,8 @@ public class Map extends Setting {
   image = "";
   text = "Where would you like to go?
           You can go to the following places:\n" +
-      "1-School\t2-Mall\3-Hospital/Doctor's Office\n" + 
-      "Enter the number of the place you wish to go:";
+      "1-School\t2-Mall\3-Park\n" + 
+      "Enter the name of the place you wish to go:";
   }
   
   //methods
@@ -27,6 +27,7 @@ public class Map extends Setting {
 	//outputs question
         System.out.println(text);
         Setting choice = Keyboard.readString();
+        setView(choice.getImage() );
 
 	/*if (choice = 1) {
 	    DatingSim.view = School.getImage();
