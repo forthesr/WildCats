@@ -47,6 +47,6 @@ January 19, 2016
   
 January 20, 2016
   Jordan: Fixed Scanner to work well enough for tests, DaphneIntro fix, RW dialogue
-  Lisa: created CharacterList
+  Lisa: created CharacterList, added Sans and Naomi dialogue
   
   
