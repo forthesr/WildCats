@@ -46,7 +46,7 @@ January 19, 2016
   Lisa: Updated Scanner, created readerIntro, created ReporterWaifuForLaifuDesign, updated all Settings
   
 January 20, 2016
-  Jordan:
+  Jordan: Fixed Scanner to work well enough for tests, DaphneIntro fix, RW dialogue
   Lisa: created CharacterList
   
   
