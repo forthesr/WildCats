@@ -1,4 +1,4 @@
-ReporterWaifu
+Marisa
 2
 "Hey Sport, you see that man over there?."
 ~
@@ -6,7 +6,7 @@ name
 1
 "Uh, yeah. The one with the blue hat?."
 ~
-ReporterWaifu
+Marisa
 3
 "That's the man, Sport! What do you think of him?"
 ~
@@ -22,15 +22,15 @@ name
 1 
 "Well, he looks a bit lonely, sitting there all by himself. Something about him seems a little off though."
 ~
-ReporterWaifu
+Marisa
 2
 "You don't know? Sport, you gotta be better than that. You've got to have some observation skills."
 - 
-ReporterWaifu
+Marisa
 3
 "A nice guy! Look harder. You want know what I see? A lonely man that's probably up to no good after losing his family. He's got a vengeful look in his eye, he does."
 - 
-ReportWaifu
+Marisa
 1
 "Yes! Exactly Sport! I think maybe his wife was killed and now he's looking for revenge. Excellent observation skill Sport."
 
