@@ -1,0 +1,35 @@
+Sans
+1
+"umbrella at your side, its raining but you close it tight ♫ "
+~
+Sans
+1
+"Your favorite heels soaking, is that alright ♫ "
+~
+Sans
+1
+" Always singing the same - Aaaannnndddd how long have you been standing there?"
+~
+name
+1
+"Hehe, not that long. Didn't know you knew how to sing."
+-
+name
+1
+"The same tune. Again and again, is this the only song you know?"
+-
+name
+1
+"We're always singing the same song ♫ Together, forever ♫ "
+~
+Sans
+3
+"Well kid, now you know."
+-
+Sans
+3
+"... singing the same tune. Step by step, I'll always be waiting for you. ♫ "
+-
+Sans
+1
+"Nice try, kid. Your voice is a little... broken. Heh. Broken bones. Heh."
