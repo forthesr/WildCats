@@ -1,7 +1,6 @@
 Daphne
 1
-"Alright, next please!"
-"Welcome to McDonuds. What's your order?"
+"Alright, next please!Welcome to McDonuds. What's your order?"
 ~
 You
 1
