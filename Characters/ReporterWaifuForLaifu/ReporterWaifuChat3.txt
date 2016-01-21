@@ -1,34 +1,34 @@
-Marisa
-
-
-~
 name
-
-
+1
+"Hey Marisa! The boardwalk looks so beautiful today."
 ~
 Marisa
-
-
+1
+"Yeah it is, isn't it, Sport? The water glitters under the sun, but underneath are hidden treasures and shadows."
+~
+Marisa
+1
+"Sport, do ya know how to read people? Can you see the real feelings in others' eyes?"
 ~
 name
-
-
+1
+"Uh...not really I guess."
+-
+name
+1
+"Yeah, I'm pretty good at figuring people out."
 -
 name
 
 
--
-name
-
-
 ~
 Marisa
-
-
+1
+"Aw, Sport! I gotta teach you then. Yep. I'm gonna take you under my wing and you'll be able to investigate almost as well as me!"
 -
 Marisa
-
-
+1
+"Good for you Sport! I'm not too shabby myself. I am a reporter after all."
 -
 Marisa
 

@@ -32,6 +32,7 @@ Daphne
 Daphne
 2
 "Heh... is that so?" - 
-Daphne 2
+Daphne
+2
 "..."
 

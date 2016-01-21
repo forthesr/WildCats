@@ -1,0 +1,35 @@
+Marisa
+1
+"How ya doin' Sport? Can I ask you a question?"
+~
+name
+1
+"Hey. What-"
+~
+Marisa
+1
+"I'm just going to go ahead and ask you, you'll give me a good answer won't you Sport? Of course you will. What vibe do you get from me Sport? What kinda person do you think I am?"
+~
+name
+1
+"Well, I can't really say. I don't know you all that well."
+-
+name
+1
+"No offense, but you judge people very quickly. You make up your opinion on them without even talking to them."
+-
+name
+1
+"You are one of the smartest people I have ever met. You are able to really see the people and world around you."
+~
+Marisa
+2
+"Is that what you really think Sport? I thought we were close..."
+-
+Marisa
+3
+"Excuse me! How rude! I can't believe you said that Sport! I just can see who someone is that quickly. 'No offense!' Pah!"
+-
+Marisa
+4
+"Aw, Sport. Why thank you. I am an amazing judge of character aren't I?"
