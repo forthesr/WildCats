@@ -1,0 +1,27 @@
+Naomi
+1
+"... You are back. Would you like to put together a coordinate?"
+~
+name
+1
+"An outfit. You mean an outfit."
+~
+Naomi
+1
+"...You humans are worried about every little thing."
+~
+name
+1
+"It's common courtesy, that's all. Isn't that universal?"
+-
+name
+1
+"Well, we are very little people."
+~
+Naomi
+1
+"...You are not wrong."
+-
+Naomi
+2
+"Hmmm, yes, that's true."
