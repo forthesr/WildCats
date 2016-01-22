@@ -1,0 +1,35 @@
+Sans
+2
+"Pop quiz kiddo."
+~
+name
+1
+"Is that your pun face I am not answering your puns stop"
+~
+Sans
+2
+"Why don't donuts ever get mad?"
+~
+name
+1
+"You've never met Daphne have you?"
+-
+name
+1
+"Er, I don't know. Why?"
+-
+name
+1
+"Beeecccaauuussseeee.... give me a minute. I got this. Ummm..."
+~
+Sans
+1
+"Nope!"
+-
+Sans
+2
+"Because they're sugary sweet! Donuts? Sweet? Heh. Hah. Heh!"
+-
+Sans
+1
+"Nope, try again kid."

@@ -1,0 +1,35 @@
+Sans
+1
+"Say, do you have any little siblings at home?"
+~
+name
+1
+"Er, no, why?"
+~
+Sans
+1
+"... If, hypothetically, your little brother were to buy basketballs shorts and wear them as sleeves, and you laugh and call them ball-and-socket sleeves, and he gets mad and you joke about him being mad a ton, like, a skele-ton... And he gets madder..."
+~
+name
+1
+"... 'Hypothetical' huh? Why don't you just say sorry?"
+-
+name
+1
+"Uh, apoligize right away? And... skele-ton? Really?"
+-
+name
+1
+"I'd just wait for him to calm down and then grovel."
+~
+Sans
+2
+"You're smart, kid."
+-
+Sans
+2
+"Hey, not my fault you're not fond of punny situations."
+-
+Sans
+1
+"Grovel. Heh. Uh, no."
