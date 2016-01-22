@@ -3,9 +3,10 @@ UML diagram
 Classes:
 DatingSim.java -- Game class that will play the game 
         //Variables
+	-Playa playa
 	-DatableSO datingPartner
 	-String[][] view
-	-final int VIEW_LENGTH
+	-Setting in currentPlace
 
 	//Methods
 
@@ -20,49 +21,48 @@ DatingSim.java -- Game class that will play the game
 	+void setView(STring[][])
 	+void setDatingPartner(DatableSO)
 
+	+void transport()
 	+void overlay (DatableSO)
+
+	+void newGame()
+	+void oneDay()
 
 	+void main (STring[] args)
 	
  Characters.java -- Variables for all characters
         //Variables
 	-String name
-	-String appearence
 	-String dialogue
 	-int emotion
+
+	 +String getName()
+	 +String getDialogue()
+	 +int getEmotion()
+
+	 +void setEmotion(int)
+	 
  Setting.java -- Variables for all settings
         //Variables
 	-String[][] image
 	-STring text
 
 	//Methods
-	+void overlay (String[][])
+	+STring[][] getImage ()
+	+String getTExt()
  
  Characters: (Many SO's need to be created)
   Playa -- the Player/user file
          //Variables
-	 -String name
-	 -String appearence
-	 -String dialogue
-	 -int emotion
-
 	 -int stamina
 	 -int days
 
 	 //Methods
-
-	 +String getName()
-	 +String getAppearence()
-	 +String getDialogue()
-	 +int getEmotion()
-
 	 +int getStamina()
 	 +int getDays()
 
 	 +void setName(STring)
-	 +void setAppearence(STring)
 	 +void setDialogue(STRing)
-	 +void setEmotion(int)
+
 
 	 +void setStamina(int)
 	 +void setDays(int)
@@ -77,15 +77,7 @@ DatingSim.java -- Game class that will play the game
 	-boolean firstMeeting
 
 	//Methods
-
-	+String getName()
-	+String getAppearence()
-	+String getDialogue()
-	+int getEmotion()
-
-	+void setName(String)
 	+void setAppearence(STring)
-	+void setDialogue(String)
 	+void setEmotion(int)
 
 	+String chat()
@@ -93,61 +85,31 @@ DatingSim.java -- Game class that will play the game
 	+String kiss()
 
 Settings:
-    Methods: transport (aka change view)
-            Overlay (put datableSO over view)
-
     Home
-	-String[] image
-	-STring text
-
 	+Home()
-
-	+STring[] getImage()
-	+String getTExt()
-
 	+void sleep
     
     Map
-        //varibles
-	-String image
-	-String text
-
 	//methods
 	+Map()
 
-	+String getImage()
-	+String getText()
-
-	+void trasnport()
-
     School (all below locations have these)
-        - STring[][] image
-	-STring text
-
-	//methods
+	//constructor
 	+School()
 
 	+String toSTring()
-	+void transport()
 	
     //Various locations
     School
      Classroom
      Roof
-     Cafeteria
-    
-    City
-      Theater
-      Boardwalk
     
     Park
-      Ball Court
-      Lawn
+      Boardwalk
       Lake
       
     Mall
       McDonuds
       Never21
-      ???
 
 
