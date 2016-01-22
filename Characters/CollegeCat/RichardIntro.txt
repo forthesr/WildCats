@@ -1,0 +1,24 @@
+Richard
+1
+"Welcome to McDonuds! How may I help you?"
+~
+name
+1
+"Uh, what would you recommend?"
+~
+Richard
+1
+"Hmm, well I would say the chocolate icing with sprinkles. Or the jelly-filled."
+~
+name
+1
+"Ooh. Those sound good. That's a hard decision. I'll take the...chocolate with sprinkles."
+~
+Richard
+4
+"Good choice! That one's my favorite. Mew~"
+~
+Richard
+1
+"Here you go! Have a nice day and nice to meet you! Mew~"
+~

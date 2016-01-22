@@ -1,0 +1,36 @@
+Richard
+1
+"Hi! Nice to see you again! What would you like today?"
+~
+Richard
+1
+"We have a new one today mew~! It's the cinnamon apple filled crunch donut."
+ ~
+Richard
+1
+"I suggest trying it. You wouldn't want to miss out an a possibly amazing donut!"
+~
+name
+1
+"That one sounds incredible! I'll take one."
+- 
+name
+1
+"Hmm...Maybe next time. Can I just have a plain glazed donut please?"
+- 
+name
+1
+"No, thank you. I'll just have a small black coffee."
+~
+Richard
+1
+"One cinnamon apple filled crunch coming right up Mew~!"
+-
+Richard
+1
+"Sure. Make sure to try it next time though."
+-
+Richard
+2
+"Really? Okay. Just a coffee."
+~

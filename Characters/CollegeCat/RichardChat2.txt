@@ -1,0 +1,37 @@
+Daphne
+1
+"This month's best seller is the chocolate cranberry crunch donut and the rainbow sprinkle donut."
+~
+Daphne
+2
+"But personally..."
+ ~
+Richard
+1
+"I used to go to an Ivy League college, did you know?"
+~
+name
+1
+rainbow sprinkle donut
+- 
+name
+1
+chocolate chip
+- 
+name
+1
+plain cinnamon
+~
+Richard
+2
+"I guess rainbows are the most popular. Huh..."
+-
+Richard
+1
+"Really? I thought you'd like something more flashy"
+-
+Richard
+1
+"E-eh? You want... okay, coming right up!"
+-
+

@@ -1,0 +1,25 @@
+name
+1
+"Hey, Richard, how are you doing?"
+~
+Richard
+1
+"Pretty good mew~! I sold 30 donuts in the last hour."
+~
+Richard
+1
+"I'm trying to beat my record for most donuts sold in a shift. The goal is 120 donuts."
+~
+name
+1
+"Well, I hope you can beat it! Good luck!"
+-
+name
+1
+"I can help you with that! I'll take 5 jelly-filled donuts and 5 "
+-
+name
+1
+"That's a lot of donuts! I don't know if you can beat that."
+~
+Richard
