@@ -1,0 +1,35 @@
+Sans
+1
+"You know what kid? You're weird."
+~
+name
+1
+"What?"
+~
+Sans
+2
+"I mean, who brings a copy of their bones on a date?"
+~
+name
+1
+"... stop."
+-
+name
+1
+"I do, apparently."
+-
+name
+1
+"You're a skeleton, not my skeleton."
+~
+Sans
+1
+"Nope."
+-
+Sans
+1
+"Because you love me a skele-ton?"
+-
+Sans
+2
+"Don't tell me kid, did you only bring me out to... bone me?"
