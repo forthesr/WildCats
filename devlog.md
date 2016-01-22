@@ -49,4 +49,8 @@ January 20, 2016
   Jordan: Fixed Scanner to work well enough for tests, DaphneIntro fix, RW dialogue
   Lisa: created CharacterList, added Sans and Naomi dialogue
   
+January 21, 2016
+  Jordan: Finishes Reporter dialogue. Created updated UML.
+  Lisa: Finishes Sans dialogue. Finish Sans design. Created updated flow.
+  UPDATE: Game is in finishing productions stages. All text will be updated after game completely functions.
   
