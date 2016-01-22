@@ -1,90 +1,52 @@
 &
-        MMMMMMMMMMMM         
-       MMM         MM        
-     MM              .MM     
-   M.                    M   
-  M   .MMMD.      DMMM    MM 
-  M  :MMMMMM     MMMMMM~  7M 
-  M   MMMMMM     MMMMMM   M  
-  M.                      MM 
- M            M.           M 
- M           MMM          .M 
+       MMMM MMMMMM MMMM      
+     MM                MM    
   MM                     MM  
-    MM.  M.  M.  M   MMM     
-
+ M   MMMM          MMMM   M  
+ M  MM   M        M   MM  M  
+ M   MMMMM    M    MMMM   M  
+  M          MMM         M   
+  M                      M   
+ M      .MMMMMMMMMM.      M  
+  M       M.N.N..M       M   
+   MMMM               MMM    
+       MMMMMMMMMMMMMMM       
 &
-
-        MMMMMMMMMMMM         
-       MMM         MM        
-     MM              .MM     
-   M.                    M   
-  M   .MMM\       /MM   MM 
-  M  :MMMMM\     /MMM~  7M 
-  M   MMMMMM     MMMM   M  
-  M.                      MM 
- M            M.           M 
- M           MMM          .M 
-  MM                     MM  
-    MM.  M.  M.  M   MMM     
+       MMMM MMMMMM MMMM      
+     MM                MM    
+  MM                    MM  
+ M                MMMM    M  
+ M  M    M       MM  MM   M  
+ M   NMMN    M    MMMM    M  
+  M          MMM         M   
+  M                      M   
+ M      .MMMMMMMMMM.      M  
+  M       M.N.N..M       M   
+   MMMM               MMM    
+       MMMMMMMMMMMMMMM       
+& 
+       MMMM MMMMMM MMMM      
+     MM                MM    
+  MM                    MM   
+ M   NN..         ..**    M  
+ M  NN   N       .. * *  M  
+ M   NNNN     M    ***   M   
+  M          MMM        M    
+  M                     M    
+ M       N         N     M   
+  M       NMMMMMMMN     M    
+   MMMM               MMM    
+       MMMMMMMMMMMMMMM       
 &
-        MMMMMMMMMMMM         
-       MMM         MM        
-     MM              .MM     
-   M.                    M   
-  M   .MMMD.      DMMM    MM 
-  M  :  0 :      :  0 :  7M 
-  M   MmmmmM     MmmmmM   M  
-  M.                      MM 
- M            M.           M 
- M          _____         .M 
-  MM        \| |/        MM  
-    MM.  M.  M.  M   MMM     
-&
-          MMMMMMMMM          
-       MMM        MM         
-     MM             .MM      
-    M.                  M    
-   M   .MMMD.     DMMM  MM   
-   M  :  0 :     :  0 :  M   
-  M                       M  
-  M           M.          M  
-  M.        WWWWW        .M  
-   MM                  MM    
-    MM.  M.  M.  M   MMM     
-&
-       MMMMMMMMMMMM         
-       MMM         MM        
-     MM              .MM     
-   M.                    M   
-  M   .MMM        MM   MM 
-  M  :MMMMM      MMM~  7M 
-  M   MMMMMM     MMMM   M  
-  M.                      MM 
- M            M.           M 
- M           MMM          .M 
-  MM                     MM  
-    MM.  M.  M.  M   MMM     
-&
-          MMMMMMMMM          
-       MMM        MM         
-     MM             .MM      
-    M.                  M    
-   M   .MMMD.     DMMM  MM   
-   M  :  o :     :  & :  M   
-  M                       M  
-  M           M.          M  
-  M.         ___/        .M  
-   MM                  MM    
-    MM.  M.  M.  M   MMM     
-&
-         MMMMMMMMM          
-       MMM        MM         
-     MM             .MM      
-    M.                  M    
-   M   .MMMD.     DMMM  MM   
-   M  :    :     :    :  M   
-  M                       M  
-  M           M.          M  
-  M.                    .M  
-   MM                  MM    
-    MM.  M.  M.  M   MMM   
+      MMMM MMMMMM MMMM      
+    MM                MM    
+  MM                    MM  
+ M    NMM                M  
+ M   M ♥ M       .    N  M  
+ M    MMMM    M   NMMN    M  
+  M          MMM    灬    M   
+  M                      M   
+ M      .M        M.      M  
+  M       M......M       M   
+   MMMM               MMM    
+       MMMMMMMMMMMMMMM              
