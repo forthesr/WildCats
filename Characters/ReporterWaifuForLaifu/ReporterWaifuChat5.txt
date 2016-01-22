@@ -1,23 +1,35 @@
-Marisa
-1
-"Well hello. What's this, you want to give little 'ol me a chat? What's your name sport?"
-~
 name
 1
-"Hi! My name is-""
+"Hi Marisa...Who's that person sitting on the bench over there? Is she talking to someone...?"
 ~
 Marisa
 1
-"Oh Sport! That's perfect! You're gonna be Sport from now on. Oh aren't I great with names?"
-~
-name
-1
-"But, that's not right...I'm-"
+"The one with the purple hair? Oh, yes Sport. I've noticed her for the past few weeks."
 ~
 Marisa
-2
-"What do you mean that's not right? It certainly sounds good enough. And..Euch, you look enough like a Sport."
+1
+"She does always seem to be talking to the air. With my excellent investigational skills I have determined that she is actually talking to an invisible man!"
 ~
 name
 1
-"...Okay...I guess I'm Sport."
+"Really? Wow that's cool."
+-
+name
+1
+"Eh, no. I think she's just crazy and talking to the voices in her head."
+-
+name
+1
+"Oh, yeah, I've met him. He's an...interesting guy."
+~
+Marisa
+1
+"Yes, not something you see everyday, huh Sport?"
+-
+Marisa
+4
+"You cannot just call someone crazy! And I know what I saw."
+-
+Marisa
+1
+"Really? Oh, my Sport, you should introduce me to him."
