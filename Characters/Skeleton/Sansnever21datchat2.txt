@@ -1,0 +1,35 @@
+name
+1
+"Well, what do you think of this top? Or hey, maybe some pants."
+~
+Sans
+2
+"What's wrong kiddo? Don't like my sailor uniform?"
+~
+Sans
+2
+"Being a skeleton has its advantages. My thigh gap is instagram worthy."
+~
+name
+1
+"Put on some pants."
+-
+name
+1
+"Thigh gaps are overrated."
+-
+name
+1
+"It's cute, but not very efficient."
+~
+Sans
+2
+"What's wrong with seeing a little... bone?"
+-
+Sans
+1
+"Not on me."
+-
+Sans
+4
+"Well, pick something out then."
