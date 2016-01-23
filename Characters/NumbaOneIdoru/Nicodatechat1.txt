@@ -1,0 +1,35 @@
+name
+1
+"Hey Nico? What does your saying mean?"
+~
+Nico
+1
+"Eh? You mean my Nico Nico Nii?"
+~
+Nico
+1
+"Do you really want to know?"
+~
+name
+1
+"Yes, it's important to you."
+-
+name
+1
+"No, I'm okay if you have your secrets."
+-
+name
+1
+"Whatever you want."
+~
+Nico
+1
+"Nico Nico Nii is dad's last present to Nico! She'll never let it go ever!"
+-
+Nico
+2
+"Booooo!"
+-
+Nico
+3
+"Don't scramble backwards!"
