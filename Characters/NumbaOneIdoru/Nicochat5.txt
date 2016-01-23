@@ -1,0 +1,35 @@
+name
+1
+"Hey, Nico? Why are you performing in a park of all places?"
+~
+name
+1
+"I mean, why not a stage or something fancier? Or with decorative costumes?"
+~
+Nico
+3
+"Haaahhhh? Nico's a school idol you know! She has to keep that aesthetic!"
+~
+name
+1
+"You're a school idol? How old are you again?!"
+-
+name
+1
+"Yeah, but you can still perform and look good, right?"
+-
+name
+1
+"... Aesthetic. Isn't a stage idol aesthetic?"
+~
+Nico
+3
+"Nico is the number one school idol! She is! Better than anyone, even Mak-"
+-
+Nico
+2
+"Humph! Then you can start making my costume!"
+-
+Nico
+1
+"Nico nico noooo!"
