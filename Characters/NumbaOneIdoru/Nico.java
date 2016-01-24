@@ -50,7 +50,7 @@ public class Nico extends DatableSO{
        		"  MMM NNN   NN    8MNN  MM   ",
        		"  MMM NNN ^  N  ^ 8MNN  MM   ",
        		"  MM  NN     .      :N   MM  ",
-       		"   M,  M     ω      M ., ,M  ",
+       		"   M,  M     w      M ., ,M  ",
        		"  .__||  MM       MM  ||__.  ",
           "  |||||.  MO   $$M   .|||||  " }
        }
