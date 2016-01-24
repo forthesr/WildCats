@@ -54,18 +54,58 @@ public class TsundereDonut{
     
     //set methods
     
-    public void setAppearance() {
+      public void setAppearance() {
       if (emotion == 1 ){
-        appearance[0] = "      .~I==========+..       ";
-        appearance[1] = "    .:=             =..      ";
-        appearance[2] = " .?~  / .      . ~   =.     ";
-        appearance[3] = " .?     //      //    =.     ";
-        appearance[4] = " .?~         w         =.    ";
-        appearance[5] = ".?=         .....       =.   ";
-        appearance[6] = "I=        =.   .I       =.   ";
-        appearance[7] = "$         =.   ..        =,  ";
-        appearance[8] = " .=++===~=:=====+========.    "; 
-    } }
+       private String[] appearance = new String[]{
+       		"        .~I==========+..      ";
+       		"      .:=             =..     ";
+       		"   .?~  / .      . ~   =.     ";
+       		"   .?     //      //    =.    ";
+       		"   .?~         w         =.   ";
+       		"  .?=         .....       =.  ";
+       		"  I=        =.   .I       =.  ";
+       		"  $         =.   ..        =, ";
+       		"   .=++===~=:=====+========.  "; }
+       }
+       else if (emotion == 2){
+       private String[] appearance = new String[]{
+       	"        .~I==========+..      ";
+		"      .:=             =..     ";
+		"     .?~     \  /      =.     ";
+		"    .?   灬灬 @  @  灬灬  =.   ";
+		"   .?~        Д          =.   ";
+		"  .?=  ╬      .....       =.  ";
+		"  I=        =.   .I       =.  ";
+		"  $         =.   ..    ╬   =, ";
+		"   .=++===~=:=====+========.  ";  }
+       }
+       else if (emotion == 3){
+       private String[] appearance = new String[]{
+        "       .~I==========+..       ";  
+ 		"     .:=             =..      ";
+		"    .?~      \ /      =.      ";
+		"   .?        ू ू        =.    ";
+		"  .?~        ___         =.   ";
+		"  .?=         .....       =.  ";
+		"  I=        =.   .I       =.  ";
+		"  $         =.   ..        =, ";
+		"  .=++===~=:=====+========.   ";
+       }
+       	}
+       else if (emotion == 4){
+       private String[] appearance = new String[]{
+		"        .~I==========+..      ";
+		"      .:=             =..     ";
+		"    .?~       ♥  ♥     =.     ";
+		"    .?     灬      灬    =.    ";
+		"   .?~         ω         =.   ";
+		"  .?=         .....       =.  ";
+		"  I=        =.   .I       =.  ";
+		"  $         =.   ..        =, ";
+		"   .=++===~=:=====+========.  ";
+         }
+       }
+    }
     
     public void setEmotion(int a){
         emotion = a;
