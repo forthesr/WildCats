@@ -98,7 +98,7 @@ public class Richard{
         "  MMMM               MMMM     ",
         "  MM   MM`      `MM    MMM    ",
         "  MM  M 0         0M   MM     ",
-        "   MMM   灬 MMM  灬    MMM     ",
+        "   MMM  // MMM  //    MMM     ",
         "    MM      M        MM       ",
         "      MM    ω      MM         ",
         "       MM        MM           ",
