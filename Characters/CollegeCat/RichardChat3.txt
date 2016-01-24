@@ -1,3 +1,36 @@
+name
+1
+"Richard, do you like working at McDonuds?"
+~
 Richard
 1
-"I try to see the best things in life you know?"
+"Yeah, it's not the best, but the donuts are fun and the good customers make up for the bad ones."
+~
+Richard
+1
+"I try to see the best things in life, you know?"
+~
+name
+1
+""
+-
+name
+1
+""
+-
+name
+1
+""
+~
+Richard
+
+""
+-
+Richard
+
+""
+-
+Richard
+
+""
+

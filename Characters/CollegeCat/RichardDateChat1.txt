@@ -1,0 +1,36 @@
+Richard
+1
+"This is so sweet of you to take me out! Mew!"
+~
+name
+1
+"It's my pleasure."
+~
+Richard
+1
+"Do you really like spending time with me so much?"
+~
+name
+1
+"Of course! I really like you, Richard."
+-
+name
+1
+"Yeah, you're kinda fun I guess."
+-
+name
+1
+"Going out is always fun, no matter who it's with."
+~
+Richard
+4
+"Awe, well...I like you too. Mew!"
+-
+Richard
+1
+"Only 'kinda fun'?"
+-
+Richard
+1
+"Well...I guess I should be happy you picked me today."
+~
