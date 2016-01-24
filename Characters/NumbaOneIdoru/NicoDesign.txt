@@ -1,0 +1,47 @@
+&
+         NNNN                
+ |\/| NNNNNNNNMNNNN.|\./|    
+ |/;NNNNNNNNNNNMNNNN|/M |    
+ MNNNNN  NNNNN NMNNN MMMM    
+MMM NNN   NN    8MNN  MM     
+MM  NNM ^  N  ^  MMN  MM     
+MM  NN     .      :N   MM    
+ M,  M     ω      M ., ,M   
+.__||  MM       MM  ||__.   
+|||||.  MO   $$M   .|||||   
+
+&
+         NNNN                
+ |\/| NNNNNNNNMNNNN.|\./|    
+ |/;NNNNNNNNNNNMNNNN|/M |    
+ MNNNNN  NNNNN NMNNN MMMM    
+MMM NNN    NN    8MNN  MM    
+MM  NNM`o  N  o` MMN  MM     
+MM  NN     .      :NM  MM    
+ M. NM     ^      MN.  .M    
+       MM       MM           
+        MO   $$M             
+
+&
+         NNNN                
+ |\/| NNNNNNNNMNNNN.|\./|    
+ |/;NNNNNNNNNNNMNNNN|/M |    
+ MNNNNN  NNNNN NMNNN MMMM    
+MMM NNN \ NN /  8MNN  MM     
+MM  NNM  0 N 0   MMN  MM     
+MM  NN     .      :NM  MM    
+ M, NM    (A)     MN.  ,M    
+       MM       MM           
+        MO  $$M              
+
+&
+         NNNN                
+ |\/| NNNNNNNNMNNNN.|\./|    
+ |/;NNNNNNNNNNNMNNNN|/M |    
+ MNNNNN  NNNNN NMNNN MMMM    
+MMM NNN   NN    8MN`  MM     
+MM  NNM'o  N o`  MMN  MM     
+MM  NN  灬 .  灬  :NM  MM    
+ M, NM     w     MN.  ,M    
+      MM       MM            
+        MO  $$M              
