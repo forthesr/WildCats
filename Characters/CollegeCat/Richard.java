@@ -78,7 +78,7 @@ public class Richard extends DatableSO{
         "  MM   MM\      /MM    MMM    ",
         "  MM  M 0         0M   MM     ",
         "   MMM     MMM        MMM     ",
-        "    MM ╬    M        MM       ",
+        "    MM      M        MM       ",
         "      MM    -(     MM         ",
         "       MM        MM           ",
         "         MMMMMMMM             " }
