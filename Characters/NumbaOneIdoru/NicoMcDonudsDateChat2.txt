@@ -1,0 +1,35 @@
+Nico
+2
+"Eeeehhhh, there's a lot of kids here huh? Though she's not here."
+~
+name
+1
+"Well, that's because it's a mall and afterschool."
+~
+Nico
+2
+"Eehhh, is that so? Even though Nico never really did it without her..."
+~
+name
+1
+" 'Her'? Who's her?"
+-
+name
+1
+"Do you not like donuts?"
+-
+name
+1
+"That's right- you were always practicing after school."
+~
+Nico
+3
+"N-none of your business!"
+-
+Nico
+2
+"There's alright I guess."
+-
+Nico
+4
+"Hehe. The number one idol has to be prepared, after all!"
