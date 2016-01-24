@@ -1,31 +1,35 @@
-Daphne
-3
-"Hey! Why is our date at my workplace again?"
+Marisa
+1
+"..."
 ~
-Daphne
-3
-"Jeez! This is so embarassing! I don't want to buy my own goods!"
+Marisa
+1
+"So, why are we at a donut shop?"
 ~
-Daphne
+Marisa
 3
-"H-hey! Don't laugh at me! Say something!"
+"It's not that I don't like it Sport! I just...why here?"
 ~
 name
 1
-"Don't you think it's nice? Being together at someplace so familiar?"
+"Don't you think it's a nice place? I like bringing people I like to places I like."
 -
 name
 1
-"I just want to see you at a place that I know you like."
+"What, you don't like donuts? I like it here. Deal with it."
+-
+name
+1
+"I don't know really."
 ~
-Daphne
-1
-""
+Marisa
+4
+"...thanks Sport. I-I like you too."
 -
-Daphne
-2
-"I guess. It's just not... well. No, nevermind."
+Marisa
+3
+"I never said I didn't like them Sport! Don't be so defensive!"
 -
-Daphne
+Marisa
 1
-"Ah, okay then."
+"...Well that is a non-answer."

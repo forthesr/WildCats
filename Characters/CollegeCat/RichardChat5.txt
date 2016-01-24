@@ -1,0 +1,35 @@
+Richard
+1
+"Today's such a nice day isn't it! Mew!"
+~
+name
+1
+"Richard...why do you meow all the time?"
+~
+Richard
+1
+"W-what are you talking about?, I don't meow."
+~
+name
+1
+"Uh yeah you do. Whenever you're happy."
+-
+name
+1
+"You can't deny it to me. I hear you say it. A lot."
+-
+name
+1
+"It's okay Richard! I actually really like it. It's adorable."
+~
+Richard
+1
+"Wha-. I don't-...Really?"
+-
+Richard
+3
+"I'm not denying anything! I don't meow! How rude!"
+-
+Richard
+4
+"Well, I...Really? You think so? Mew! That's sweet...Mew!"

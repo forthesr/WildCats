@@ -17,6 +17,10 @@ name
 name
 1
 "What?! Really? Where?"
+-
+name
+1
+"Oh, yes. I think her name is Daphne."
 ~
 Marisa
 1
@@ -25,4 +29,8 @@ Marisa
 Marisa
 2
 "Over there! Behind the counter. A real life living donut."
+-
+Marisa
+1
+"You know her! Oh, I must talk to her."
 
