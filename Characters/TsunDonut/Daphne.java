@@ -2,25 +2,10 @@ import java.util.Arrays;
 import java.io.*; 
 import java.util.Scanner;
 
-public class TsundereDonut{
-
-    private String name;
-    private static String[] appearance;
-    private String dialogue;
-    private int emotion;
-    private int affection;
-    private boolean firstMeeting;
+public class Daphne extends DatableSO{
     
-    //constructor
-    public TsundereDonut(){
-      appearance = new String[12]; 
-      emotion = 1;
-      affection = 0;
-      firstMeeting = true;
-    }
-    
-    public TsundereDonut(String input){
-      name = input;
+    public Daphne(String input){
+      name = "Daphne";
       appearance = new String[9]; 
       emotion = 1;
       affection = 0;
@@ -121,16 +106,6 @@ public class TsundereDonut{
         firstMeeting = false;
     }
     
-    //non-set methods
-    public void chat(){
-        if (getFirstMeeting() == true){
-            System.out.println("you are at McDonuds");
-            setAppearance();
-            System.out.println(stringAppearance() );
-            System.out.println("Welcome to McDonuds");
-            
-        }
-    }
     
    public String stringAppearance() {
       String newStr = "";
@@ -154,10 +129,9 @@ public class TsundereDonut{
     
     
     public static void main (String[] args){
-        TsundereDonut daphne = new TsundereDonut("Daphne");
+        Daphne daphne = new Daphne("Daphne");
         daphne.setAppearance();
         System.out.println(daphne.stringAppearance() );
-        daphne.chat();
     }
     
 }
