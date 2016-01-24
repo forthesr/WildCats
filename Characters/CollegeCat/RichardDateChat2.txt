@@ -1,0 +1,26 @@
+Richard
+1
+"Mew!"
+~
+name
+1
+"...Did you say something?"
+~
+Richard
+1
+"No..."
+~
+name
+1
+"Um, okay then."
+-
+name
+1
+"You definately said something."
+-
+name
+1
+""
+~
+Richard
+

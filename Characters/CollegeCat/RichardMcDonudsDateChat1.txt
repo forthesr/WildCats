@@ -1,0 +1,36 @@
+name
+1
+"Richard, do you like working at McDonuds?"
+~
+Richard
+1
+"Yeah, it's not the best, but the donuts are fun and the good customers make up for the bad ones."
+~
+Richard
+2
+"I try to see the best things in life, you know?"
+~
+name
+1
+"I don't know if you can find anything good in a place like this."
+-
+name
+1
+"That's a good way to live life."
+-
+name
+1
+"Well, I think this place is amazing! I mean donuts ALL. THE. TIME!"
+~
+Richard
+3
+"Hey, don't hate on McDonuds! I admit it could be better, but I love it here just the same."
+-
+Richard
+1
+"Why, thank you. You should try it."
+-
+Richard
+1
+"...You really like donuts don't you?"
+
