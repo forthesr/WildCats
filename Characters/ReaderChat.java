@@ -63,8 +63,11 @@ public class ReaderChat {
 		    System.out.println("\n");
 		    }*/
 	    for(int i = 0; i < sectionsList.size()/3; i++) {
+		
+		currentPerson.setAppeareance(parseInt(sectionsList.get(3*i + 1)));
+		System.out.print
 		System.out.print(sectionsList.get(3*i));
-		setAppeareance(parseInt(sectionsList.get(3*i + 1)));
+		System.out.println(
 	    }
 	    
 	    //very important! close things!  when you are done!
