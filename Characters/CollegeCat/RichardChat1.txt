@@ -4,7 +4,7 @@ Richard
 ~
 Richard
 1
-"We have a new one today mew~! It's the cinnamon apple filled crunch donut."
+"We have a new one today! Mew! It's the cinnamon apple filled crunch donut."
  ~
 Richard
 1
@@ -24,7 +24,7 @@ name
 ~
 Richard
 1
-"One cinnamon apple filled crunch coming right up Mew~!"
+"One cinnamon apple filled crunch coming right up! Mew!"
 -
 Richard
 1

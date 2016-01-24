@@ -23,3 +23,14 @@ name
 "That's a lot of donuts! I don't know if you can beat that."
 ~
 Richard
+1
+"Thanks! I hope I can beat it too!"
+-
+Richard
+4
+"Thank you so much! Mew! You're the best!"
+-
+Richard
+3
+"I think I can do it. You don't have to be so negative. I try my best every day."
+~
