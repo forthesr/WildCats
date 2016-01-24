@@ -2,15 +2,8 @@ import java.util.Arrays;
 import java.io.*; 
 import java.util.Scanner;
 
-public class Richard{
+public class Richard extends DatableSO{
 
-    private String name;
-    private static String[] appearance;
-    private String dialogue;
-    private int emotion;
-    private int affection;
-    private boolean firstMeeting;
-    
     //constructor
     public Richard(String input){
       name = input;
