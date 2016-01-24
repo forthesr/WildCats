@@ -9,7 +9,7 @@ public class ReaderChat {
     public static void main(String [] args) {
 
         // The name of the file to open.
-        String fileName = "RichardIntro.txt";  //is in same folder
+        String fileName = "RichardChat1.txt";  //is in same folder
        
         try{
 	    //Make a reader thing
@@ -22,6 +22,8 @@ public class ReaderChat {
 	      section1 = "";
 	      section2= "";
 	      section3 = "";
+	      section4= "";
+	      section5 = "";
 
 	      while(reader.hasNext())
 		{
@@ -63,12 +65,36 @@ public class ReaderChat {
 		    System.out.println("\n");
 		    }*/
 	    for(int i = 0; i < sectionsList.size()/3; i++) {
-		
-		currentPerson.setAppeareance(parseInt(sectionsList.get(3*i + 1)));
-		System.out.print
-		System.out.print(sectionsList.get(3*i));
-		System.out.println(
+		if (sectionsList.get(3*i) == name) {
+		    System.out.println("NAME: " + sectionsList.get(3*i + 2));
+		    System.out.println("\n");
+		}
+		else {
+		    currentPerson.setEmotion(parseInt(sectionsList.get(3*i + 1)));
+		    currentPerson.setAppearance();
+		    System.out.println(currentPerson.getAppearance());
+		    System.out.print(sectionsList.get(3*i) + ": ");
+		    System.out.println(sectionsList.get(3*i + 2));
+		    System.out.println("\n");
+		}
 	    }
+
+	    System.out.println("How do you want to respond?: (type the number)");
+	    for (int i = 0; i < chatOptions.size()/4; i++) {
+		System.out.println(i + ": " + chatOptions.get(4*i + 2));
+	    }
+
+	    int input = Keyboard.readInt();
+
+	    System.out.println("NAME: " + chatOptions.get(4*input + 2) + "\n");
+
+	    //Set and print DateableSO picture and chat
+	    currentPerson.setEmotion(parseInt(sectionsList.get(3*input + 1)));
+	    currentPerson.setAppearance();
+	    System.out.println(currentPerson.getAppearance());
+	    System.out.print(sectionsList.get(3*input) + ": ");
+	    System.out.println(sectionsList.get(3*input + 2));
+	    System.out.println("\n");
 	    
 	    //very important! close things!  when you are done!
 	    reader.close();
