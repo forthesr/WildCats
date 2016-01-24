@@ -110,6 +110,11 @@ public class DatingSim {
 	    setView(Map);//maybe make transport work for this
 	    Map.transport();
 	    currentPlace.transport();
+
+	    setDatingPartner(Keyboard.readString());//maybe fix?
+	    
+	    view.overlay(datingPartner);
+	    
 	
 	}
     	Home.sleep();

@@ -23,12 +23,12 @@ name
 "Oh. Why did you leave? Must have been a good reason."
 ~
 Richard
-4
+3
 "Yes, I left the school. A lot of people drop out."
 -
 Richard
 1
-"Oh, I was a (blank) major. As you can see I didn't stick with it though."
+"Oh, I was studying to be a veterinarian. As you can see I didn't stick with it though."
 -
 Richard
 2

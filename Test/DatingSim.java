@@ -73,12 +73,14 @@ public class DatingSim {
     public void overlay(DatableSO person){
 
       //Person = new PErson(spersonNAme)
-      for (int x = view.length- person.getAppearance().length; x < view.length; x++){
-        for (int i = 0; i < person.getAppearance().length; i++){
-        view[x][2] = person[i];
-      } }
-      }
+	for (int x = view.length- person.getAppearance().length; x < view.length; x++){
+	    for (int i = 0; i < person.getAppearance().length; i++){
+		view[x][2] = person[i];
+	    }
+	}
+    }
 
+    public String toString(){
 	String s = "";
 	for (String[] a : view) {
 	    for (String b : a) {
