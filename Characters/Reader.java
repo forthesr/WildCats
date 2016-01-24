@@ -5,11 +5,11 @@ import java.util.Scanner; //This is to use Java's Scanner class.
 //file reader = scanner!  They're basicaly the same thing.
 
 
-public class Test {
+public class Reader {
     public static void main(String [] args) {
 
         // The name of the file to open.
-        String fileName = "temp2.txt";  //is in same folder
+        String fileName = "RichardIntro.txt";  //is in same folder
        
 	//an exmple on how to do convos
         //convo1
