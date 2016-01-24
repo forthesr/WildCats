@@ -42,15 +42,24 @@ January 18, 2016
   Jordan + Lisa: Finishing game files
 
 January 19, 2016
-  Jordan: Began text files for ReporterWaifuForLaifu, updated newDay in DatingSim.java
+  Jordan: Began text files for ReporterWaifuForLaifu, updated newDay
   Lisa: Updated Scanner, created readerIntro, created ReporterWaifuForLaifuDesign, updated all Settings
   
 January 20, 2016
-  Jordan: Fixed Scanner to work well enough for tests, DaphneIntro fix, RW dialogue
+  Jordan: Worked on Scanner, DaphneIntro fix, RW dialogue
   Lisa: created CharacterList, added Sans and Naomi dialogue
   
 January 21, 2016
   Jordan: Finishes Reporter dialogue. Created updated UML.
   Lisa: Finishes Sans dialogue. Finish Sans design. Created updated flow.
   UPDATE: Game is in finishing productions stages. All text will be updated after game completely functions.
+  
+January 22, 2016
+  Jordan:
+  Lisa: Created NumbaOneIdol text. Updated settings (Map, never21). Worked on transport method.
+  
+January 23, 2016
+  Jordan: 
+  Lisa: Finished NumbaOneIdol text and design. Finished updating all Setting files (Home, Mall, School, McDonuds). Worked on kiss, date, chat methods. 
+  
   
