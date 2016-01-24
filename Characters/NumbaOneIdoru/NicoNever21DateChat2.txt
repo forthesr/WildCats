@@ -1,0 +1,35 @@
+Nico
+1
+"Wahh! Nico found an amazingly cute item!"
+~
+name
+1
+"Oh? What did you get?"
+~
+Nico
+1
+"Look, look! This puffy skirt is super cute, right?"
+~
+name
+1
+"Ah, you're right. I bet it'll look cute on you."
+-
+name
+1
+"I don't know that much about fashion. Why don't you ask the storekeeper?"
+-
+name
+1
+"Why not try something a bit more sexy?"
+~
+Nico
+4
+"Hehe, really?"
+-
+Nico
+2
+"... Because she's an alien with one eye."
+-
+Nico
+2
+"... Idol. I'm an idol."
