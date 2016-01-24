@@ -11,64 +11,50 @@ public class ReaderChat {
         // The name of the file to open.
         String fileName = "RichardIntro.txt";  //is in same folder
        
-	//an exmple on how to do convos
-        //convo1
-        //convo 2 /folderNAme/.txt
-        //convo3
-       
-        //random generator (1-3)
-        //fileNAme = "convo" + gen# + ".txt"
-          
-        //Try catch! JAva won't like it if you try to do something
-        //When there's no file. So anything that involves reading in a file
-        //Should go in a TRY CATCH statement.
-       
         try{
 	    //Make a reader thing
 	    Scanner reader = new Scanner (new File(fileName));
              
 	    //how to seperate the lines!
 	    reader.useDelimiter("~");
-             
-	    //Make Strings to hold the sections to seperate it into.
-	    //This is 1 way to do it, if you know how many parts there are.
-	    /*String section1, section2, section3;
-	    section1 = "";
-	    section2= "";
-	    section3 = "";
-	    //ou have to initialize them, because java is a dumb poop butt and says you need something.
-             
-	    //While not at the end of the file
-	    while(reader.hasNext())
+
+	    String section1, section2, section3, section4, section5;
+	      section1 = "";
+	      section2= "";
+	      section3 = "";
+
+	      while(reader.hasNext())
 		{
 		    section1 = reader.next();
 		    section2 = reader.next();
 		    section3 = reader.next();
-              
-		    System.out.println("Section 1: " + section1 + " \n Section 2: " + section2 + "\n Section 3: " + section3);
+		    section4 = reader.next();
+		    section5 = reader.next();
 		}
-             
-             
-	    //What if you want the first line, then second line, then third line?
-	    //Here's how you split a string:
-	    String stringSeperator = "\\r?\\n";
-	    String sec1[] = section1.split(stringSeperator);
-             
-	    for(int i = 0; i < sec1.length; i++)
-		{
-		    System.out.println("split a string: " + sec1[i]);
-		}
-             
-	    System.out.println("This is the first line of the text document: " + sec1[0]);*/
-             
-	    //Great! Now what's another way of doing this?
-	    //Make a string array to hold everything if you don't know how many there are?
+	    
 	    //ArrayList to hold lines
 	    ArrayList<String> sectionsList = new ArrayList<String>();
-	    while(reader.hasNext())
-		{
-		    sectionsList.add(reader.next());              
-		}
+	    for (String s : section1.split(stringSeperator)){
+		sectionsList.add(s);
+	    }
+	    for (String s : section2.split(stringSeperator)){
+		sectionsList.add(s);
+	    }
+	    for (String s : section3.split(stringSeperator)){
+		sectionsList.add(s);
+	    }
+	    /*
+	      0-2: preset dialogue
+	      3-4: chosen dialogue
+	    */
+
+	    String stringSeperator = "\\r?\\n";
+	    ArrayList<String> chatOptions = new ArrayList<String>();
+	    chatOptions = section4.split(stringSeperator);
+	    
+	    ArrayList<String> chatResponses = new ArrayList<String>();
+	    chatResponses = section5.split(stringSeperator);
+
 	    /*for(int i = 0; i < sectionsList.size()/4; i++)
 		{
 		    System.out.println("Name:\t" + sectionsList.get(4*i));
@@ -76,7 +62,10 @@ public class ReaderChat {
 		    System.out.println("Line:\t" + sectionsList.get(4*i + 2));
 		    System.out.println("\n");
 		    }*/
-	    for(int i = 0; i < 
+	    for(int i = 0; i < sectionsList.size()/3; i++) {
+		System.out.print(sectionsList.get(3*i));
+		setAppeareance(parseInt(sectionsList.get(3*i + 1)));
+	    }
 	    
 	    //very important! close things!  when you are done!
 	    reader.close();
