@@ -94,7 +94,7 @@ public class Sans extends DatableSO{
           "    MM               MM    ",
           "  MM                   MM  ",
           " M   NMMN                M ",
-          " M  M ♥ M         .   N  M ",
+          " M  M * M         .   N  M ",
           " M   MMM      M   NMMN   M ",
           "  M          MMM        M  ",
           "  M                     M  ",
