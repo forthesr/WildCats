@@ -1,35 +1,35 @@
-Daphne
+Marisa
 1
-"Anyway, not that I care for anything, but why'd you invite me to go out?"
+"So, Sport, you already know I'm a reporter, and expert investigator really."
 ~
 name
 1
-"?"
+"Um, yes."
 ~
-Daphne
+Marisa
+1
+"So, what about you! What do you do?"
+~
+name
+1
+"I'm a writer actually. I write novels."
+-
+name
+1
+"I am a famous singer. I'm surprised you didn't recongnize me. Not that great of an investigator huh?"
+-
+name
+1
+"Oh well, I work at a fast food place. Most people have never heard of it."
+~
+Marisa
+1
+"That's a cool job, Sport. You gonna write a story about little 'ol me now?"
+-
+Marisa
 3
-"Look! It doesn't even matter! I don't care!"
-~
-name
+"Well I never! I know for a fact you are not famous. I know everyone who is famous!"
+-
+Marisa
 1
-I really like you.
--
-name
-1
-I just wanted to be with you. That's all.
--
-name
-1
-Fine! I don't care either then!
-~
-Daphne
-4
-"R-really? Ah, no, I-I'm not happy! I'm not.... ahhhh!"
--
-Daphne
-3
-"T-thanks. I-um... wanttobewithyoutoo."
--
-Daphne
-3
-"H-huh? Fine! Don't talk to me!"
+"Well, that's okay Sport! You don't need to be famous to be happy!"

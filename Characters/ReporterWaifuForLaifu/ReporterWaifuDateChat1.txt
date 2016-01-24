@@ -1,35 +1,35 @@
-Daphne
+Marisa
 1
-"Anyway, not that I care for anything, but why'd you invite me to go out?"
+"So Sport, this is a nice place here."
 ~
 name
 1
-"?"
+"Thanks, I thought you would like it."
 ~
-Daphne
+Marisa
+1
+"Hmm, but can you tell why I like it? Investigation lesson time Sport!"
+~
+name
+1
+"Um, this place is pretty?"
+-
+name
+1
+"Well, it's an open area and our table is in a place that it is possible observe everyone else without them noticing."
+-
+name
+1
+"You like being here because I'm here, of course,"
+~
+Marisa
 3
-"Look! It doesn't even matter! I don't care!"
-~
-name
-1
-I really like you.
+"No sport! Because it is a perfect place to observe people! Haven't I taught you anything?"
 -
-name
+Marisa
 1
-I just wanted to be with you. That's all.
+"Well done Sport! You might be an investigator after all."
 -
-name
-1
-Fine! I don't care either then!
-~
-Daphne
+Marisa
 4
-"R-really? Ah, no, I-I'm not happy! I'm not.... ahhhh!"
--
-Daphne
-3
-"T-thanks. I-um... wanttobewithyoutoo."
--
-Daphne
-3
-"H-huh? Fine! Don't talk to me!"
+"Oh, well, Sport, you flirt. I guess, yes, that could be a reason."

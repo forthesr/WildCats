@@ -19,12 +19,12 @@ name
 "Yeah, I'm pretty good at figuring people out."
 -
 name
-
-
+1
+"I'm okay. I'm wrong about half the time though."
 ~
 Marisa
 1
-"Aw, Sport! I gotta teach you then. Yep. I'm gonna take you under my wing and you'll be able to investigate almost as well as me!"
+"Aw, Sport! I gotta teach you then. Yep. I'm gonna take you under my wing and you'll be able to investigate almost as well as I!"
 -
 Marisa
 1
@@ -32,6 +32,6 @@ Marisa
 -
 Marisa
 1
-""
+"Decent skills. Spend some time with me Sport and I'll make you an expert."
 
 
