@@ -65,5 +65,19 @@ public void date(){
 	System.out.println("You're not close enough to ask them out.")
 	}
 }
+
+public void kiss(){
+	if (affection > 60){
+	affection + 5;
+	//read datingPartner + "kissacceptance.txt";
+	}
+	else {
+	affectino - 10;
+	//read datingPartner + "kissrejection.txt";
+	}
+}
+
+
+
 }
 }
