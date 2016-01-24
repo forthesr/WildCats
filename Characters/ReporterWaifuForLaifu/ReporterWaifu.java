@@ -5,7 +5,7 @@ import java.util.Scanner;
 public class ReporterWaifu extends DatableSO{
 
     //constructor
-    public Nico(String input){
+    public ReporterWaifu(String input){
       ReporterWaifu = "Marissa";
       appearance = new String[11]; 
       emotion = 1;
