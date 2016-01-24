@@ -1,0 +1,35 @@
+Nico
+1
+"Hey, hey! What do you think looks cutest on me?"
+~
+name
+1
+"Huh? Aren't those clothes a little flashy?"
+~
+Nico
+3
+"It's for a live show, stupid! Hurry, which theme is best for me!"
+~
+name
+1
+"... Obnoxious."
+-
+name
+1
+"Hmm... something like purity and love?"
+-
+name
+1
+"Well, an idol always smiles, so smiles?"
+~
+Nico
+3
+"Wwwwaaahhhh?! Repeeat that!!"
+-
+Nico
+2
+"Hmm, isn't that overdone though?"
+-
+Nico
+4
+"... yeah. An idol always smiles."
