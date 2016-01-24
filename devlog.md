@@ -50,7 +50,7 @@ January 20, 2016
   Lisa: created CharacterList, added Sans and Naomi dialogue
   
 January 21, 2016
-  Jordan: Finishes Reporter dialogue. Created updated UML.
+  Jordan: Finishes Reporter dialogue. Created updated UML. Started CollegeCat dialogue.
   Lisa: Finishes Sans dialogue. Finish Sans design. Created updated flow.
   UPDATE: Game is in finishing productions stages. All text will be updated after game completely functions.
   
@@ -59,7 +59,7 @@ January 22, 2016
   Lisa: Created NumbaOneIdol text. Updated settings (Map, never21). Worked on transport method.
   
 January 23, 2016
-  Jordan: 
-  Lisa: Finished NumbaOneIdol text and design. Finished updating all Setting files (Home, Mall, School, McDonuds). Worked on kiss, date, chat methods. 
+  Jordan: Added CollegeCat dialogue.
+  Lisa: Finished NumbaOneIdol text and design. Finished updating all Setting files (Home, Mall, School, McDonuds). Worked on kiss, date, chat methods. Worked on Overlay.
   
   
