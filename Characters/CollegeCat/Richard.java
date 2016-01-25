@@ -51,7 +51,7 @@ public class Richard extends DatableSO{
        		"  MM  M 0M      M 0 M  MM     ",
        		"  MMM  M   MMM     M  MMM     ",
        		"   MM       M         MM      ",
-       		"      MM    ω      MM         ",
+       		"      MM    w      MM         ",
 		"       MM        MM           ",
 		"         MMMMMMMM             " };
 	}
@@ -93,7 +93,7 @@ public class Richard extends DatableSO{
 		"  MM  M 0         0M   MM     ",
 		"   MMM  // MMM  //    MMM     ",
 		"    MM      M        MM       ",
-		"      MM    ω      MM         ",
+		"      MM    W      MM         ",
 		"       MM        MM           ",
 		"         MMMMMMMM             " };
 	}
