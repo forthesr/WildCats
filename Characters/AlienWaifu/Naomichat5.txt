@@ -1,0 +1,36 @@
+Daphne
+1
+"My... home planet?"
+~
+Daphne
+1
+"I am afraid it is not very exciting."
+~
+Daphne
+1
+"Does it still interest you?"
+-
+~
+name
+1
+"Yes, of course! anything about you interests me!"
+-
+name
+1
+"Sure, I like aliens."
+-
+name
+1
+"Tell me an interesting twist at least."
+~
+Naomi
+2
+"Is.... that so?"
+-
+Naomi
+2
+"I am glad."
+-
+Naomi
+1
+"I will do my best."
