@@ -9,6 +9,7 @@ Nico
 Nico
 2
 "Eh? You were here? Hurry up and get my towel for me, will you?"
+-
 ~
 name
 1
@@ -21,6 +22,7 @@ name
 name
 1
 "I got it. Hey, calm down. Why don't you go home for today?"
+-
 ~
 Nico
 3
@@ -33,3 +35,4 @@ Nico
 Nico
 2
 "... Nico has to be her best. For all of muse."
+-

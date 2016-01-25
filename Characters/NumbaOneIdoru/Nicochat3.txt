@@ -9,6 +9,7 @@ name
 Nico
 1
 "Nico nico nope! Nico is the number one idol- she can't get tired this easily!"
+-
 ~
 name
 1
@@ -21,6 +22,7 @@ name
 name
 1
 "The number one idol should know when to stop practicing, don't you think?"
+-
 ~
 Nico
 3
@@ -33,3 +35,4 @@ Nico
 Nico
 3
 "Humph!"
+-

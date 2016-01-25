@@ -9,6 +9,7 @@ Nico
 Nico
 3
 "I-I'm not excited! I have plenty of experience dating!"
+-
 ~
 name
 1
@@ -21,6 +22,7 @@ name
 name
 1
 "Experience dating? Aren't idols supposed to be pure?"
+-
 ~
 Nico
 2
@@ -33,3 +35,4 @@ Nico
 Nico
 2
 "Relationships between girls are always pure."
+-

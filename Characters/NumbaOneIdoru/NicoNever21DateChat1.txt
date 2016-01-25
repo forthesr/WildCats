@@ -9,6 +9,7 @@ name
 Nico
 3
 "It's for a live show, stupid! Hurry, which theme is best for me!"
+-
 ~
 name
 1
@@ -21,6 +22,7 @@ name
 name
 1
 "Well, an idol always smiles, so smiles?"
+-
 ~
 Nico
 3
@@ -33,3 +35,4 @@ Nico
 Nico
 4
 "... yeah. An idol always smiles."
+-

@@ -9,6 +9,7 @@ name
 Nico
 2
 "Eehhh, is that so? Even though Nico never really did it without her..."
+-
 ~
 name
 1
@@ -21,6 +22,7 @@ name
 name
 1
 "That's right- you were always practicing after school."
+-
 ~
 Nico
 3
@@ -33,3 +35,4 @@ Nico
 Nico
 4
 "Hehe. The number one idol has to be prepared, after all!"
+-

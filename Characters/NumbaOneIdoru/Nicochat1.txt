@@ -9,6 +9,7 @@ name
 Nico
 3
 "Eeeehhhh? Why do you want to know, nico?"
+-
 ~
 name
 1
@@ -21,6 +22,7 @@ name
 name
 1
 "Please tell me, nicooooo?"
+-
 ~
 Nico
 1
@@ -33,3 +35,4 @@ Nico
 Nico
 1
 "Nope! Follow me. Nico... nico... Nii!"
+-

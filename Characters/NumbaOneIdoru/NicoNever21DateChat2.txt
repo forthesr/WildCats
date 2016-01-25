@@ -9,6 +9,7 @@ name
 Nico
 1
 "Look, look! This puffy skirt is super cute, right?"
+-
 ~
 name
 1
@@ -21,6 +22,7 @@ name
 name
 1
 "Why not try something a bit more sexy?"
+-
 ~
 Nico
 4
@@ -33,3 +35,4 @@ Nico
 Nico
 2
 "... Idol. I'm an idol."
+-

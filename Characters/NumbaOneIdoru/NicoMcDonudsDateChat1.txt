@@ -9,6 +9,7 @@ name
 Nico
 2
 "Obviously Nico knows that! It's for the aesthetic! Aesthetic!"
+-
 ~
 name
 1
@@ -21,6 +22,7 @@ name
 name
 1
 "Why not ask the cashier?"
+-
 ~
 Nico
 1
@@ -33,3 +35,4 @@ Nico
 Nico
 2
 "... Why don't you ask her then!"
+-

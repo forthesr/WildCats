@@ -9,6 +9,7 @@ Nico
 Nico
 1
 "Do you really want to know?"
+-
 ~
 name
 1
@@ -21,6 +22,7 @@ name
 name
 1
 "Whatever you want."
+-
 ~
 Nico
 1
@@ -33,3 +35,4 @@ Nico
 Nico
 3
 "Don't scramble backwards!"
+-

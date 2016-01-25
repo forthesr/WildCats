@@ -9,6 +9,7 @@ name
 Nico
 3
 "Haaahhhh? Nico's a school idol you know! She has to keep that aesthetic!"
+-
 ~
 name
 1
@@ -21,6 +22,7 @@ name
 name
 1
 "... Aesthetic. Isn't a stage idol aesthetic?"
+-
 ~
 Nico
 3
@@ -33,3 +35,4 @@ Nico
 Nico
 1
 "Nico nico noooo!"
+-
