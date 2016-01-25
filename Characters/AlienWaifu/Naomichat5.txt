@@ -1,12 +1,12 @@
-Daphne
+Naomi
 1
 "My... home planet?"
 ~
-Daphne
+Naomi
 1
 "I am afraid it is not very exciting."
 ~
-Daphne
+naomi
 1
 "Does it still interest you?"
 -
