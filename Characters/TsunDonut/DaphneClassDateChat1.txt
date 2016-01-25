@@ -1,0 +1,35 @@
+Daphne
+1
+"Oh? Is someone playing a drum?"
+-
+name
+1
+"Ah, isn't that the students here? They're band members."
+~
+Daphne
+1
+"Ah, really? I'd like to play... I guess."
+~
+name
+1
+"Why not on that donut body of yours?"
+-
+name
+1
+"Picking up the tuba can be easy with your hole?"
+-
+name
+1
+"Let's go check them out then."
+~
+Daphne
+2
+"Hey! What do you think you're saying!?"
+-
+Daphne
+3
+"Honestly. What's wrong with you?"
+-
+Daphne
+4
+"Ah, o-okay!"
