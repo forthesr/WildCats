@@ -9,6 +9,7 @@ name
 Marisa
 3
 "That's the man, Sport! What do you think of him?"
+-
 ~
 name
 1
@@ -21,6 +22,7 @@ name
 name
 1 
 "Well, he looks a bit lonely, sitting there all by himself. Something about him seems a little off though."
+-
 ~
 Marisa
 2
@@ -33,4 +35,4 @@ Marisa
 Marisa
 1
 "Yes! Exactly Sport! I think maybe his wife was killed and now he's looking for revenge. Excellent observation skill Sport."
-
+-

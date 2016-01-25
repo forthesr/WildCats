@@ -9,6 +9,7 @@ name
 Marisa
 1
 "So, what about you! What do you do?"
+-
 ~
 name
 1
@@ -21,6 +22,7 @@ name
 name
 1
 "Oh well, I work at a fast food place. Most people have never heard of it."
+-
 ~
 Marisa
 1
@@ -33,3 +35,4 @@ Marisa
 Marisa
 1
 "Well, that's okay Sport! You don't need to be famous to be happy!"
+-

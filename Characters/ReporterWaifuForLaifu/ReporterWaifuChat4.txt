@@ -9,6 +9,7 @@ name
 Marisa
 1
 "I'm just going to go ahead and ask you, you'll give me a good answer won't you Sport? Of course you will. What vibe do you get from me Sport? What kinda person do you think I am?"
+-
 ~
 name
 1
@@ -21,6 +22,7 @@ name
 name
 1
 "You are one of the smartest people I have ever met. You are able to really see the people and world around you."
+-
 ~
 Marisa
 2
@@ -33,3 +35,4 @@ Marisa
 Marisa
 4
 "Aw, Sport. Why thank you. I am an amazing judge of character aren't I?"
+-
