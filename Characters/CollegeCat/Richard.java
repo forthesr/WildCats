@@ -5,10 +5,10 @@ import java.util.Scanner;
 public class Richard extends DatableSO{
 
     //constructor
-    public Richard(String input){
-      name = input;
-      appearance = new String[12]; 
+    public Richard(){
+      name = "Richard";
       emotion = 1;
+      setAppearance(); 
       affection = 0;
       firstMeeting = true;
     }
@@ -40,9 +40,9 @@ public class Richard extends DatableSO{
     
     //set methods
     
-      public void setAppearance() {
-      if (emotion == 1 ){
-       appearance = {
+    public void setAppearance() {
+	if (emotion == 1 ){
+	    appearance = new String[]{
        		" M                      M     ",
        		" MMMM                MMMM     ",
        		"  MMM  MMMM   MMM    MMM      ",
@@ -52,12 +52,12 @@ public class Richard extends DatableSO{
        		"  MMM  M   MMM     M  MMM     ",
        		"   MM       M         MM      ",
        		"      MM    ω      MM         ",
-          "       MM        MM           ",
-          "         MMMMMMMM             " }
-       }
-       else if (emotion == 2){
-       appearance = {
-       	" M                      M     ";
+		"       MM        MM           ",
+		"         MMMMMMMM             " };
+	}
+	else if (emotion == 2){
+	    appearance = new String[]{
+		" M                      M     ",
     		" MMMM                MMMM     ",
     		"  MMM  MMMM   MMM    MMM      ",
     		"  MMMM               MMMM     ",
@@ -66,37 +66,37 @@ public class Richard extends DatableSO{
     		"   MMM     MMM        MMM     ",
     		"    MM      M         MM      ",
     		"      MM    ^      MM         ",
-        "       MM        MM           ",
-        "         MMMMMMMM             " }
-          }
-       else if (emotion == 3){
-       appearance = {
-        " M                      M     ";
-        " MMMM                MMMM     ",
-        "  MMM  MMMM   MMM    MMM      ",
-        "  MMMM               MMMM     ",
-        "  MM   MM\      /MM    MMM    ",
-        "  MM  M 0         0M   MM     ",
-        "   MMM     MMM        MMM     ",
-        "    MM      M        MM       ",
-        "      MM    -(     MM         ",
-        "       MM        MM           ",
-        "         MMMMMMMM             " }
-          }
-       else if (emotion == 4){
-       appearance = {
-        " M                      M     ";
-        " MMMM                MMMM     ",
-        "  MMM  MMMM   MMM    MMM      ",
-        "  MMMM               MMMM     ",
-        "  MM   MM`      `MM    MMM    ",
-        "  MM  M 0         0M   MM     ",
-        "   MMM  // MMM  //    MMM     ",
-        "    MM      M        MM       ",
-        "      MM    ω      MM         ",
-        "       MM        MM           ",
-        "         MMMMMMMM             " }
-          }
+		"       MM        MM           ",
+		"         MMMMMMMM             " };
+	}
+	else if (emotion == 3){
+	    appearance = new String[]{
+		" M                      M     ",
+		" MMMM                MMMM     ",
+		"  MMM  MMMM   MMM    MMM      ",
+		"  MMMM               MMMM     ",
+		"  MM   MM\\      /MM    MMM    ",
+		"  MM  M 0         0M   MM     ",
+		"   MMM     MMM        MMM     ",
+		"    MM      M        MM       ",
+		"      MM    -(     MM         ",
+		"       MM        MM           ",
+		"         MMMMMMMM             " };
+	}
+	else if (emotion == 4) {
+	    appearance = new String[]{
+		" M                      M     ",
+		" MMMM                MMMM     ",
+		"  MMM  MMMM   MMM    MMM      ",
+		"  MMMM               MMMM     ",
+		"  MM   MM`      `MM    MMM    ",
+		"  MM  M 0         0M   MM     ",
+		"   MMM  // MMM  //    MMM     ",
+		"    MM      M        MM       ",
+		"      MM    ω      MM         ",
+		"       MM        MM           ",
+		"         MMMMMMMM             " };
+	}
     }
     
     public void setEmotion(int a){
@@ -131,7 +131,7 @@ public class Richard extends DatableSO{
     }
       
     public static void main (String[] args){
-        Richard richard = new Richard("Richard");
+        Richard richard = new Richard();
         richard.setAppearance();
         System.out.println(richard.stringAppearance() );
         richard.chat();

@@ -5,10 +5,10 @@ import java.util.Scanner;
 public class Naomi extends DatableSO{
 
     //constructor
-    public Naomi(String input){
+    public Naomi(){
       name = "Naomi";
-      appearance = new String[13]; 
       emotion = 1;
+      setAppearance(); 
       affection = 0;
       firstMeeting = true;
     }
@@ -40,61 +40,61 @@ public class Naomi extends DatableSO{
     
     //set methods
     
-      public void setAppearance() {
-      if (emotion == 1 ){
-       appearance = {
-       		"          |\,/|              ",
-       		"     /||||||||||\            ",
+    public void setAppearance() {
+	if (emotion == 1 ){
+	    appearance = new String[] {
+       		"          |\\,/|              ",
+       		"     /||||||||||\\            ",
        		"    ||||||||||||||           ",
        		"    |||| ___ |||||           ",
        		"    ||   {o}   |||           ",
        		"    ||    c    |||           ",
-       		"    ||\  __    |||           ",
-       		"    |||\_  ___/||            ",
+       		"    ||\\  __    |||           ",
+       		"    |||\\_  ___/||            ",
        		"     |  |   |  |             ",
-          "       |     |               " }
-       }
-       else if (emotion == 2){
-       appearance = {
-          "          |\,/|              ",
-          "   ` /||||||||||\            ",
-          " ` `||||||||||||||           ",
-          "    |||| ___ |||||           ",
-          "    ||   {-}   |||           ",
-          "    ||    c    |||           ",
-          "    ||\   _    |||           ",
-          "    |||\_  ___/||            ",
-          "     |  |   |  |             ",
-          "       |     |               " }
-       }
+		"       |     |               " };
+	}
+	else if (emotion == 2){
+	    appearance = new String[]{
+		"          |\\,/|              ",
+		"   ` /||||||||||\\            ",
+		" ` `||||||||||||||           ",
+		"    |||| ___ |||||           ",
+		"    ||   {-}   |||           ",
+		"    ||    c    |||           ",
+		"    ||\\   _    |||           ",
+		"    |||\\_  ___/||            ",
+		"     |  |   |  |             ",
+		"       |     |               " };
+	}
 
-       else if (emotion == 3){
-       appearance = {
-          "          |\,/|              ",
-          "     /||||||||||\            ",
-          "    ||||||||||||||           ",
-          "    |||| ___ |||||           ",
-          "    ||   {0}   |||           ",
-          "    ||    c    |||           ",
-          "    ||\   o    |||           ",
-          "    |||\_  ___/||            ",
-          "     |  |   |  |             ",
-          "       |     |               " }
-       }
+	else if (emotion == 3){
+	    appearance = new String[]{
+		"          |\\,/|              ",
+		"     /||||||||||\\            ",
+		"    ||||||||||||||           ",
+		"    |||| ___ |||||           ",
+		"    ||   {0}   |||           ",
+		"    ||    c    |||           ",
+		"    ||\\   o    |||           ",
+		"    |||\\_  ___/||            ",
+		"     |  |   |  |             ",
+		"       |     |               " };
+	}
 
-       else if (emotion == 4){
-       appearance = {
-          "          |\,/|              ",
-          "  *  /||||||||||\   *        ",
-          "    ||||||||||||||           ",
-          " *  |||| ___ |||||           ",
-          "    ||   {^}   ||| *         ",
-          "  * ||    c    |||           ",
-          "    ||\   u    |||   *       ",
-          "    |||\_  ___/||            ",
-          "     |  |   |  |             ",
-          "       |     |               " }
-       }    }
+	else if (emotion == 4){
+	    appearance = new String[]{
+		"          |\\,/|              ",
+		"  *  /||||||||||\\   *        ",
+		"    ||||||||||||||           ",
+		" *  |||| ___ |||||           ",
+		"    ||   {^}   ||| *         ",
+		"  * ||    c    |||           ",
+		"    ||\\   u    |||   *       ",
+		"    |||\\_  ___/||            ",
+		"     |  |   |  |             ",
+		"       |     |               " };
+	}    }
     
     public void setEmotion(int a){
         emotion = a;
@@ -128,7 +128,7 @@ public class Naomi extends DatableSO{
     }
       
     public static void main (String[] args){
-        Naomi naomi = new Naomi("naomi);
+        Naomi naomi = new Naomi();
         naomi.setAppearance();
         System.out.println(naomi.stringAppearance() );
         naomi.chat();

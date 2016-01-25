@@ -5,10 +5,10 @@ import java.util.Scanner;
 public class Nico extends DatableSO{
 
     //constructor
-    public Nico(String input){
+    public Nico(){
       name = "Nico";
-      appearance = new String[13]; 
       emotion = 1;
+      setAppearance(); 
       affection = 0;
       firstMeeting = true;
     }
@@ -40,11 +40,11 @@ public class Nico extends DatableSO{
     
     //set methods
     
-      public void setAppearance() {
-      if (emotion == 1 ){
-       appearance = {
+    public void setAppearance() {
+	if (emotion == 1 ){
+	    appearance = new String[]{
        		"           NNNN              ",
-       		"   |\/| NNNNNNNNMNNNN.|\./|  ",
+       		"   |\\/| NNNNNNNNMNNNN.|\\./|  ",
        		"   |/;NNNNNNNNNNNMNNNN|/M |  ",
        		"   MNNNNN  NNNNN NMNNN MMMM  ",
        		"  MMM NNN   NN    8MNN  MM   ",
@@ -52,49 +52,49 @@ public class Nico extends DatableSO{
        		"  MM  NN     .      :N   MM  ",
        		"   M,  M     w      M ., ,M  ",
        		"  .__||  MM       MM  ||__.  ",
-          "  |||||.  MO   $$M   .|||||  " }
-       }
-       else if (emotion == 2){
-      appearance = {
-          "           NNNN              ",
-          "   |\/| NNNNNNNNMNNNN.|\./|  ",
-          "   |/;NNNNNNNNNNNMNNNN|/M |  ",
-          "   MNNNNN  NNNNN NMNNN MMMM  ",
-          "  MMM NNN   NN    8MNN  MM   ",
-          "  MMM NNN`o  N  o`8MNN  MM   ",
-          "  MM  NN     .      :N   MM  ",
-          "   M,  M     ^      M .  ,M  ",
-          "         MM       MM         ",
-          "          MO   $$M           " }
-       }
+		"  |||||.  MO   $$M   .|||||  " };
+	}
+	else if (emotion == 2){
+	    appearance = new String[]{
+		"           NNNN              ",
+		"   |\\/| NNNNNNNNMNNNN.|\\./|  ",
+		"   |/;NNNNNNNNNNNMNNNN|/M |  ",
+		"   MNNNNN  NNNNN NMNNN MMMM  ",
+		"  MMM NNN   NN    8MNN  MM   ",
+		"  MMM NNN`o  N  o`8MNN  MM   ",
+		"  MM  NN     .      :N   MM  ",
+		"   M,  M     ^      M .  ,M  ",
+		"         MM       MM         ",
+		"          MO   $$M           " };
+	}
 
-       else if (emotion == 3){
-      appearance = {
-          "           NNNN              ",
-          "   |\/| NNNNNNNNMNNNN.|\./|  ",
-          "   |/;NNNNNNNNNNNMNNNN|/M |  ",
-          "   MNNNNN  NNNNN NMNNN MMMM  ",
-          "  MMM NNN \ NN  / 8MNN  MM   ",
-          "  MMM NNN 0  N  0 8MNN  MM   ",
-          "  MM  NN     .      :N   MM  ",
-          "   M,  M    (A)     M .  ,M  ",
-          "         MM       MM         ",
-          "          MO   $$M           " }
-       }
+	else if (emotion == 3){
+	    appearance = new String[]{
+		"           NNNN              ",
+		"   |\\/| NNNNNNNNMNNNN.|\\./|  ",
+		"   |/;NNNNNNNNNNNMNNNN|/M |  ",
+		"   MNNNNN  NNNNN NMNNN MMMM  ",
+		"  MMM NNN \\ NN  / 8MNN  MM   ",
+		"  MMM NNN 0  N  0 8MNN  MM   ",
+		"  MM  NN     .      :N   MM  ",
+		"   M,  M    (A)     M .  ,M  ",
+		"         MM       MM         ",
+		"          MO   $$M           " };
+	}
 
-       else if (emotion == 4){
-       appearance = {
-          "           NNNN              ",
-          "   |\/| NNNNNNNNMNNNN.|\./|  ",
-          "   |/;NNNNNNNNNNNMNNNN|/M |  ",
-          "   MNNNNN  NNNNN NMNNN MMMM  ",
-          "  MMM NNN   NN    8MNN  MM   ",
-          "  MMM NNN`o  N  o`8MNN  MM   ",
-          "  MM  NN  \\ .  \\  :N   MM  ",
-          "   M,  M     w      M .  ,M  ",
-          "         MM       MM         ",
-          "          MO   $$M           " }
-       }    }
+	else if (emotion == 4){
+	    appearance = new String[]{
+		"           NNNN              ",
+		"   |\\/| NNNNNNNNMNNNN.|\\./|  ",
+		"   |/;NNNNNNNNNNNMNNNN|/M |  ",
+		"   MNNNNN  NNNNN NMNNN MMMM  ",
+		"  MMM NNN   NN    8MNN  MM   ",
+		"  MMM NNN`o  N  o`8MNN  MM   ",
+		"  MM  NN  \\ .  \\  :N   MM  ",
+		"   M,  M     w      M .  ,M  ",
+		"         MM       MM         ",
+		"          MO   $$M           " };
+	}    }
     
     public void setEmotion(int a){
         emotion = a;
@@ -117,7 +117,7 @@ public class Nico extends DatableSO{
     }
       
     public static void main (String[] args){
-        Nico nico = new Nico("nico");
+        Nico nico = new Nico();
         nico.setAppearance();
         System.out.println(nico.stringAppearance() );
     }

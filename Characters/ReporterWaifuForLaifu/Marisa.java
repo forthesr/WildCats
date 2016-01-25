@@ -2,13 +2,13 @@ import java.util.Arrays;
 import java.io.*; 
 import java.util.Scanner;
 
-public class ReporterWaifu extends DatableSO{
+public class Marisa extends DatableSO{
 
     //constructor
-    public ReporterWaifu(String input){
-      ReporterWaifu = "Marissa";
-      appearance = new String[11]; 
+    public Marisa(){
+      name = "Marisa";
       emotion = 1;
+      setAppearance();
       affection = 0;
       firstMeeting = true;
     }
@@ -40,9 +40,9 @@ public class ReporterWaifu extends DatableSO{
     
     //set methods
     
-      public void setAppearance() {
-      if (emotion == 1 ){
-       appearance = {
+    public void setAppearance() {
+	if (emotion == 1 ){
+	    appearance = new String[]{
        		"       MNNNNNNNNN.           ",
        		"     NNNNNNNNNMNNNN.         ",
        		"   ,NNNNNNNNNNNMNNNN+        ",
@@ -52,56 +52,55 @@ public class ReporterWaifu extends DatableSO{
        		"  NNNN     c      :NM        ",
        		"  .MNM     __     MNN.       ",
        		"  NNMMM        MMMNN         ",
-          "    MNNMMO   $$MMMMN         ",
-          "    MMMN$     $$MMMN         ", }
-       }
+		"    MNNMMO   $$MMMMN         ",
+		"    MMMN$     $$MMMN         " };
+	}
 
-&
 
-       else if (emotion == 2){
-       appearance = {
-          "       MNNNNNNNNN.           ",
-          "     NNNNNNNNNMNNNN.         ",
-          "   ,NNNNNNNNNNNMNNNN+        ",
-          "   NNNN  NNNNNNNMNNNN        ",
-          "  MNNNN /     \  8MNNN       ",
-          " MNNNM  0     0  MMNN        ",
-          "  NNNN     c      :NM        ",
-          "  .MNM     __     MNN.       ",
-          "  NNMMM        MMMNN         ",
-          "    MNNMMO   $$MMMMN         ",
-          "    MMMN$     $$MMMN         ", }
-       }
+	else if (emotion == 2){
+	    appearance = new String[]{
+		"       MNNNNNNNNN.           ",
+		"     NNNNNNNNNMNNNN.         ",
+		"   ,NNNNNNNNNNNMNNNN+        ",
+		"   NNNN  NNNNNNNMNNNN        ",
+		"  MNNNN /     \\  8MNNN       ",
+		" MNNNM  0     0  MMNN        ",
+		"  NNNN     c      :NM        ",
+		"  .MNM     __     MNN.       ",
+		"  NNMMM        MMMNN         ",
+		"    MNNMMO   $$MMMMN         ",
+		"    MMMN$     $$MMMN         " };
+	}
 
-       else if (emotion == 3){
-       appearance = {
-          "       MNNNNNNNNN.           ",
-          "     NNNNNNNNNMNNNN.         ",
-          "   ,NNNNNNNNNNNMNNNN+        ",
-          "   NNNN  NNNNNNNMNNNN        ",
-          "  MNNNN \      / 8MNNN       ",
-          " MNNNM  0     0  MMNN        ",
-          "  NNNN     c      :NM        ",
-          "  .MNM     o      MNN.       ",
-          "  NNMMM        MMMNN         ",
-          "    MNNMMO   $$MMMMN         ",
-          "    MMMN$     $$MMMN         ", }
-       }
+	else if (emotion == 3){
+	    appearance = new String[]{
+		"       MNNNNNNNNN.           ",
+		"     NNNNNNNNNMNNNN.         ",
+		"   ,NNNNNNNNNNNMNNNN+        ",
+		"   NNNN  NNNNNNNMNNNN        ",
+		"  MNNNN \\      / 8MNNN       ",
+		" MNNNM  0     0  MMNN        ",
+		"  NNNN     c      :NM        ",
+		"  .MNM     o      MNN.       ",
+		"  NNMMM        MMMNN         ",
+		"    MNNMMO   $$MMMMN         ",
+		"    MMMN$     $$MMMN         " };
+	}
 
-       else if (emotion == 4){
-       appearance = {
-          "       MNNNNNNNNN.           ",
-          "     NNNNNNNNNMNNNN.         ",
-          "   ,NNNNNNNNNNNMNNNN+        ",
-          "   NNNN  NNNNNNNMNNNN        ",
-          "  MNNNN ~     ~ 8MNNN       ",
-          " MNNNM  0     0  MMNN        ",
-          "  NNNN     c      :NM        ",
-          "  .MNM ``  w ``  MNN.       ",
-          "  NNMMM        MMMNN         ",
-          "    MNNMMO   $$MMMMN         ",
-          "    MMMN$     $$MMMN         ", }
-       }    }
+	else if (emotion == 4){
+	    appearance = new String[]{
+		"       MNNNNNNNNN.           ",
+		"     NNNNNNNNNMNNNN.         ",
+		"   ,NNNNNNNNNNNMNNNN+        ",
+		"   NNNN  NNNNNNNMNNNN        ",
+		"  MNNNN ~     ~  8MNNN       ",
+		" MNNNM  0     0  MMNN        ",
+		"  NNNN     c      :NM        ",
+		"  .MNM ``  w ``   MNN.       ",
+		"  NNMMM        MMMNN         ",
+		"    MNNMMO   $$MMMMN         ",
+		"    MMMN$     $$MMMN         " };
+	}    }
     
     public void setEmotion(int a){
         emotion = a;
@@ -124,7 +123,7 @@ public class ReporterWaifu extends DatableSO{
     }
       
     public static void main (String[] args){
-        ReporterWaifu reporterWaifu = new ReporterWaifu("Marissa");
+        Marisa reporterWaifu = new Marisa();
         reporterWaifu.setAppearance();
         System.out.println(reporterWaifu.stringAppearance() );
     }

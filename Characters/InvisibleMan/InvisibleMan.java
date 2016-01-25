@@ -5,10 +5,10 @@ import java.util.Scanner;
 public class InvisibleMan extends DatableSO{
 
     //constructor
-    public InvisibleMan(String input){
-      name = "Invisible man";
-      appearance = new String[13]; 
+    public InvisibleMan(){
+      name = "Invisible man"; 
       emotion = 1;
+      setAppearance(); 
       affection = 0;
       firstMeeting = true;
     }
@@ -40,9 +40,9 @@ public class InvisibleMan extends DatableSO{
     
     //set methods
     
-      public void setAppearance() {
-      if (emotion == 1 ){
-       appearance = {
+    public void setAppearance() {
+	if (emotion == 1 ){
+	    appearance = new String[]{
        		"                             ",
        		"                             ",
        		"                             ",
@@ -52,49 +52,49 @@ public class InvisibleMan extends DatableSO{
        		"                             ",
        		"                             ",
        		"                             ",
-          "                             " }
-       }
-       else if (emotion == 2){
-       appearance = {
-          "                             ",
-          "                             ",
-          "                             ",
-          "                             ",
-          "                             ",
-          "                             ",
-          "                             ",
-          "                             ",
-          "                             ",
-          "                             " }
-       }
+		"                             " };
+	}
+	else if (emotion == 2){
+	    appearance = new String[]{
+		"                             ",
+		"                             ",
+		"                             ",
+		"                             ",
+		"                             ",
+		"                             ",
+		"                             ",
+		"                             ",
+		"                             ",
+		"                             " };
+	}
 
-       else if (emotion == 3){
-      appearance = {
-          "                             ",
-          "                             ",
-          "                             ",
-          "                             ",
-          "                             ",
-          "                             ",
-          "                             ",
-          "                             ",
-          "                             ",
-          "                             " }
-       }
+	else if (emotion == 3){
+	    appearance = new String[]{
+		"                             ",
+		"                             ",
+		"                             ",
+		"                             ",
+		"                             ",
+		"                             ",
+		"                             ",
+		"                             ",
+		"                             ",
+		"                             " };
+	}
 
-       else if (emotion == 4){
-       appearance = {
-          "                             ",
-          "                             ",
-          "                             ",
-          "                             ",
-          "                             ",
-          "                             ",
-          "                             ",
-          "                             ",
-          "                             ",
-          "                             " }
-       }    }
+	else if (emotion == 4){
+	    appearance = new String[]{
+		"                             ",
+		"                             ",
+		"                             ",
+		"                             ",
+		"                             ",
+		"                             ",
+		"                             ",
+		"                             ",
+		"                             ",
+		"                             " };
+	}    }
     
     public void setEmotion(int a){
         emotion = a;
@@ -128,7 +128,7 @@ public class InvisibleMan extends DatableSO{
     }
       
     public static void main (String[] args){
-        InvisibleMan invisibleMan = new InvisibleMan("invisible man");
+        InvisibleMan invisibleMan = new InvisibleMan();
         invisibleMan.setAppearance();
         System.out.println(invisibleMan.stringAppearance() );
     }

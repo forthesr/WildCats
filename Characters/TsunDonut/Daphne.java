@@ -4,10 +4,10 @@ import java.util.Scanner;
 
 public class Daphne extends DatableSO{
     
-    public Daphne(String input){
+    public Daphne(){
       name = "Daphne";
-      appearance = new String[9]; 
       emotion = 1;
+      setAppearance();
       affection = 0;
       firstMeeting = true;
     }
@@ -129,7 +129,7 @@ public class Daphne extends DatableSO{
     
     
     public static void main (String[] args){
-        Daphne daphne = new Daphne("Daphne");
+        Daphne daphne = new Daphne();
         daphne.setAppearance();
         System.out.println(daphne.stringAppearance() );
     }
