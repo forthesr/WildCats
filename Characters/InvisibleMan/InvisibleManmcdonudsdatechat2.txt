@@ -9,6 +9,7 @@ name
 InvisibleMan
 1
 "W-wah. Despite tasting it already, people are back for more. They can't forget it, huh?"
+-
 ~
 name
 1
@@ -17,6 +18,7 @@ name
 name
 1
 "Well, I wouldn't say being unable to forget, exactly."
+-
 ~
 InvisibleMan
 1
@@ -25,3 +27,4 @@ InvisibleMan
 InvisibleMan
 1
 "Ah, is that so?"
+-

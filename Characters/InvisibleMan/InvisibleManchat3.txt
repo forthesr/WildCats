@@ -9,6 +9,7 @@ name
 InvisibleMan
 1
 "..."
+-
 ~
 name
 1
@@ -21,6 +22,7 @@ name
 name
 1
 "...!"
+-
 ~
 InvisibleMan
 1
@@ -33,3 +35,4 @@ InvisibleMan
 InvisibleMan
 1
 "Ah, how long where you standing there?"
+-

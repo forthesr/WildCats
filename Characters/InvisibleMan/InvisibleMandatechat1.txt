@@ -9,6 +9,7 @@ name
 InvisibleMan
 1
 "Fate is always watching, regardless of where we escape to. Along with fate, comes... de-"
+-
 ~
 name
 1
@@ -21,6 +22,7 @@ name
 name
 1
 "Y-you're kidding right? Waiting for death, can you live like that?"
+-
 ~
 InvisibleMan
 1
@@ -33,3 +35,4 @@ InvisibleMan
 InvisibleMan
 1
 "Living like this. Invisible. Without death?"
+-

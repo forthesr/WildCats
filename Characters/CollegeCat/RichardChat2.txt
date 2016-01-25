@@ -9,6 +9,7 @@ Richard
 Richard
 1
 "I used to go to an Ivy League college, did you know?"
+-
 ~
 name
 1
@@ -21,6 +22,7 @@ name
 name
 1
 "Oh. Why did you leave? Must have been a good reason."
+-
 ~
 Richard
 3

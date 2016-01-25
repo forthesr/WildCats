@@ -9,6 +9,7 @@ InvisibleMan
 InvisibleMan
 1
 "With new... 'dreads', couldn't I be a new person?"
+-
 ~
 name
 1
@@ -21,6 +22,7 @@ name
 name
 1
 "Heh. Dreads."
+-
 ~
 InvisibleMan
 1
@@ -33,3 +35,4 @@ InvisibleMan
 InvisibleMan
 1
 "..."
+-

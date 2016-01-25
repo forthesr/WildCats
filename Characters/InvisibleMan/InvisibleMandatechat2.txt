@@ -9,6 +9,7 @@ name
 InvisibleMan
 1
 "Other people can't see me... It looks like you're talking to air."
+-
 ~
 name
 1
@@ -17,6 +18,7 @@ name
 name
 1
 "Who cares what other people think?"
+-
 ~
 InvisibleMan
 1
@@ -25,3 +27,4 @@ InvisibleMan
 InvisibleMan
 1
 "... Can't I?"
+-
