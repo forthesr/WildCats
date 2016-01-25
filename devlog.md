@@ -62,4 +62,6 @@ January 23, 2016
   Jordan: Added CollegeCat dialogue.
   Lisa: Finished NumbaOneIdol text and design. Finished updating all Setting files (Home, Mall, School, McDonuds). Worked on kiss, date, chat methods. Worked on Overlay.
   
-  
+January 24, 2016
+  Jordan: chat fixes, Reader for chats, DatingSim-oneDay updates, 
+  Lisa: 
