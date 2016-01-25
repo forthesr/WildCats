@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class Prom extends Setting {
+public class Park extends Setting {
     //20 X 3 array, 20, 30, 20 characters, temp design to test
     private String[][] image = new String[][]
 	    {{"____________________","______________________________","____________________"}, //0
