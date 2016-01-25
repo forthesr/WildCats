@@ -1,0 +1,38 @@
+InvisibleMan
+1
+"Ah, a classroom!"
+~
+InvisibleMan
+1
+"Wah, it's been so long since I've been in one. I loved philosophy, you know?"
+~
+InvisibleMan
+1
+"... It was my passion. And my starry poison."
+-
+~
+name
+1
+"Starry... poison?"
+-
+name
+1
+"Oh. You mean... the devouring."
+-
+name
+1
+"Just say it in straight words!"
+-
+~
+InvisibleMan
+3
+"Yes. The birth of my... fears. My desire to be... free. From fate. From death. From... love?"
+-
+InvisibleMan
+1
+"Yes. The... devouring."
+-
+InvisibleMan
+1
+"Ah, always so forward. I... was scared of death. I am still scared. And so I paint myself... clear. Hidden. Away. Always, always. Afraid."
+-
