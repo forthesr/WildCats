@@ -110,6 +110,49 @@ public class DatingSim {
 	playa = new Playa( name );
     }
     
+    public void promDate(){
+	System.out.println(Prom.getImage() );
+	System.out.println(Prom.getTest() );
+	datingPartner = Keyboard.readString();
+	prom.overlay(datingPartner);
+	if (affection < 100){
+		readerNorm(datingPartner, datingPartner + "promrejection.txt");
+		System.out.println("You did your best... or not enough. Try again next time.");
+	}
+	else {
+		readerNorm(datingPartner, datingPartner + "promacceptance.txt");
+		System.out.println("The night was long. The time was fun. But all good things come to an end. Luckily for you, the end is not here yet.");
+		System.out.println("Type in 'end' to say your goodbyes.");
+		if (Keyboard.readString() == end){
+			readerNorm(datingPartner, datingPartner + "end.txt");
+		}
+		else {"Well, that's it folks! Good night!"};
+	}
+	view = 	    {{"____________________","______________________________","____________________"}, //0
+	     {"                    ","                              ","                    "}, //1
+	     {"  .-') _    ('-. .-.","   ('-.           ('-.       .","-') _  _ .-') _     "},
+	     {" (  OO) )  ( OO )  /"," _(  OO)        _(  OO)     ( ","OO ) )( (  OO) )    "}, //3
+	     {" /     '._ ,--. ,--.","(,------.      (,------.,--./ ",",--,'  \     .'_    "},
+	     {" |'--...__)|  | |  |"," |  .---'       |  .---'|   \ ","|  |\\ ,`'--..._)   "}, //5
+	     {" '--.  .--'|   .|  |"," |  |           |  |    |    \","|  | ) |  |  \\ '   "},
+	     {"    |  |   |       |","(|  '--.       (|  '--. |  .  ","   |/  |  |   ' |   "}, //7
+	     {"    |  |   |  .-.  |"," |  .--'        |  .--' |  |\\","   |   |  |   / :   "},
+	     {"    |  |   |  | |  |"," |  `---.       |  `---.|  |\\","   |   |  '--'  /   "}, //9
+	     {"    `--'   `--' `--'"," `------'       `------''--   ","`--'   `-------'    "},
+	     {"                    ","                              ","                    "}, //11
+	     {"         Hey! Did yo","u have fun playing the game? Y","made sure to        "},
+	     {"                  St","ay commited to your date, righ","t?                 "}, //13
+	     {"     _      _       ","             ...              ","       _   __  J    "},
+	     {"     __    ___      ","Well, you did your best, right","?    \\__  o / O    "}, //15
+	     {"    /o     o / L    ","             ...              ","         c     R    "},
+	     {"        c      I    ","                              ","         W     D    "}, //17
+	     {"        ___    S    ","   Ah, whatever. Play again?  ","               A    "},
+	     {"               A    ","                              ","               N    "}  //19
+	     };
+	System.out.println(view);
+}
+
+    
     public static void main(String[] args){
 	DatingSim game = new DatingSim();
 
