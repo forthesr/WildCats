@@ -70,9 +70,9 @@ public class ReaderChat {
 		    System.out.println("\n");
 		}
 		else {
-		    currentPerson.setEmotion(parseInt(sectionsList.get(3*i + 1)));
-		    currentPerson.setAppearance();
-		    System.out.println(currentPerson.getAppearance());
+		    datingPartner.setEmotion(parseInt(sectionsList.get(3*i + 1)));
+		    datingPartner.setAppearance();
+		    System.out.println(datingPartner.getAppearance());
 		    System.out.print(sectionsList.get(3*i) + ": ");
 		    System.out.println(sectionsList.get(3*i + 2));
 		    System.out.println("\n");
@@ -89,9 +89,9 @@ public class ReaderChat {
 	    System.out.println("NAME: " + chatOptions.get(4*input + 2) + "\n");
 
 	    //Set and print DateableSO picture and chat
-	    currentPerson.setEmotion(parseInt(sectionsList.get(3*input + 1)));
-	    currentPerson.setAppearance();
-	    System.out.println(currentPerson.getAppearance());
+	    datingPartner.setEmotion(parseInt(sectionsList.get(3*input + 1)));
+	    datingPartner.setAppearance();
+	    System.out.println(datingPartner.getAppearance());
 	    System.out.print(sectionsList.get(3*input) + ": ");
 	    System.out.println(sectionsList.get(3*input + 2));
 	    System.out.println("\n");
