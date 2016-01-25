@@ -55,24 +55,48 @@ public class DatingSim2 {
 	view = bg.getImage();
     }
 
-    public DatableSO getDatingPartner(){
+    public DateableSO getDatingPartner(){
       return datingPartner;
     }
 
-    public void setDatingPartner(DatableSO person){
+    public void setDatingPartner(DateableSO person){
       datingPartner = person;
     }
 
     public void transport(){
         System.out.println(currentPlace.text);
-        Setting choice = Keyboard.readString();
-
+        String nearChoice = Keyboard.readString();
+        if (nearChoice == "Home"){
+            Setting choice = home;}
+        else if (nearChoice == "mall"){
+            Setting choice = mall;
+        }
+        else if (nearChoice == "mcDonuds"){
+            Setting choice = mcDonuds;
+        }
+        else if (nearChoice == "never21"){
+            Setting choice = never21;
+        }
+        else if (nearChoice == "Park"){
+            Setting choice = park;
+        }
+        else if (nearChoice == "School") {
+            Setting choice = school;
+        }
+        else if (nearChoice == "class") {
+            Setting choice = class;
+        }
+        else {
+            System.out.println("You didn't type in the right word");
+            System.out.println("Try again");
+            transport();
+        }
 	setView(choice.getImage());
 	currentPlace = choice;
         System.out.println(this);
     }
     
-    public void overlay(DatableSO person){
+    public void overlay(DateableSO person){
 	for (int x = view.length- person.getAppearance().length; x < view.length; x++){
 	    for (int i = 0; i < person.getAppearance().length; i++){
 		view[x][2] = person.getAppearance[i];
@@ -129,33 +153,24 @@ public class DatingSim2 {
 	readerChat(datingPartner, fileName);
     }
 
-    //going on a date
+    //
     public void date(){
-	System.out.println("Do you want to do on a date now? (y/n): ");
-	String x = Keyboard.readString();
-	if (x.equals("y")) {
-	    if (datingPartner.affection > 50 && playa.stamina > 5){
-		onDate = true;
-		playa.stamina -= 5;
-		System.out.println("Where would you like to go? You can visit park, class, mcdonuds or never21");
-		dateSpot = Keyboard.readString(); //need dateSpot variable
-		setView(dateSpot);
-		view.overlay(datingPartner);
+	if (datingPartner.affection > 50 && playa.stamina > 5){
+	    onDate = true;
+	    playa.stamina -= 5;
+	    System.out.println("Where would you like to go? You can visit park, class, mcdonuds or never21");
+	    dateSpot = Keyboard.readString(); //need dateSpot variable
+	    setView(dateSpot);
+	    view.overlay(datingPartner);
 
-		chat();
-		onDate = false;
-	    }
-	    else if (playa.stamina < 5){
-		System.out.println("You look a bit tired, shouldn't you go to sleep to regain some energy?");
-		return;
-	    }
-	    else if (datingPartner.affection < 50){
-		System.out.println("You're not close enough to ask them out.");
-	    }
+	    chat();
+	    onDate = false;
 	}
-	else {
-	    System.out.println ("No date for you!");
-	    return;
+	else if (playa.stamina < 5){
+	    System.out.println("You look a bit tired, shouldn't you go to sleep to regain some energy?");
+	}
+	else if (datingPartner.affection < 50){
+	    System.out.println("You're not close enough to ask them out.");
 	}
     }
 
@@ -199,7 +214,6 @@ public class DatingSim2 {
 		view.overlay(datingPartner);
 		
 		chat();
-		
 		date();
 	}
     	Home.sleep();
@@ -225,7 +239,7 @@ public class DatingSim2 {
 		    System.out.println("Well, that's it folks! Good night!");
 		}
 	}
-	view = 	 new String[]   {
+	view = 	 new String[][]   {
 	    {"____________________","______________________________","____________________"}, //0
 	    {"                    ","                              ","                    "}, //1
 	    {"  .-') _    ('-. .-.","   ('-.           ('-.       .","-') _  _ .-') _     "},
@@ -241,7 +255,7 @@ public class DatingSim2 {
 	    {"         Hey! Did yo","u have fun playing the game? Y","made sure to        "},
 	    {"                  St","ay commited to your date, righ","t?                  "}, //13
 	    {"     _      _       ","             ...              ","       _   __  J    "},
-	    {"     __    ___      ","Well, you did your best, right","?   \\__    o / O    "}, //15
+	    {"     __    ___      ","Well, you did your best, right","?  \\__    o / O    "}, //15
 	    {"    /o     o / L    ","             ...              ","        c      R    "},
 	    {"        c      I    ","                              ","        W      D    "}, //17
 	    {"        ___    S    ","   Ah, whatever. Play again?  ","               A    "},
