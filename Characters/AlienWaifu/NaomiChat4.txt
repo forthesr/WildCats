@@ -1,0 +1,37 @@
+Naomi
+1
+"When you think of accessories, what direction do you lean to?"
+~
+Naomi
+1
+"And about colors, what are your least favorites?"
+~
+Naomi
+1
+"And is jewelry separate from accessories?"
+-
+~
+name
+1
+"Er... repeat that?"
+-
+name
+1
+"Good, I'm okay with, not particularly"
+-
+name
+1
+"Fancy, black, yes."
+-
+~
+Naomi
+3
+"... Please pay attentoin."
+-
+Naomi
+2
+"Ah, I see?"
+-
+Naomi
+4
+"Yes, thank you!"
