@@ -112,7 +112,7 @@ public class DatingSim {
     
     public void promDate(){
 	System.out.println(Prom.getImage() );
-	System.out.println(Prom.getTest() );
+	System.out.println(Prom.getText() );
 	datingPartner = Keyboard.readString();
 	prom.overlay(datingPartner);
 	if (affection < 100){
@@ -143,9 +143,9 @@ public class DatingSim {
 	     {"         Hey! Did yo","u have fun playing the game? Y","made sure to        "},
 	     {"                  St","ay commited to your date, righ","t?                 "}, //13
 	     {"     _      _       ","             ...              ","       _   __  J    "},
-	     {"     __    ___      ","Well, you did your best, right","?    \\__  o / O    "}, //15
-	     {"    /o     o / L    ","             ...              ","         c     R    "},
-	     {"        c      I    ","                              ","         W     D    "}, //17
+	     {"     __    ___      ","Well, you did your best, right","?  \\__    o / O    "}, //15
+	     {"    /o     o / L    ","             ...              ","        c      R    "},
+	     {"        c      I    ","                              ","        W      D    "}, //17
 	     {"        ___    S    ","   Ah, whatever. Play again?  ","               A    "},
 	     {"               A    ","                              ","               N    "}  //19
 	     };
