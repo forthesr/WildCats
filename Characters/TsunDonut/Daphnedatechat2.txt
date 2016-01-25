@@ -9,6 +9,7 @@ name
 Daphne
 3
 "W-what? Er, nevermind."
+-
 ~
 name
 1
@@ -21,6 +22,7 @@ name
 name
 1
 "Why don't you talk to me?"
+-
 ~
 Daphne
 3
@@ -33,5 +35,4 @@ Daphne
 Daphne
 2
 "... "
-
-
+-

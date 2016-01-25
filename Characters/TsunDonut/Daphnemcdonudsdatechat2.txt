@@ -1,6 +1,6 @@
 Daphne
 3
-"I c=can't believe I'm buying food from my own workplace!"
+"I c-can't believe I'm buying food from my own workplace!"
 ~
 Daphne
 3
@@ -9,6 +9,7 @@ Daphne
 Daphne
 1
 "Okay, whatever. Well, what would you like?"
+-
 ~
 name
 1
@@ -21,6 +22,7 @@ name
 name
 1
 "Whatever you like."
+-
 ~
 Daphne
 2
@@ -33,5 +35,4 @@ Daphne
 Daphne
 3
 "...Make your own decision!"
-
-
+-

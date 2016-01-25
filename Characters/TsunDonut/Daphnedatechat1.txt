@@ -9,18 +9,20 @@ name
 Daphne
 3
 "Look! It doesn't even matter! I don't care!"
+-
 ~
 name
 1
-I really like you.
+"I really like you."
 -
 name
 1
-I just wanted to be with you. That's all.
+"I just wanted to be with you. That's all."
 -
 name
 1
-Fine! I don't care either then!
+"Fine! I don't care either then!"
+-
 ~
 Daphne
 4
@@ -33,5 +35,4 @@ Daphne
 Daphne
 3
 "H-huh? Fine! Don't talk to me!"
-
-
+-

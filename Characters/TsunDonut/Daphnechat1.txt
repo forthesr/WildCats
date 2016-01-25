@@ -9,35 +9,38 @@ Daphne
 Daphne
 1
 "never mind. What would you like?"
+-
 ~
 name
 1
-rainbow sprinkle donut - 
+"rainbow sprinkle donut"
+- 
 name
 1
-chocolate chip - 
+"chocolate chip"
+- 
 name
 1
-plain cinnamon - 
+"plain cinnamon"
+- 
 name
 1
-chocolate strawberry crunch
+"chocolate strawberry crunch"
+-
 ~
 Daphne
 2
-"I guess rainbows are the most popular. Huh..." -
+"I guess rainbows are the most popular. Huh..."
+-
 Daphne 
 1
-"Really? I thought you'd like something more flashy" -
+"Really? I thought you'd like something more flashy"
+-
 Daphne
 1
-"E-eh? You want... okay, coming right up!" -
+"E-eh? You want... okay, coming right up!"
+-
 Daphne
 3
 "You have the worst taste!"
-
-
-
-
-
-
+-

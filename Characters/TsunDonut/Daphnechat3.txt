@@ -9,17 +9,22 @@ Daphne
 Daphne
 1
 "I have to run delivery. Do you mind covering for me when I'm gone?"
+-
 ~
 name
 1
-"sure no problem" - 
+"sure no problem"
+- 
 name
 1
 "aren't you getting paid for this?"
+-
 ~
 Daphne
 1
-"Huh, really?! Well, t-thanks..." -
+"Huh, really?! Well, t-thanks..."
+-
 Daphne
 3
 "Don't you think I know that already?"
+-

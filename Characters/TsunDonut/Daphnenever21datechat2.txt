@@ -9,6 +9,7 @@ name
 Daphne
 1
 "Hm? Ah, y-yeah. Sometimes I guess I just want to. Well, how to say it?"
+-
 ~
 name
 1
@@ -21,6 +22,7 @@ name
 name
 1
 "You are fantastic just the way you are."
+-
 ~
 Daphne
 2
@@ -33,3 +35,4 @@ Daphne
 Daphne
 3
 "...That doesn't help me."
+-

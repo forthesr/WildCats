@@ -9,6 +9,7 @@ Daphne
 Daphne
 3
 "H-hey! Don't laugh at me! Say something!"
+-
 ~
 name
 1
@@ -17,6 +18,7 @@ name
 name
 1
 "I just want to see you at a place that I know you like."
+-
 ~
 Daphne
 1
@@ -29,3 +31,4 @@ Daphne
 Daphne
 1
 "Ah, okay then."
+-

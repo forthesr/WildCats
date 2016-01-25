@@ -9,25 +9,30 @@ Daphne
 Daphne
 1
 "Er, ignore me! Sorry! But, er, what kind of donut do you think people like the best?"
+-
 ~
 name
 1
-isn't chocolate the most popular? - 
+"Isn't chocolate the most popular?"
+- 
 name
 1
-personally, plain cinnamon is my favorite - 
+"Personally, plain cinnamon is my favorite"
+- 
 name 
 1
-i guess something colorful?
+"I guess something colorful?"
+-
 ~
 Daphne
 2
-"yes, that's true." - 
+"yes, that's true."
+- 
 Daphne
 1
-"Really now? Funny, I just happen to be a... er, nevermind." - 
+"Really now? Funny, I just happen to be a... er, nevermind."
+- 
 Daphne
 3
 "Aren't you a bit too much like a simpleton?!"
-
-
+-

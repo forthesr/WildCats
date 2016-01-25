@@ -9,6 +9,7 @@ Daphne
 Daphne
 1
 "Ah! This top is cute! Hey, hey! How do you think it'll look on me?"
+-
 ~
 name
 1
@@ -21,6 +22,7 @@ name
 name
 1
 "That top is super cute! It'll look beautiful."
+-
 ~
 Daphne
 1
@@ -33,4 +35,4 @@ Daphne
 Daphne
 2
 "So... the top is nice. The top is cute. the top is beautiful. Hmph."
-
+-
