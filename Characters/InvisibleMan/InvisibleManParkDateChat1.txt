@@ -1,0 +1,37 @@
+InvisibleMan
+1
+"Ah, this breeze... is so softly soothing. The call of angels..."
+~
+InvisibleMan
+2
+"Ah! A-apoligizes. I was simply... er"
+~
+InvisibleMan
+2
+"R-rambling?"
+-
+~
+name
+1
+"Go ahead, and ramble. We're on a date, after all."
+-
+name
+1
+"Relax. Talk a little."
+-
+name
+1
+"Let's just enjoy each other for a while, okay?"
+-
+~
+InvisibleMan
+1
+"... Ah. Ehehe!"
+-
+InvisibleMan
+1
+"Well... alright!"
+-
+InvisibleMan
+4
+"Oh.... yes. Gladly."
