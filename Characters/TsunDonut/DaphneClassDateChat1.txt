@@ -9,6 +9,7 @@ name
 Daphne
 1
 "Ah, really? I'd like to play... I guess."
+-
 ~
 name
 1
@@ -21,6 +22,7 @@ name
 name
 1
 "Let's go check them out then."
+-
 ~
 Daphne
 2
@@ -33,3 +35,4 @@ Daphne
 Daphne
 4
 "Ah, o-okay!"
+-
