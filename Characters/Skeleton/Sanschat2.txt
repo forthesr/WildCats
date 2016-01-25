@@ -1,10 +1,10 @@
 Sans
 1
-"umbrella at your side, its raining but you close it tight ♫ "
+"umbrella at your side, its raining but you close it tight"
 ~
 Sans
 1
-"Your favorite heels soaking, is that alright ♫ "
+"Your favorite heels soaking, is that alright"
 ~
 Sans
 1
@@ -21,7 +21,7 @@ name
 -
 name
 1
-"We're always singing the same song ♫ Together, forever ♫ "
+"We're always singing the same song ♫ Together, forever"
 -
 ~
 Sans
@@ -30,7 +30,7 @@ Sans
 -
 Sans
 3
-"... singing the same tune. Step by step, I'll always be waiting for you. ♫ "
+"... singing the same tune. Step by step, I'll always be waiting for you."
 -
 Sans
 1
