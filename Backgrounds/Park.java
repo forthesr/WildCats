@@ -26,7 +26,7 @@ public class Park extends Setting {
 	    };
     private String text = "Welcome to the Park! " +
 	    "Who would you like to talk to?\n" +
-	    "ReporterWaifu or InvisibleMan?\n" +
+	    "ReporterWaifu, InvisibleMan, or Nico?\n" +
 	    "Enter the name of the person you want to talk to:";
 	public getImage(){
 		return image;

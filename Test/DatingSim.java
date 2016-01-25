@@ -121,7 +121,7 @@ public class DatingSim {
 	else
 	    {System.out.println("Hey, you look too tired to chat. Why not take a nap?")}
 	//read fileName
-	
+	readerChat
     }
 
     //

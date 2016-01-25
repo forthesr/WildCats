@@ -29,5 +29,6 @@ public class DatableSO extends Character {
     public void setFirstMeeting() {
 	firstMeeting = false;
     }
+
 }
 
