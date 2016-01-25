@@ -9,6 +9,7 @@ name
 InvisibleMan
 1
 "W-welll... will clothes look okay on invisible me?"
+-
 ~
 name
 1
@@ -33,3 +34,4 @@ InvisibleMan
 InvisibleMan
 1
 "..."
+-
