@@ -9,6 +9,7 @@ name
 Sans
 1
 "Hah! Nice one kiddo, watch it or you mind become the next comedy central."
+-
 ~
 name
 1
@@ -21,6 +22,7 @@ name
 name
 1
 "Comedy central? Why Sans, you're telling me to... tickle your funny bones?"
+-
 ~
 Sans
 1
@@ -33,3 +35,4 @@ Sans
 Sans
 1
 "Heh. Heh. Good one kid- ah, wait, I didn't meahahha no hehehe! No tickling! Hahaha!"
+-

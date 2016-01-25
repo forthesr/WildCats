@@ -9,6 +9,7 @@ Sans
 Sans
 1
 "... Okay, I'm a skeleton so we don't really know our ages. But hey, take a gander!"
+-
 ~
 name
 1
@@ -21,6 +22,7 @@ name
 name
 1
 "You old person. Immortal."
+-
 ~
 Sans
 1
@@ -33,3 +35,4 @@ Sans
 Sans
 1
 "Been reading too many wizard memes, kid?"
+-

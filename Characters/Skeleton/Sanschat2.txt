@@ -9,6 +9,7 @@ Sans
 Sans
 1
 " Always singing the same - Aaaannnndddd how long have you been standing there?"
+-
 ~
 name
 1
@@ -21,6 +22,7 @@ name
 name
 1
 "We're always singing the same song ♫ Together, forever ♫ "
+-
 ~
 Sans
 3
@@ -33,3 +35,4 @@ Sans
 Sans
 1
 "Nice try, kid. Your voice is a little... broken. Heh. Broken bones. Heh."
+-

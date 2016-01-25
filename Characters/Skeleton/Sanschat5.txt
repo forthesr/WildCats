@@ -9,6 +9,7 @@ name
 Sans
 1
 "... If, hypothetically, your little brother were to buy basketballs shorts and wear them as sleeves, and you laugh and call them ball-and-socket sleeves, and he gets mad and you joke about him being mad a ton, like, a skele-ton... And he gets madder..."
+-
 ~
 name
 1
@@ -21,6 +22,7 @@ name
 name
 1
 "I'd just wait for him to calm down and then grovel."
+-
 ~
 Sans
 2
@@ -33,3 +35,4 @@ Sans
 Sans
 1
 "Grovel. Heh. Uh, no."
+-

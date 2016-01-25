@@ -9,6 +9,7 @@ Sans
 Sans
 1
 "Must have been pre-date jitters, kid."
+-
 ~
 name
 1
@@ -21,6 +22,7 @@ name
 name
 1
 "I'm not talking about a dream. We were eating ketchup and spagetti, remember?"
+-
 ~
 Sans
 3
@@ -33,3 +35,4 @@ Sans
 Sans
 3
 "Ah. Just ignore it for now, kid."
+-

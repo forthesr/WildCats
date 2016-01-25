@@ -9,6 +9,7 @@ name
 Sans
 2
 "I mean, who brings a copy of their bones on a date?"
+-
 ~
 name
 1
@@ -21,6 +22,7 @@ name
 name
 1
 "You're a skeleton, not my skeleton."
+-
 ~
 Sans
 1
@@ -33,3 +35,4 @@ Sans
 Sans
 2
 "Don't tell me kid, did you only bring me out to... bone me?"
+-

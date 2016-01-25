@@ -9,6 +9,7 @@ Sans
 Sans
 2
 "Being a skeleton has its advantages. My thigh gap is instagram worthy."
+-
 ~
 name
 1
@@ -21,6 +22,7 @@ name
 name
 1
 "It's cute, but not very efficient."
+-
 ~
 Sans
 2
@@ -33,3 +35,4 @@ Sans
 Sans
 4
 "Well, pick something out then."
+-
