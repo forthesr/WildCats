@@ -129,25 +129,33 @@ public class DatingSim2 {
 	readerChat(datingPartner, fileName);
     }
 
-    //
+    //going on a date
     public void date(){
-	if (datingPartner.affection > 50 && playa.stamina > 5){
-	    onDate = true;
-	    playa.stamina -= 5;
-	    System.out.println("Where would you like to go? You can visit park, class, mcdonuds or never21");
-	    dateSpot = Keyboard.readString(); //need dateSpot variable
-	    setView(dateSpot);
-	    view.overlay(datingPartner);
+	System.out.println("Do you want to do on a date now? (y/n): ");
+	String x = Keyboard.readString();
+	if (x.equals("y")) {
+	    if (datingPartner.affection > 50 && playa.stamina > 5){
+		onDate = true;
+		playa.stamina -= 5;
+		System.out.println("Where would you like to go? You can visit park, class, mcdonuds or never21");
+		dateSpot = Keyboard.readString(); //need dateSpot variable
+		setView(dateSpot);
+		view.overlay(datingPartner);
 
-	    chat();
-	    onDate = false;
+		chat();
+		onDate = false;
+	    }
+	    else if (playa.stamina < 5){
+		System.out.println("You look a bit tired, shouldn't you go to sleep to regain some energy?");
+		return;
+	    }
+	    else if (datingPartner.affection < 50){
+		System.out.println("You're not close enough to ask them out.");
+	    }
 	}
-	else if (playa.stamina < 5){
-	    System.out.println("You look a bit tired, shouldn't you go to sleep to regain some energy?");
+	else {
+	    System.out.println ("No date for you!");
 	    return;
-	}
-	else if (datingPartner.affection < 50){
-	    System.out.println("You're not close enough to ask them out.");
 	}
     }
 
@@ -191,6 +199,7 @@ public class DatingSim2 {
 		view.overlay(datingPartner);
 		
 		chat();
+		
 		date();
 	}
     	Home.sleep();
@@ -232,7 +241,7 @@ public class DatingSim2 {
 	    {"         Hey! Did yo","u have fun playing the game? Y","made sure to        "},
 	    {"                  St","ay commited to your date, righ","t?                  "}, //13
 	    {"     _      _       ","             ...              ","       _   __  J    "},
-	    {"     __    ___      ","Well, you did your best, right","?  \\__    o / O    "}, //15
+	    {"     __    ___      ","Well, you did your best, right","?   \\__    o / O    "}, //15
 	    {"    /o     o / L    ","             ...              ","        c      R    "},
 	    {"        c      I    ","                              ","        W      D    "}, //17
 	    {"        ___    S    ","   Ah, whatever. Play again?  ","               A    "},
