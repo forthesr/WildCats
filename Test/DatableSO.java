@@ -63,7 +63,7 @@ public class DatableSO extends Character {
     public void date(){
 	if (affection > 50 && stamina > 5){
 	    stamina - 5;
-	    System.out.println("Where would you like to go?");
+	    System.out.println("Where would you like to go? You can visit park, class, mcdonuds or never21");
 	    dateSpot = Keyboard.readString(); //need dateSpot variable
 	    setView(dateSpot);
 	    dateSpot.overlay(datingPartner);
