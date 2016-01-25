@@ -31,7 +31,7 @@ public class School extends Setting {
 	
 	text = "Welcome to the School! " +
 	    "Where in the School would you like to go?\n" +
-	    "There is a classroom" +
+	    "There is a class" +
 	    "Enter the name of the place you wish to go:";
     }
 
