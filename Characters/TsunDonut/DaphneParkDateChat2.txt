@@ -9,6 +9,7 @@ Daphne
 Daphne
 2
 "It won't be anything complex like chess... right?"
+-
 ~
 name
 1
@@ -33,3 +34,4 @@ Daphne
 Daphne
 3
 "Why are you looking at her?"
+-
