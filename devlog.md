@@ -63,7 +63,7 @@ January 23, 2016
   Lisa: Finished NumbaOneIdol text and design. Finished updating all Setting files (Home, Mall, School, McDonuds). Worked on kiss, date, chat methods. Worked on Overlay.
   
 January 24, 2016
-  Jordan: chat fixes, Reader for chats, DatingSim-oneDay updates, 
+  Jordan: chat fixes, Reader for chats, DatingSim-oneDay updates, fixed java files
   Lisa: All those chats. Added ReaderNorm. fixed setting. Added promDate method. Wrote an END TO THIS GAME. Also java files for everbody. Raining java files. Yaaayyy java files. 
   Lisa + Jordan: What didn't we do honestly. Also java has sucky vocabulary they don't recognize any cute emojis
   
