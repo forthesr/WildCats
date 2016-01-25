@@ -64,4 +64,10 @@ January 23, 2016
   
 January 24, 2016
   Jordan: chat fixes, Reader for chats, DatingSim-oneDay updates, 
-  Lisa: 
+  Lisa: All those chats. Added ReaderNorm. fixed setting. Added promDate method. Wrote an END TO THIS GAME. Also java files for everbody. Raining java files. Yaaayyy java files. 
+  Lisa + Jordan: What didn't we do honestly. Also java has sucky vocabulary they don't recognize any cute emojis
+  
+January 25, 2016 (extended day yayyy)
+  Jordan:
+  Lisa:
+  Jordan + Lisa: EVERYTHING LEFT TO BE DONE
