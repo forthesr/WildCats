@@ -9,6 +9,7 @@ InvisibleMan
 InvisibleMan
 1
 "I do not worry! Let light and darkness ponder my existance!"
+-
 ~
 name
 1
@@ -33,3 +34,4 @@ InvisibleMan
 InvisibleMan
 3
 "I-I do indeed! Say... so..."
+-
