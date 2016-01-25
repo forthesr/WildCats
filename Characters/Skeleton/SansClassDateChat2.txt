@@ -1,0 +1,35 @@
+Sans
+2
+"What's this? You're trying to bring up nostalgia feelings with this classroom?"
+~
+Sans
+1
+"Sorry kid! No can do! I'm all boned out!"
+~
+Sans
+1
+"But seriously- a class? Kid, really?"
+~
+name
+1
+"It's where we meet, afterall."
+-
+name
+1
+"W-why not? I want to see you in all types of settings."
+-
+name
+1
+"This was a dumb idea... I'll make up for it next time?"
+~
+Sans
+4
+"Well, you're not wrong, kid!"
+-
+Sans
+1
+"Not a bad response. Plus three, maybe."
+-
+Sans
+1
+"Hey hey, don't worry so much. I'm just... boning around!"
