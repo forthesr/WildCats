@@ -13,7 +13,7 @@ public class Playa extends Character {
     public Playa(String n) {
 	name = n;
 	emotion = 1;
-	stamina = 12;
+	stamina = 15;
 	dialogue = "";
     }
     /*    setName - replace default name "" to user input
