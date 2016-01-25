@@ -73,7 +73,8 @@ public class ReaderChat {
 		    String x = (sectionsList.get(4*i + 1)).substring(0,1);
 		    o.setEmotion(Integer.parseInt(x));
 		    o.setAppearance();
-		    System.out.println(o.stringAppearance());
+		    view.overlay(o);
+		    System.out.println(view);
 		    System.out.print(sectionsList.get(4*i) + ": ");
 		    System.out.println(sectionsList.get(4*i + 2));
 		    System.out.println("\n");
@@ -92,7 +93,8 @@ public class ReaderChat {
 	    //Set and print DateableSO picture and chat
 	    o.setEmotion(Integer.parseInt(chatResponses.get(4*input + 2)));
 	    o.setAppearance();
-	    System.out.println(o.stringAppearance());
+	    view.overlay(o);
+	    System.out.println(view);
 	    System.out.print(chatResponses.get(4*input + 1) + ": ");
 	    System.out.println(chatResponses.get(4*input + 3));
 	    System.out.println("\n");
