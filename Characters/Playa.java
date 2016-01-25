@@ -9,11 +9,17 @@ public class Playa extends Character {
 	emotion = 1;
 	stamina = 15;
     }
-    /*    setName - replace default name "" to user input
-    setAppearance - set as ""
-    setEmotion - default 1, happy
-    setStamina - set to 12
-    setDialogue - set as ""
-    */
+
+    public String getName () {
+      return name;
+    }
+
+    public int getStamina () {
+      return stamina;
+    }
+
+    public S getDays () {
+      return days;
+    }
     
 }

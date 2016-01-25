@@ -9,9 +9,7 @@ import java.util.Scanner; //This is to use Java's Scanner class.
 
 public class ReaderNorm {
 
-
-
-        public static void readerNorm(Daphne o, String fileName) {
+    public static void readerNorm(Daphne o, String fileName) {
 	// The name of the file to open.
         //String fileName = "RichardChat1.txt";  //is in same folder
        
@@ -52,10 +50,10 @@ public class ReaderNorm {
 		sectionsList.add(s);
 	    }
 	    for (String s : section4.split(stringSeperator)){
-	    sectionsList.add(s);
+		sectionsList.add(s);
 	    }
 	    for (String s : section5.split(stringSeperator)){
-	    sectionsList.add(s);
+		sectionsList.add(s);
 	    }
 	    /*
 	      0-2: preset dialogue
