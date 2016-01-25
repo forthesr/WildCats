@@ -23,18 +23,18 @@ public class DatingSim {
 	view = new String[][] //Welcome Screen
 	    {{"____________________","______________________________","____________________"}, //0
 	     {"              __    ","      __  _                   ","                    "},
-	     {"              \ \   ","     / / | |                  ","                    "}, //2
-	     {"               \ \  ","/\  / /__| | ___ ___  _ __ ___","   ___              "},
-	     {"                \ \/","  \/ / _ \ |/ __/ _ \| '_ ` _ ","\ / _ \             "}, //4
-	     {"                 \  ","/\  /  __/ | (_| (_) | | | | |"," |  __/             "},
-	     {"                  \/","  \/ \___|_|\___\___/|_| |_| |","_|\___|             "}, //6
+	     {"              \\ \\   ","     / / | |                  ","                    "}, //2
+	     {"               \\ \\  ","/\\  / /__| | ___ ___  _ __ ___","   ___              "},
+	     {"                \\ \\/","  \\/ / _ \\ |/ __/ _ \\| '_ ` _ ","\\ / _ \\             "}, //4
+	     {"                 \\  ","/\\  /  __/ | (_| (_) | | | | |"," |  __/             "},
+	     {"                  \\/","  \\/ \\___|_|\\___\\___/|_| |_| |","_|\\___|             "}, //6
 	     {"                    ","                              ","                    "},
 	     {"         _  _       "," Find a prom date in 10 days! ","        _  _        "}, //8
-	     {"        / \/ \      ","                              ","       / \/ \       "},
+	     {"        / \\/ \\      ","                              ","       / \\/ \\       "},
 	     {"       |      |     ","  A DATING SIM game based on  ","      |      |      "}, //10
-	     {"       \     /      "," Exciting datableSOs, Amazing ","       \     /      "},
-	     {"        \   /       ","      storylines and YOU!     ","        \   /       "}, //12
-	     {"         \ /        ","                              ","         \ /        "},
+	     {"       \\     /      "," Exciting datableSOs, Amazing ","       \\     /      "},
+	     {"        \\   /       ","      storylines and YOU!     ","        \\   /       "}, //12
+	     {"         \\ /        ","                              ","         \\ /        "},
 	     {"          V         ","          Instructions:       ","          V         "}, //14
 	     {"                    ","    - Type in your action     ","                    "},
 	     {"                    ","  - Be Loyal (One prom date!) ","                    "}, //16
@@ -114,20 +114,64 @@ public class DatingSim {
 	    currentPlace.transport();
 
 	    setDatingPartner(Keyboard.readString());//maybe fix?
-	    
 	    view.overlay(datingPartner);
 	    
 	
 	}
     	Home.sleep();
     }
+
+    public void promDate(){
+	System.out.println(Prom.getImage() );
+	System.out.println(Prom.getText() );
+	datingPartner = Keyboard.readString();
+	prom.overlay(datingPartner);
+	if (datingPartner.affection < 100){
+		readerNorm(datingPartner, datingPartner + "promrejection.txt");
+		System.out.println("You did your best... or not enough. Try again next time.");
+	}
+	else {
+		readerNorm(datingPartner, datingPartner + "promacceptance.txt");
+		System.out.println("The night was long. The time was fun. But all good things come to an end. Luckily for you, the end is not here yet.");
+		System.out.println("Type in 'end' to say your goodbyes.");
+		if (Keyboard.readString().equals("end")){
+			readerNorm(datingPartner, datingPartner + "end.txt");
+		}
+		else {"Well, that's it folks! Good night!"};
+	}
+	view = 	 new String[]   {
+	    {"____________________","______________________________","____________________"}, //0
+	    {"                    ","                              ","                    "}, //1
+	    {"  .-') _    ('-. .-.","   ('-.           ('-.       .","-') _  _ .-') _     "},
+	    {" (  OO) )  ( OO )  /"," _(  OO)        _(  OO)     ( ","OO ) )( (  OO) )    "}, //3
+	    {" /     '._ ,--. ,--.","(,------.      (,------.,--./ ",",--,'  \\     .'_    "},
+	    {" |'--...__)|  | |  |"," |  .---'       |  .---'|   \\ ","|  |\\ ,`'--..._)   "}, //5
+	    {" '--.  .--'|   .|  |"," |  |           |  |    |    \\","|  | ) |  |  \\ '   "},
+	    {"    |  |   |       |","(|  '--.       (|  '--. |  .  ","   |/  |  |   ' |   "}, //7
+	    {"    |  |   |  .-.  |"," |  .--'        |  .--' |  |\\ ","   |   |  |   / :   "},
+	    {"    |  |   |  | |  |"," |  `---.       |  `---.|  | \\","   |   |  '--'  /   "}, //9
+	    {"    `--'   `--' `--'"," `------'       `------''--   ","`--'   `-------'    "},
+	    {"                    ","                              ","                    "}, //11
+	    {"         Hey! Did yo","u have fun playing the game? Y","made sure to        "},
+	    {"                  St","ay commited to your date, righ","t?                  "}, //13
+	    {"     _      _       ","             ...              ","       _   __  J    "},
+	    {"     __    ___      ","Well, you did your best, right","?  \\\__    o / O    "}, //15
+	    {"    /o     o / L    ","             ...              ","        c      R    "},
+	    {"        c      I    ","                              ","        W      D    "}, //17
+	    {"        ___    S    ","   Ah, whatever. Play again?  ","               A    "},
+	    {"               A    ","                              ","               N    "}  //19
+	};
+	System.out.println(view);
+}
+
     
     public static void main(String[] args){
 	DatingSim game = new DatingSim();
 
-	/*while( playa.days > 0) {
-	    
-	  }*/
+	while( playa.days > 0) {
+	    oneDay();
+	}
+	promDate();
      // System.out.println(view.overlay(person) );
 
     }

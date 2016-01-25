@@ -29,8 +29,8 @@ public class Home extends Setting {
 	     {"             \  \   ","  \               \           ","      || .\ |       "},
 	     {"              \  \  ","   \                          ","      \ \  ||       "}  //19
 	    };;
-    text = "Welcome home! Would you like to rest?
-            Resting will regain full stamina and one day will pass.";
+    text = "Welcome home! Time to go to sleep! \n
+            Sleeping will regain full stamina and one day will pass.";
   }
   
   //methods
