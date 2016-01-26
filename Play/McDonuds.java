@@ -2,7 +2,7 @@ import java.util.Scanner;
 
 public class McDonuds extends Setting {
     //20 X 3 array, 20, 30, 20 characters, temp design to test
-private String[][] image = new String[][]
+ public McDonuds() { image = new String[][]
 	    {{"____________________","______________________________","____________________"}, //0
 	     {"     __  __         ","   ___                        ","       _            "}, //1
 	     {"    |  \\/  |   __   ","  |   \\    ___    _ _     _  _","    __| |    ___    "},
@@ -24,9 +24,9 @@ private String[][] image = new String[][]
 	     {"                    ","                              ","                    "},
 	     {"                    ","                              ","                    "}  //19
 	    };;
-    private String text = "Welcome to McDonuds! \n" +
+     text = "Welcome to McDonuds! \n" +
 	    "There are two workers currently: \t" +
 	    "Daphne and Richard\n" +
-	    "Enter the name of the person you wish to talk to:";
+	    "Enter the name of the person you wish to talk to:"; }
    
 }
