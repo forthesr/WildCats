@@ -9,6 +9,7 @@ name
 Richard
 1
 "No..."
+-
 ~
 name
 1
@@ -20,7 +21,19 @@ name
 -
 name
 1
-""
+"Admit the truth, cat!"
+-
 ~
 Richard
+1
+"mew!"
+-
+Richard
+2
+"No, I didn't!"
+-
+Richard
+3
+"Nooo!"
+-
 
