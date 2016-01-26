@@ -16,4 +16,5 @@ How to Play:
 - Profit.
 - If you are uncertain whether you truly "won" the game or not, you will get an end story from your character if you managed to win their heart. 
 
+(If a background/setting is not coming up, you most likely will need to write it twice).
 
