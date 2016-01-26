@@ -1,11 +1,38 @@
 Richard
 3
-"
+"..."
 ~
 name
 1
-"Why are you smoking all of a sudden?"
+"Why are you pouting all of a sudden?"
 ~
 Richard
 2
 "H-huh, w-what are you talking about?"
+-
+~
+name
+1
+"No, is something wrong?"
+-
+name
+1
+"You're pouting a storm, Richard."
+-
+name
+1
+"I'm talking about you looking like you're going to take a cigarette at any time."
+-
+~
+Richard
+4
+"Don't worry too much. I'm happy you care, mew!"
+-
+Richard
+3
+"N-nooo, I'm not!"
+-
+Richard
+2
+"I don't! Do you really think I do those things?"
+-
