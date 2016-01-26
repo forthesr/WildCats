@@ -434,6 +434,8 @@ public class DatingSim {
 		System.out.println(game);
 		System.out.println(Map.text);
 		transport();
+		if (currentPlace == Home)
+		    ;
 		if (currentPlace != Park) 
 		    transport();
 		setDatingPartner(Keyboard.readString());//maybe fix?
