@@ -1,0 +1,37 @@
+Naomi
+2
+"This is a donut store across from never21, isn't it?"
+~
+name
+1
+"Oh, yeah. I'm surprised you remembered."
+~
+Naomi
+1
+"It's a place that you have frequented, have you not?"
+-
+~
+name
+1
+"Er, yeah, but not too much with Daphne or Richard or anything aHAHAHAH NOPE"
+-
+name
+1
+"It's a place I go to... sometimes. Maybe. Kind of?"
+-
+name
+1
+"They have good donuts! And a really catchy ba-da-da-da-daaaaa!"
+-
+~
+Naomi
+1
+"I understand?"
+-
+Naomi
+3
+"Ah, is that all?"
+-
+Naomi
+4
+"Yes, that seems something that you would enjoy."
