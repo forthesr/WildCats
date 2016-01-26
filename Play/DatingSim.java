@@ -146,7 +146,7 @@ public class DatingSim {
 		    o.setEmotion(Integer.parseInt(x));
 		    o.setAppearance();
 		    overlay(o);
-		    System.out.println(view.toString() );
+		    System.out.println(game);
 		    System.out.print(sectionsList.get(4*i) + ": ");
 		    System.out.println(sectionsList.get(4*i + 2));
 		    System.out.println("\n");
@@ -227,7 +227,7 @@ public class DatingSim {
 		    o.setEmotion(Integer.parseInt(x));
 		    o.setAppearance();
 		    overlay(o);
-		    System.out.println(view);
+		    System.out.println(game);
 		    System.out.print(sectionsList.get(4*i) + ": ");
 		    System.out.println(sectionsList.get(4*i + 2));
 		    System.out.println("\n");
