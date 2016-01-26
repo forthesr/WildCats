@@ -1,0 +1,37 @@
+Richard
+4
+"Ehehehe!"
+-
+name
+1
+"Oh, what's up today?"
+-
+Richard
+4
+"Ehehe, I'm just kind of happy that we can be dating even when I'm working!"
+-
+~
+name
+1
+"Ah, well, I am too. Happy. To see you. Ahem."
+-
+name
+1
+"Yeah? I'm pretty happy too."
+-
+name
+1
+"Just serve me some donuts and I'll kiss you for a tip."
+-
+~
+Richard
+4
+"Yep! Ahaha!"
+-
+Richard
+4
+"Mew!"
+-
+Richard
+3
+"That's not right!"
