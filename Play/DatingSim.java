@@ -263,7 +263,9 @@ public class DatingSim {
 
     public void transport(){
 	Setting choice = Map;
+	if (onDate != true){
         String nearChoice = Keyboard.readString();
+	}
 	if (onDate == true) {
 	    nearChoice = dateSpot;
         if (nearChoice.equals("Home")){
