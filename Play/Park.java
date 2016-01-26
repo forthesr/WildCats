@@ -27,7 +27,7 @@ public class Park extends Setting {
 	    };
      text = "Welcome to the Park! " +
 	    "Who would you like to talk to?\n" +
-	    "ReporterWaifu, InvisibleMan, or Nico?\n" +
+	    "ReporterWaifu or Nico?\n" +
 	    "Enter the name of the person you want to talk to:"; }
 
 }
