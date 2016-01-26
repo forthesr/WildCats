@@ -25,12 +25,12 @@ public class Home extends Setting {
 	     {"___________|   | \\  ","            \\___|____________|","______|| .\\ |       "},
 	     {"           |   |  \\ ","              \\               ","      | \\  ||       "}, //15
 	     {"           |   |   \\","               \\              ","      ||\\ ||       "},
-	     {"            \\  |    "," \               \\            ","      || \\||       "}, //17
-	     {"             \\  \\   ","  \               \\           ","      || .\\ |       "},
-	     {"              \\  \\  ","   \                          ","      \\ \\  ||       "}  //19
+	     {"            \\  |    "," \\               \\            ","      || \\||       "}, //17
+	     {"             \\  \\   ","  \\               \\           ","      || .\\ |       "},
+	     {"              \\  \\  ","   \\                          ","      \\ \\  ||       "}  //19
 	    } ;
-    text = "Welcome home! Time to go to sleep! \n
-            Sleeping will regain full stamina and one day will pass.";
+    text = "Welcome home! Time to go to sleep! \n" +
+	"Sleeping will regain full stamina and one day will pass.";
   }
   
   //methods
