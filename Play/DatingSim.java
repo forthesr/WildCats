@@ -391,11 +391,12 @@ public class DatingSim {
     }
 
     //chatting with DatableSO
+    //chatting with DatableSO
     public void chat(){
 	String fileName = "";
     	if (playa.stamina > 2){
 	    if (datingPartner.firstMeeting == true) {
-		fileName = datingPartner + "Intro.txt";
+		fileName = datingPartner.name + "Intro.txt";
 		readerNorm(datingPartner, fileName);
 		datingPartner.setFirstMeeting();
 		return;
@@ -404,17 +405,17 @@ public class DatingSim {
 		if (onDate == true ){
 		    int chatNum = (int)(Math.random() * 4) + 1;
 		    if (chatNum > 2){
-			fileName = datingPartner + dateSpot +
+			fileName = datingPartner.name + dateSpot +
 			    "DateChat" + (chatNum - 2) + ".txt";
 		    }
 		    else {
-			fileName = datingPartner +
+			fileName = datingPartner.name +
 			    "DateChat" + chatNum + ".txt";
 		    }
 		}
 		else {
 		    int chatNum = (int)(Math.random() * 5) + 1;
-		    fileName = datingPartner + "Chat" + chatNum + ".txt";
+		    fileName = datingPartner.name + "Chat" + chatNum + ".txt";
 		}
 		playa.stamina -= 2;
 		datingPartner.setAffection(2);
