@@ -1,0 +1,37 @@
+Daphne
+3
+"... Remind me again why exactly we're in a classroom."
+~
+name
+1
+"Huh? I mean... it's a student-teacher secret romance?"
+~
+Daphne
+2
+"WHAT'S WRONG WITH YOU?!"
+-
+~
+name
+1
+"Nothing! I can have interests too!"
+-
+name
+1
+"Relax! it was just a joke!"
+-
+name
+1
+"Well, the students here would find it punny... probably..."
+~
+Daphne
+2
+"Disgusting!"
+-
+Daphne
+3
+"..."
+-
+Daphne
+2
+"I-if it's only funny to the students! Only then can you make that joke!"
+-

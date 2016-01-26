@@ -1,0 +1,38 @@
+Daphne
+2
+"The store feels a little empty today. I wonder if it's because of the new pizza place."
+~
+name
+1
+"Don't worry. They'll come back."
+~
+Daphne
+3
+"And just how am I supposed to do that genuis?"
+-
+~
+name
+1
+"Hire some models"
+-
+name
+1
+"I'll help hand out advertisements"
+-
+name
+1 
+"Beat up the pizza crew"
+-
+~
+Daphne
+3
+"What are you thinking right now, pervert?"
+- 
+Daphne
+3
+"I-I don't need your help!... But thanks, I guess."
+- 
+Daphne
+3
+"What's wrong with your violent mind?"
+-

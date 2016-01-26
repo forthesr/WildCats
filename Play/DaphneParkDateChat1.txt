@@ -1,0 +1,37 @@
+Daphne
+1
+"It's really nice out today."
+~
+Daphne
+1
+"Ah! Look, those kids over there are eating waffles!"
+~
+Daphne
+2
+"I-I might want some! Maybe!"
+-
+~
+name
+1
+"If you're paying, why not?"
+-
+name
+1
+"...Sigh. What type?"
+-
+name
+1
+"Wait, should a donut be eating waffles? Is that sanitary?"
+~
+Daphne
+3
+"..."
+-
+Daphne
+4
+"E-eh?! Really? Well, whatever you want!"
+-
+Daphne
+2
+"What are you implying...?"
+-

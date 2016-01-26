@@ -1,0 +1,38 @@
+Daphne
+1
+"Wow, Never21. Haven't been here for a while."
+~
+Daphne
+1
+"Well, let's browse the sales rack first...Cute!"
+~
+Daphne
+1
+"Ah! This top is cute! Hey, hey! How do you think it'll look on me?"
+-
+~
+name
+1
+"I'm sure it'll look fantastic on you. Everything does!"
+-
+name
+1
+"It'll look great. That color goes really well with you."
+-
+name
+1
+"That top is super cute! It'll look beautiful."
+-
+~
+Daphne
+1
+"... That... doesn't answer my question at all."
+-
+Daphne
+4
+"Y-you really think so? Ah, we probably just have the same taste, that's all."
+-
+Daphne
+2
+"So... the top is nice. The top is cute. the top is beautiful. Hmph."
+-
