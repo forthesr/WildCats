@@ -483,15 +483,15 @@ public class DatingSim {
 	setDatingPartner(input);
 	overlay(datingPartner);
 	if (datingPartner.affection < 100){
-		readerNorm(datingPartner, datingPartner + "promrejection.txt");
+		readerNorm(datingPartner, datingPartner.name + "promrejection.txt");
 		System.out.println("You did your best... or not enough. Try again next time.");
 	}
 	else {
-		readerNorm(datingPartner, datingPartner + "promacceptance.txt");
+		readerNorm(datingPartner, datingPartner.name + "promacceptance.txt");
 		System.out.println("The night was long. The time was fun. But all good things come to an end. Luckily for you, the end is not here yet.");
 		System.out.println("Type in 'end' to say your goodbyes.");
 		if (Keyboard.readString().equals("end")){
-			readerNorm(datingPartner, datingPartner + "end.txt");
+			readerNorm(datingPartner, datingPartner.name + "end.txt");
 		}
 		else {
 		    System.out.println("Well, that's it folks! Good night!");
