@@ -2,7 +2,7 @@ import java.util.Scanner;
 
 public class Never21 extends Setting {
     //20 X 3 array, 20, 30, 20 characters, temp design to test
-    private String[][] image = new String[][]
+    public Never21(){ image = new String[][]
 		{{"____________________","______________________________","____________________"}, //0
 	     {"||||||||||||||    _ ","   _                       ___"," __  |||||||||||||||"}, //1
 	     {"||||||||||||||   | \\"," | |                     |__ \\","/_ | |||||||||||||||"},
@@ -24,9 +24,9 @@ public class Never21 extends Setting {
 	     {"                    ","||||||||     |||     |||||||||","                    "},
 	     {"||||||||||||||||||||","||||||||     |||     |||||||||","|||||||| |||||||||||"}  //19
 	    };;
-    private String text = "Welcome to Never21! " +
+     text = "Welcome to Never21! " +
 	    "There is one person in the store:\n" +
 	    "Naomi\n" +
-	    "Enter the name of the person you wish to talk to:";
+	    "Enter the name of the person you wish to talk to:"; }
    
 }
