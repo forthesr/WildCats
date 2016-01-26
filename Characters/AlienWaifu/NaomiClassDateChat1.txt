@@ -1,0 +1,38 @@
+Naomi
+4
+"A human classroom...!"
+~
+name
+1
+"Huh? You're interested in this stuff for real?"
+~
+Naomi
+3
+"Well, not exactly... I... er,"
+-
+~
+name
+1
+"Relax. You like it or not?"
+-
+name
+1
+"When I was younger, I sat in this seat right here. In the center, parallel to the window and perpendicular to the board. It was the best."
+-
+name
+1
+"School, class.. it's always very difficult to think back on it."
+-
+~
+Naomi
+2
+"I think it's alright."
+-
+Naomi
+4
+"Ah... is that so?"
+-
+Naomi
+1
+"Yes. The past, however distant or close, seems so untouchable. That is something we can all call upon."
+-
