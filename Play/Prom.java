@@ -2,7 +2,7 @@ import java.util.Scanner;
 
 public class Prom extends Setting {
     //20 X 3 array, 20, 30, 20 characters, temp design to test
-    private String[][] image = new String[][]
+    public Prom() { image = new String[][]
 	    {{"____________________","______________________________","____________________"}, //0
 	     {"         |   |\\_____","______________________________","_____/|      |      "}, //1
 	     {"         |   |   ___","_      ____    U  ___ u  __  _","_     |      |      "},
@@ -24,8 +24,8 @@ public class Prom extends Setting {
 	     {"   `/       `  \\ |  ","\\                      |      ","          (_X _)  \\ "},
 	     {"   /            \\|  "," \\                     |      ","           /_\\    \\"}  //19
 	    };
-    private String text = "Welcome to Prom! " +
+     text = "Welcome to Prom! " +
 	    "Who is your date?\n" +
 	    "Sans\tNico\tReporterWaifu\tInvisibleMan\tDaphne\tRichard\n" +
-	    "Enter the name of the person you want to take to prom:";
+	    "Enter the name of the person you want to take to prom:"; }
 }
