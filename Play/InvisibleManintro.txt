@@ -1,0 +1,24 @@
+InvisibleMan
+1
+"..."
+~
+name
+1
+"...? Uh, hello?"
+~
+InvisibleMan
+1
+"?!"
+~
+InvisibleMan
+2
+"Y-you can see me?!"
+~
+name
+1
+"Er, y-yes? Should I not?"
+~
+InvisibleMan
+1
+"....interesting. very interesting."
+~

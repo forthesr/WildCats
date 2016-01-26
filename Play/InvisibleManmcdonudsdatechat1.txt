@@ -1,0 +1,30 @@
+name
+1
+"Hey, would do you want to eat?"
+~
+InvisibleMan
+1
+"Er. The menu is so wide. And so many people..."
+~
+InvisibleMan
+1
+"C-can't you pick?"
+-
+~
+name
+1
+"Well, let's split something together, okay? How about... a date parfait?"
+-
+name
+1
+"You can't lean on me forever. Pick it yourself."
+-
+~
+InvisibleMan
+1
+"Ah, that's o-okay."
+-
+InvisibleMan
+1
+"Eep! Ah, okay. Well, uhm... I guess, I want a date parfait?"
+-

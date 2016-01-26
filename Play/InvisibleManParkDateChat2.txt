@@ -1,0 +1,37 @@
+InvisibleMan
+1
+"Ah, we're at the park! How nice!"
+~
+name
+1
+"Huh? You really think so?"
+~
+InvisibleMan
+1
+"Yes. There used to be this lovely group of performers here. But now, they are gone. Fledding ducklings, dronwing in the wills of the waters."
+-
+~
+name
+1
+"Er... yes?"
+-
+name
+1
+"No, I'm pretty sure that's not it."
+-
+name
+1
+"Are you sure that's not one of them right there?"
+~
+InvisibleMan
+2
+"Good, we bow to the worlds ahead of us. We say.... love and live!"
+-
+InvisibleMan
+3
+"H-huh! Well... if it's you, then it could be right."
+-
+InvisibleMan
+3
+"W-what? Really?"
+-

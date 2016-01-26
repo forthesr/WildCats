@@ -1,0 +1,38 @@
+InvisibleMan
+1
+"Life is fleeting. Ah, isn't it so sad? Depressing. Sinful. Our souls... have mercy on them, our lord."
+~
+name
+1
+"Er, okay?"
+~
+InvisibleMan
+1
+"You understand too, right? This world. It is simply a placeholder. Our existances are nothing in its eyes. We are at its mercy!"
+-
+~
+name
+1
+"W-whatever you say, I guess."
+-
+name
+1
+"That's wrong, isn't it?"
+-
+name
+1
+"Our existance... it's worth more than that, I'm certain."
+-
+~
+InvisibleMan
+1
+"..."
+-
+InvisibleMan
+1
+"How so?"
+-
+InvisibleMan
+1
+"... You're not wrong, I suppose."
+-

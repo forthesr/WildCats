@@ -1,0 +1,37 @@
+name
+1
+"Hey, don't worry so much. The shopkeeper will help us, you know?"
+~
+InvisibleMan
+1
+"I-I..."
+~
+InvisibleMan
+1
+"I do not worry! Let light and darkness ponder my existance!"
+-
+~
+name
+1
+"... it probably does."
+-
+name
+1
+"Ummmmm, okay?"
+-
+name
+1
+"Well, if you say so."
+~
+InvisibleMan
+2
+"Y-yes! Haha! Light and darkness shall bow!"
+-
+InvisibleMan
+2
+"Am I not humorous?"
+-
+InvisibleMan
+3
+"I-I do indeed! Say... so..."
+-

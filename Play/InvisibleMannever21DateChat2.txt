@@ -1,0 +1,37 @@
+InvisibleMan
+2
+"E-erm, should we really be here?"
+~
+name
+1
+"What do you mean? Why not?"
+~
+InvisibleMan
+1
+"W-welll... will clothes look okay on invisible me?"
+-
+~
+name
+1
+"A-ah... that's right..."
+-
+name
+1
+"We'll make it work somehow, right?"
+-
+name
+1
+"Wait... are you always naked or something?"
+~
+InvisibleMan
+3
+"Y-yes... for the wonderful airs and beautiful trees, come, witness glory!"
+-
+InvisibleMan
+3
+"D-do you really think so?"
+-
+InvisibleMan
+1
+"..."
+-

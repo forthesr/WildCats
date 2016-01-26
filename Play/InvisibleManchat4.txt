@@ -1,0 +1,38 @@
+name
+1
+"Hey, what are you doing here anyway? Seeing as this is a clothing store."
+~
+InvisibleMan
+1
+"Clothing defines the man, I'd say. Can anyone see me beyond my appearance?"
+~
+InvisibleMan
+1
+"With new... 'dreads', couldn't I be a new person?"
+-
+~
+name
+1
+"Yeah, appearance means a lot."
+-
+name
+1
+"Looks don't matter. You're the same no matter what you wear."
+-
+name
+1
+"Heh. Dreads."
+-
+~
+InvisibleMan
+1
+"Yes. To disguise yourself... to be hidden."
+-
+InvisibleMan
+1
+"Ah. Saying that. You've always been... that way, haven't you?         It's refreshing, I suppose."
+-
+InvisibleMan
+1
+"..."
+-
