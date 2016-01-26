@@ -1,0 +1,38 @@
+name
+1
+"Hey, actually, what do skeletons eat anyway?"
+~
+Sans
+2
+"Nothing really. Food tends to go right through us."
+-
+~
+name
+1
+"... No, really. I'm ordering for you here."
+~
+name
+1
+"Do you want to split a donut and shake?"
+-
+name
+1
+"It's a little odd for a donut fast food store, but do you want some ketchup? With fries?"
+-
+name
+1
+"Let's split something special. Well, since it is a date... a special sundae?"
+-
+~
+Sans
+1
+"Whatever you want, kid."
+-
+Sans
+2
+"Ketchup with fries? Careful now, that's favorite food territory."
+-
+Sans
+2
+"Depends. Is it a sunday sundae?"
+-

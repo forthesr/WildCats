@@ -1,0 +1,38 @@
+name
+1
+"Wait, Sans. How old are you exactly? Becuase you're a student."
+~
+Sans
+1
+"Kid, I'm stuck in an infinite time loop reliving every genre and scene imaginable. I'm an immortal of the greatest skills. I'm practically the final boss. And my little bro makes mean spagetti."
+~
+Sans
+1
+"... Okay, I'm a skeleton so we don't really know our ages. But hey, take a gander!"
+-
+~
+name
+1
+"Younger than five years?"
+-
+name
+1
+"You're not that old, since you're still in high school. High teens?"
+-
+name
+1
+"You old person. Immortal."
+-
+~
+Sans
+1
+"Nice try, kid."
+-
+Sans
+1
+"Wow, kid. You've got it together like ball and socket joints."
+-
+Sans
+1
+"Been reading too many wizard memes, kid?"
+-

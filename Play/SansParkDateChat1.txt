@@ -1,0 +1,35 @@
+Sans
+1
+"Hey, there's a ball court not far from here."
+~
+Sans
+2
+"You want to get dunked on?"
+~
+Sans
+1
+"If you think you can take Papy and me, that is."
+~
+name
+1
+"Bring it on!"
+-
+name
+1
+"Wait- you're playing with your little brother?"
+-
+name
+1
+"Get ready Sans... to get dunked on!"
+~
+Sans
+1
+"Do your best."
+-
+Sans
+3
+"Yeah? What about it?"
+-
+Sans
+4
+"Hehe. Let's see what you got."

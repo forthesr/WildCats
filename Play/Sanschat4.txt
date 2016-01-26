@@ -1,0 +1,38 @@
+Sans
+1
+"You know last night me and Papy were making spagetti."
+~
+Sans
+1
+"And lil bro's just happily serving spagetti. So of course, I say bone appetit."
+~
+Sans
+1
+"... Bone appetit."
+-
+~
+name
+1
+"No."
+-
+name
+1
+"Does your little brother like puns like you do?"
+-
+name
+1
+"Honestly Sans, you really should just throw him a bone."
+-
+~
+Sans
+1
+"Come on kid, throw me a bone."
+-
+Sans
+2
+"He's the nicest kid on the basketball court. But no, he doesn't."
+-
+Sans
+2
+"Heh. Nice one kid."
+-

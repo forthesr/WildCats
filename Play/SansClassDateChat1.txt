@@ -1,0 +1,35 @@
+name
+1
+"Now that we're spending extra time here..."
+~
+name
+1
+"Why is it that your classroom is so empty? And hating java?"
+~
+Sans
+1
+"Kid, you don't know half the trouble this game went through."
+~
+name
+1
+"But it's java! Java!"
+-
+name
+1
+"Well, that's true?"
+-
+name
+1
+"Again with this game. To me, you're real."
+~
+Sans
+1
+"Yeah, so?"
+-
+Sans
+2
+"See? Thought I would be good to throw you some bones!"
+-
+Sans
+4
+"Tell me that after our ending, kid."

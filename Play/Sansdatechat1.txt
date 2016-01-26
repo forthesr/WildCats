@@ -1,0 +1,38 @@
+Sans
+1
+"What? You dreamt something about me?"
+~
+Sans
+1
+"...Heh. Very humERes. Hah."
+~
+Sans
+1
+"Must have been pre-date jitters, kid."
+-
+~
+name
+1
+"I'm not kidding. I know we've been together before. I know we were something more."
+-
+name
+1
+"Yeah, just joking. It was just a silly thought."
+-
+name
+1
+"I'm not talking about a dream. We were eating ketchup and spagetti, remember?"
+-
+~
+Sans
+3
+"..."
+-
+Sans
+1
+"... Yep. How very thick-skulled of you."
+-
+Sans
+3
+"Ah. Just ignore it for now, kid."
+-

@@ -1,0 +1,35 @@
+Sans
+3
+"It's a nice day outside. The birds are chirping, the wind is rustilng."
+~
+Sans
+3
+"On days like this, I think back and know that kids like you."
+~
+Sans
+3
+"...!"
+~
+name
+1
+"What? What about kids like me?"
+-
+name
+1
+"Woah, Sans, you okay?"
+-
+name
+1
+"Haha, the wind's not really rustling though?"
+~
+Sans
+3
+"... nothing."
+-
+Sans
+1
+"H-heh. Yeah, I'm, er, fine kid."
+-
+Sans
+4
+"... Yeah. You're right."

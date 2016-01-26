@@ -1,0 +1,38 @@
+Sans
+1
+"So... a clothing store?"
+~
+Sans
+2
+"I'm a skeleton, you know. Clothes don't lay quite right without skin."
+~
+Sans
+1
+"Well, pick out something. I'll be waiting."
+-
+~
+name
+1
+"How about a cozy sweater for cold nights?"
+-
+name
+1
+"Flower crown."
+-
+name
+1
+"Basketball short sleeves?"
+-
+~
+Sans
+4
+"... Thanks, kiddo."
+-
+Sans
+1
+"Sorry, not too fond of flowers."
+-
+Sans
+2
+"Get dunked on."
+-
