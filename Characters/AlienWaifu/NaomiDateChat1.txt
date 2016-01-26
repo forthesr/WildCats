@@ -1,0 +1,37 @@
+name
+1
+"Hey. Naomi. Hey!"
+~
+Naomi
+2
+"..."
+~
+Naomi
+1
+"Oh! Apoligizies. What was the issue?"
+-
+~
+name
+1
+"You're zooming out. What's on your mind?"
+-
+name
+1
+"Nothing, don't worry about it."
+-
+name
+1
+"I was just distracted by your beauty."
+~
+Naomi
+4
+"Ah, is it so apparant? My... mind..."
+-
+Naomi
+2
+"Well, alright then."
+-
+Naomi
+1
+"Such words aren't wise in the alphaworld."
+-
