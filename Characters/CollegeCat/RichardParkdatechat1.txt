@@ -1,0 +1,37 @@
+name
+1
+"Do you like being outside like this?"
+-
+Richard
+1
+"Yay! It's fun! I like the open air."
+-
+Richard
+1
+"The feline of grass beneath my paws.. is nice!"
+-
+~
+name
+1
+"Why do you stay cooped up in the mall then?"
+-
+name
+1
+"Really? I'm glad."
+-
+name
+1
+"Yeah. We can get to see things like- ah, a butterfly!"
+-
+~
+Richard
+3
+"I don't stay cooped up, jeez!"
+-
+Richard
+1
+"I am too!"
+-
+Richard
+4
+"Butterfly!? Where, mew!!"
