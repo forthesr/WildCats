@@ -1,0 +1,38 @@
+name
+1
+"Oh jeez, new month specials already out?"
+~
+Naomi
+1
+"New month specials? Sprinkle seasoning of the day? This is not in my database."
+~
+Naomi
+1
+"I do not understand."
+-
+~
+name
+1
+"It's something you just get in time, I guess."
+-
+name
+1
+"New month specials means a new special of the month."
+-
+name
+1
+"Your database. You use something like that?"
+-
+~
+Naomi
+4
+"How peculariarly normal of you."
+-
+Naomi
+3
+"I could garner such information."
+-
+Naomi
+2
+"Yes."
+-
