@@ -453,10 +453,9 @@ public class DatingSim {
 
     }
 
-    public void oneDay(){
+     public void oneDay(){
 	while (currentPlace != Home) {
 		setView(Map);
-		System.out.println(game);
 		System.out.println(Map.text);
 		transport();
 		if (currentPlace == Home)
@@ -472,6 +471,7 @@ public class DatingSim {
 		if (ans.equals("y")){
 		    date();
 		}
+		else {oneDay(); }
 	}
 	sleep();
     }
