@@ -19,7 +19,7 @@ public class Sans extends DatableSO{
     }
     
     public String[] getAppearance() {
-      return appearance;
+      return appearance; 
     }
 
     public String getAppearance(int a){
