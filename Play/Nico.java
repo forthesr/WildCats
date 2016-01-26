@@ -13,31 +13,6 @@ public class Nico extends DatableSO{
       firstMeeting = true;
     }
     //methods
-    //get methods
-    public String getName () {
-      return name;
-    }
-    
-    public String[] getAppearance() {
-      return appearance;
-    }
-
-    public String getAppearance(int a){
-      return appearance[a];
-    }
-    
-    public int getEmotion() {
-      return emotion;
-    }
-    
-    public int getAffection() {
-      return affection;
-    }
-    
-    public boolean getFirstMeeting(){
-        return firstMeeting;
-    }
-    
     //set methods
     
     public void setAppearance() {
@@ -96,26 +71,6 @@ public class Nico extends DatableSO{
 		"          MO   $$M           " };
 	}    }
     
-    public void setEmotion(int a){
-        emotion = a;
-    }
-    
-    public void setAffection(int a){
-        affection = affection + a;
-    }
-    
-    public void setFirstMeeting(){
-        firstMeeting = false;
-    }
-    
-   public String stringAppearance() {
-      String newStr = "";
-      for (int i = 0; i < appearance.length; i++){
-        newStr += getAppearance(i) + "\n";
-      }
-      return newStr;
-    }
-      
     public static void main (String[] args){
         Nico nico = new Nico();
         nico.setAppearance();
