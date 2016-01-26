@@ -2,7 +2,9 @@ import java.util.Scanner;
 
 public class Mall extends Setting {
     //20 X 3 array, 20, 30, 20 characters, temp design to test
-  private String[][] image = new String[][]
+
+    public Mall(){
+  			 image = new String[][]
 	    {{"____________________","______________________________","____________________"}, //0
 	     {"                    ","                              ","                    "}, //1
 	     {"                    ","                              ","                    "},
@@ -25,9 +27,9 @@ public class Mall extends Setting {
 	     {"||||||||||||||||||||","||||||||     |||     |||||||||","||||||||||||||||||||"}  //19
 	    };;
 
-    private String text = "Welcome to the Mall! " +
+      text = "Welcome to the Mall! " +
 	    "Where in the Mall would you like to go?\n" +
 	    "McDonuds\tNever21\t\n" +
-	    "Enter the name of the place you wish to go:";
+	    "Enter the name of the place you wish to go:"; }
    
 }
