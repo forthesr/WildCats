@@ -426,8 +426,8 @@ public class DatingSim {
     public void sleep(){
 	System.out.println("Do you want to go to sleep?(y/n):");
 	String ans = Keyboard.readString();
-	if (ans.equals("y")) {
-	    return;
+	if (ans.equals("n")) {
+	    setView(Map);
 	}
 	else  {
 	    System.out.println("Good night!");
@@ -453,14 +453,14 @@ public class DatingSim {
 
     }
 
-     public void oneDay(){
+    public void oneDay(){
 	while (currentPlace != Home) {
 		setView(Map);
 		System.out.println(Map.text);
 		transport();
 		if (currentPlace == Home)
-		    ;
-		if (currentPlace != Park) 
+		    break;
+		if (currentPlace != Home) 
 		    transport();
 		setDatingPartner(Keyboard.readString());//maybe fix?
 		overlay(datingPartner);
@@ -532,6 +532,3 @@ public class DatingSim {
     }
     
 }
-
-
-
