@@ -7,19 +7,44 @@
 
 import java.util.Scanner;
 import cs1.Keyboard;
+import java.io.*; //This is to use Java's FileReader class.
+import java.util.ArrayList;
+
+import cs1.Keyboard;
 
 
 public class DatingSim { 
 
     //~~~~~~~~~~~~~~~INSTANCE VARS~~~~~~~~~~~~~~~~
-    private Playa playa;
-    private DatingSim game;
+    private static Playa playa;
+    private static DatingSim game;
     private DatableSO datingPartner;
     private String[][] view;
     private Setting currentPlace;
 
     private boolean onDate = false;
 
+    //settings
+    private Setting Map = new Map();
+    private Setting Home = new Home();
+    private Setting Mall = new Mall();
+    private Setting McDonuds = new McDonuds();
+    private Setting Never21 = new Never21();
+    private Setting Park = new Park();
+    private Setting School = new School();
+    private Setting Class = new Class();
+    private Setting Prom = new Prom();
+
+    //CHaracters
+    private DatableSO TD = new Daphne();
+    private DatableSO CC = new Richard();
+    private DatableSO RWFL = new Marisa();
+    private DatableSO IM = new InvisibleMan();
+    private DatableSO NOI = new Nico();
+    private DatableSO S = new Sans();
+    private DatableSO AW = new Naomi();
+
+    String dateSpot;
     //~~~~~~~~~~~~~~DEFAULT CONSTRUCTOR~~~~~~~~~~
     public DatingSim(){
 	//datingPartner = "";
@@ -45,6 +70,8 @@ public class DatingSim {
 	     {"                    ","          - HAVE FUN!         ","                    "}, 
 	     {"____________________","______________________________","____________________"}  //19
 	    };
+
+	//playing game
 	newGame();
     }
     
@@ -56,51 +83,224 @@ public class DatingSim {
 	view = bg.getImage();
     }
 
-    public DateableSO getDatingPartner(){
+    public DatableSO getDatingPartner(){
       return datingPartner;
     }
 
-    public void setDatingPartner(DateableSO person){
-      datingPartner = person;
-    }
+    public void setDatingPartner(String person){
+	DatableSO choice = TD;
 
-    public void transport(){
-        String nearChoice = Keyboard.readString();
-        if (nearChoice == "Home"){
-            Setting choice = home;}
-        else if (nearChoice == "mall"){
-            Setting choice = Mall;
+        if (person.equals("Daphne")){
+            choice = TD;
+	}
+        else if (person.equals("Richard")){
+            choice = CC;
         }
-        else if (nearChoice == "mcDonuds"){
-            Setting choice = McDonuds;
+        else if (person.equals("Marisa")){
+            choice = RWFL;
         }
-        else if (nearChoice == "never21"){
-            Setting choice = Never21;
+        else if (person.equals("InvisibleMan")){
+            choice = IM;
         }
-        else if (nearChoice == "Park"){
-            Setting choice = Park;
+        else if (person.equals("Nico")){
+            choice = NOI;
         }
-        else if (nearChoice == "School") {
-            Setting choice = School;
+        else if (person.equals("Sans")) {
+            choice = S;
         }
-        else if (nearChoice == "class") {
-            Setting choice = Class;
+        else if (person.equals("Naomi")) {
+            choice = AW;
         }
         else {
             System.out.println("You didn't type in the right word");
             System.out.println("Try again");
             transport();
         }
-	setView(choice.getImage());
+	datingPartner = choice;
+    }
+
+    //read dialogue files
+    public void readerNorm(DatableSO o, String fileName) {
+	// The name of the file to open.
+        //String fileName = "RichardChat1.txt";  //is in same folder
+       
+        try{
+	    //Make a reader thing
+	    Scanner reader = new Scanner (new File(fileName));
+             
+	    //how to seperate the lines!
+	    reader.useDelimiter("\n");
+
+	    ArrayList<String> sectionsList = new ArrayList<String>();
+	    while(reader.hasNext())
+		{
+		    sectionsList.add(reader.next());              
+		}
+	    for(int i = 0; i < sectionsList.size()/4; i++) {
+		if (sectionsList.get(4*i).equals( "name")) {
+		    System.out.println(playa.getName() + ": " + sectionsList.get(4*i + 2));
+		    System.out.println("\n");
+		}
+		else {
+		    String x = (sectionsList.get(4*i + 1)).substring(0,1);
+		    o.setEmotion(Integer.parseInt(x));
+		    o.setAppearance();
+		    overlay(o);
+		    System.out.println(view);
+		    System.out.print(sectionsList.get(4*i) + ": ");
+		    System.out.println(sectionsList.get(4*i + 2));
+		    System.out.println("\n");
+		}
+	    }
+	    //very important! close things!  when you are done!
+	    reader.close();
+	}
+	catch(FileNotFoundException ex){
+	    System.out.println("Had a problem finding the file");
+        }
+	
+    }
+
+    //read Chat files
+    public void readerChat(DatableSO o, String fileName) {
+	// The name of the file to open.
+        //String fileName = "RichardChat1.txt";  //is in same folder
+       
+        try{
+	    //Make a reader thing
+	    Scanner reader = new Scanner (new File(fileName));
+             
+	    //how to seperate the lines!
+	    reader.useDelimiter("~");
+
+	    String section1, section2, section3, section4, section5;
+	    section1 = "";
+	    section2= "";
+	    section3 = "";
+	    section4= "";
+	    section5 = "";
+
+	    while(reader.hasNext())
+		{
+		    section1 = reader.next();
+		    section2 = reader.next();
+		    section3 = reader.next();
+		    section4 = reader.next();
+		    section5 = reader.next();
+		}
+
+	    String stringSeperator = "\\r?\\n";
+	    
+	    //ArrayList to hold lines
+	    ArrayList<String> sectionsList = new ArrayList<String>();
+	    for (String s : section1.split(stringSeperator)){
+		sectionsList.add(s);
+	    }
+	    for (String s : section2.split(stringSeperator)){
+		sectionsList.add(s);
+	    }
+	    for (String s : section3.split(stringSeperator)){
+		sectionsList.add(s);
+	    }
+	    /*
+	      0-2: preset dialogue
+	      3-4: chosen dialogue
+	    */
+
+	    ArrayList<String> chatOptions = new ArrayList<String>();
+	    for (String s : section4.split(stringSeperator)){
+		chatOptions.add(s);
+	    }
+	    
+	    ArrayList<String> chatResponses = new ArrayList<String>();
+	    for (String s : section5.split(stringSeperator)){
+		chatResponses.add(s);
+	    }
+
+	    for(int i = 0; i < sectionsList.size()/4; i++) {
+		if (sectionsList.get(4*i).equals( "name")) {
+		    System.out.println(playa.getName() + ": " + sectionsList.get(4*i + 2));
+		    System.out.println("\n");
+		}
+		else {
+		    String x = (sectionsList.get(4*i + 1)).substring(0,1);
+		    o.setEmotion(Integer.parseInt(x));
+		    o.setAppearance();
+		    overlay(o);
+		    System.out.println(view);
+		    System.out.print(sectionsList.get(4*i) + ": ");
+		    System.out.println(sectionsList.get(4*i + 2));
+		    System.out.println("\n");
+		}
+	    }
+
+	    System.out.println("How do you want to respond?: (type the number)");
+	    for (int i = 0; i < chatOptions.size()/4; i++) {
+		System.out.println(i + ": " + chatOptions.get(4*i + 3));
+	    }
+
+	    int input = Keyboard.readInt();
+
+	    System.out.println(playa.name + ": " + chatOptions.get(4*input + 3) + "\n");
+
+	    //Set and print DateableSO picture and chat
+	    o.setEmotion(Integer.parseInt(chatResponses.get(4*input + 2)));
+	    o.setAppearance();
+	    overlay(o);
+	    System.out.println(view);
+	    System.out.print(chatResponses.get(4*input + 1) + ": ");
+	    System.out.println(chatResponses.get(4*input + 3));
+	    System.out.println("\n");
+	    
+	    //very important! close things!  when you are done!
+	    reader.close();
+	}
+	catch(FileNotFoundException ex){
+	    System.out.println("Had a problem finding the file");
+        }
+	
+    }
+
+    public void transport(){
+	Setting choice = Map;
+        String nearChoice = Keyboard.readString();
+	if (onDate)
+	    nearChoice = dateSpot;
+        if (nearChoice.equals("Home")){
+            choice = Home;}
+        else if (nearChoice.equals("Mall")){
+            choice = Mall;
+        }
+        else if (nearChoice.equals("McDonuds")){
+            choice = McDonuds;
+        }
+        else if (nearChoice.equals("Never21")){
+            choice = Never21;
+        }
+        else if (nearChoice.equals("Park")){
+            choice = Park;
+        }
+        else if (nearChoice.equals("School")) {
+            choice = School;
+        }
+        else if (nearChoice.equals("Class")) {
+            choice = Class;
+        }
+        else {
+            System.out.println("You didn't type in the right word");
+            System.out.println("Try again");
+            transport();
+        }
+	setView(choice);
 	currentPlace = choice;
         System.out.println(game);
 	System.out.println(currentPlace.text);
     }
     
-    public void overlay(DateableSO person){
+    public void overlay(DatableSO person){
 	for (int x = view.length- person.getAppearance().length; x < view.length; x++){
 	    for (int i = 0; i < person.getAppearance().length; i++){
-		view[x][2] = person.getAppearance[i];
+		view[x][2] = person.getAppearance()[i];
 	    }
 	}
     }
@@ -116,42 +316,6 @@ public class DatingSim {
 	return s;
     }
 
-//chatting with DatableSO
-    public void chat(){
-	String fileName;
-    	if (playa.stamina > 2){
-	    if (datingPartner.firstMeeting == true) {
-		fileName = datingPartner + "Intro.txt";
-		readerNorm(datingPartner, fileName);
-		datingPartner.setFirstMeeting();
-		return;
-	    }
-	    else {
-		if (onDate == true ){
-		    int chatNum = 1 + (int)(Math.random() * ((4-1) + 1) );
-		    if (chatNum > 2){
-			fileName = datingPartner + dateSpot +
-			    "DateChat" + (chatNum - 2) + ".txt";
-		    }
-		    else {
-			fileName = datingPartner +
-			    "DateChat" + chatNum + ".txt";
-		    }
-		}
-		else {
-		    int chatNum = 1 + (int)(Math.random() * ((5-1) + 1) );
-		    fileName = datingPartner + "Chat" + chatNum + ".txt";
-		}
-		playa.stamina -= 2;
-		datingPartner.setAffection(2);
-	    }
-	}
-	else
-	    {System.out.println("Hey, you look too tired to chat. Why not take a nap?");}
-	//read fileName
-	readerChat(datingPartner, fileName);
-    }
-
     //
     public void date(){
 	if (datingPartner.affection > 50 && playa.stamina > 5){
@@ -159,8 +323,8 @@ public class DatingSim {
 	    playa.stamina -= 5;
 	    System.out.println("Where would you like to go? You can visit park, class, mcdonuds or never21");
 	    dateSpot = Keyboard.readString(); //need dateSpot variable
-	    setView(dateSpot);
-	    view.overlay(datingPartner);
+	    transport();
+	    overlay(datingPartner);
 	    while (playa.stamina > 2) {
 		System.out.println("Do you want to chat with them?(y/n): ");
 		String ans = Keyboard.readString();
@@ -196,6 +360,59 @@ public class DatingSim {
 	//read fileName
 	readerNorm(datingPartner, fileName);
     }
+
+    //chatting with DatableSO
+    public void chat(){
+	String fileName = "";
+    	if (playa.stamina > 2){
+	    if (datingPartner.firstMeeting == true) {
+		fileName = datingPartner + "Intro.txt";
+		readerNorm(datingPartner, fileName);
+		datingPartner.setFirstMeeting();
+		return;
+	    }
+	    else {
+		if (onDate == true ){
+		    int chatNum = (int)(Math.random() * 4) + 1;
+		    if (chatNum > 2){
+			fileName = datingPartner + dateSpot +
+			    "DateChat" + (chatNum - 2) + ".txt";
+		    }
+		    else {
+			fileName = datingPartner +
+			    "DateChat" + chatNum + ".txt";
+		    }
+		}
+		else {
+		    int chatNum = (int)(Math.random() * 5) + 1;
+		    fileName = datingPartner + "Chat" + chatNum + ".txt";
+		}
+		playa.stamina -= 2;
+		datingPartner.setAffection(2);
+	    }
+	}
+	else
+	    {System.out.println("Hey, you look too tired to chat. Why not take a nap?");}
+	//read fileName
+	readerChat(datingPartner, fileName);
+    }
+
+    //sleep
+    public void sleep(){
+	System.out.println("Do you want to go to sleep?(y/n):");
+	String ans = Keyboard.readString();
+	if (ans.equals("y")) {
+	    return;
+	}
+	else  {
+	    System.out.println("Good night!");
+	    playa.stamina = 15;
+	    playa.days --;
+	    System.out.println(game);
+	    System.out.println("You wake up feeling refreshed and ready to go!");
+	    System.out.println("Only" + playa.days + "left to go before prom!");
+	}
+    }
     
     public void newGame() {
 	String s;
@@ -208,28 +425,35 @@ public class DatingSim {
 	name = Keyboard.readString();
 
 	playa = new Playa( name );
+
     }
 
     public void oneDay(){
 	while (currentPlace != Home) {
 		setView(Map);
-		Map.transport();
-		if (currentPlace != park) 
-		    currentPlace.transport();
+		System.out.println(Map.text);
+		transport();
+		if (currentPlace != Park) 
+		    transport();
 		setDatingPartner(Keyboard.readString());//maybe fix?
-		view.overlay(datingPartner);
+		overlay(datingPartner);
 		
 		chat();
-		date();
+		System.out.println("Do you want to go on a date?(y/n): ");
+		String ans = Keyboard.readString();
+		if (ans.equals("y")){
+		    date();
+		}
 	}
-    	Home.sleep();
+	sleep();
     }
 
     public void promDate(){
 	System.out.println(Prom.getImage() );
 	System.out.println(Prom.getText() );
-	datingPartner = Keyboard.readString();
-	prom.overlay(datingPartner);
+	String input = Keyboard.readString();
+	setDatingPartner(input);
+	overlay(datingPartner);
 	if (datingPartner.affection < 100){
 		readerNorm(datingPartner, datingPartner + "promrejection.txt");
 		System.out.println("You did your best... or not enough. Try again next time.");
@@ -273,11 +497,10 @@ public class DatingSim {
     
     public static void main(String[] args){
 	game = new DatingSim();
-
-	while( playa.days > 0) {
-	    oneDay();
+	while( playa.getDays() > 0) {
+	    game.oneDay();
 	}
-	promDate();
+	game.promDate();
     }
     
 }

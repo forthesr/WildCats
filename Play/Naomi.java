@@ -70,11 +70,11 @@ public class Naomi extends DatableSO{
 		"       |     |               " };
 	}    }
     
-    public static void main (String[] args){
+    /*public static void main (String[] args){
         Naomi naomi = new Naomi();
         naomi.setAppearance();
         System.out.println(naomi.stringAppearance() );
         naomi.chat();
-    }
+	}*/
     
 }

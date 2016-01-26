@@ -81,11 +81,11 @@ public class Sans extends DatableSO{
 	}
     }
     
-    public static void main (String[] args){
+    /*public static void main (String[] args){
         Sans sans = new Sans();
         sans.setAppearance();
         System.out.println(sans.stringAppearance() );
         sans.chat();
-    }
+	}*/
     
 }

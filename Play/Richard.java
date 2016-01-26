@@ -74,11 +74,11 @@ public class Richard extends DatableSO{
 	}
     }
 
-    public static void main (String[] args){
+    /*public static void main (String[] args){
         Richard richard = new Richard();
         richard.setAppearance();
         System.out.println(richard.stringAppearance() );
         richard.chat();
-    }
+	}*/
     
 }

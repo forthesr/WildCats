@@ -31,22 +31,5 @@ public class Home extends Setting {
 	  "Sleeping will regain full stamina and one day will pass.";
   }
   
-    //sleep
-    public void sleep(){
-	System.out.println("Do you want to go to sleep?(y/n):");
-	String ans = Keyboard.readString();
-	if (ans.equals("y")) {
-	    return;
-	}
-	else  {
-	    System.out.println("Good night!");
-	    playa.stamina = 15;
-	    play.days --;
-	    System.out.println(game.view);
-	    System.out.println("You wake up feeling refreshed and ready to go!");
-	    System.out.println("Only" + days + "left to go before prom!");
-	}
-    }
-  
-
+    
 }

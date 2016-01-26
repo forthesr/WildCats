@@ -18,7 +18,7 @@ public class Playa extends Character {
       return stamina;
     }
 
-    public S getDays () {
+    public int getDays () {
       return days;
     }
     

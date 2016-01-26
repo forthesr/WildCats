@@ -1,6 +1,6 @@
-public class DatableSO extends Character {
+public abstract class DatableSO extends Character {
 
-    protected String[] appearence;
+    protected String[] appearance;
 
     protected int affection;
     protected boolean firstMeeting;
@@ -22,6 +22,8 @@ public class DatableSO extends Character {
     }
 
     //mutators
+    public abstract void setAppearance();
+    
     public void setAffection(int a){
         affection = affection + a;
     }
