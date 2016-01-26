@@ -1,10 +1,11 @@
 import java.util.Scanner;
+import cs1.Keyboard;
 
 public class Home extends Setting {
     
   //constructors
   public Home(){
-      private String[][] image = new String[][]
+      image = new String[][]
 	  {{"____________________","______________________________","____________________"}, //0
 	   {"                    ","                              ","                    "}, //1
 	   {"       __________   ","                 ____________ ","             Y\\     "},

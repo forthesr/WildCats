@@ -130,22 +130,20 @@ public class DatingSim {
 		if (onDate == true ){
 		    int chatNum = 1 + (int)(Math.random() * ((4-1) + 1) );
 		    if (chatNum > 2){
-			//read datingPartner + dateSpot + "datechat" + (chatNum - 2)
 			fileName = datingPartner + dateSpot +
 			    "DateChat" + (chatNum - 2) + ".txt";
 		    }
 		    else {
-			//read datingPartner + "datechat" + ChatNum;
 			fileName = datingPartner +
 			    "DateChat" + chatNum + ".txt";
 		    }
-		    kiss();
 		}
 		else {
 		    int chatNum = 1 + (int)(Math.random() * ((5-1) + 1) );
-		    //read datingPartner + "chat" + chatNum;
 		    fileName = datingPartner + "Chat" + chatNum + ".txt";
 		}
+		playa.stamina -= 2;
+		datingPartner.setAffection(2);
 	    }
 	}
 	else
@@ -163,9 +161,17 @@ public class DatingSim {
 	    dateSpot = Keyboard.readString(); //need dateSpot variable
 	    setView(dateSpot);
 	    view.overlay(datingPartner);
-
-	    chat();
+	    while (playa.stamina > 2) {
+		System.out.println("Do you want to chat with them?(y/n): ");
+		String ans = Keyboard.readString();
+		if (ans.equals("y")){
+		    chat();
+		}
+		else
+		    break;
+	    }
 	    onDate = false;
+	    kiss();
 	}
 	else if (playa.stamina < 5){
 	    System.out.println("You look a bit tired, shouldn't you go to sleep to regain some energy?");
@@ -178,12 +184,12 @@ public class DatingSim {
     public void kiss(){
 	String fileName;
 	if (datingPartner.affection > 60){
-	    datingPartner.affection += 5;
+	    datingPartner.setAffection(5);
 	    //read datingPartner + "kissacceptance.txt";
 	    fileName = datingPartner + "KissAcceptance.txt";
 	}
 	else {
-	    datingPartner.affection -= 10;
+	    datingPartner.setAffection(-10);
 	    //read datingPartner + "kissrejection.txt";
 	    fileName = datingPartner + "KissRejection.txt";
 	}
@@ -272,8 +278,6 @@ public class DatingSim {
 	    oneDay();
 	}
 	promDate();
-     // System.out.println(view.overlay(person) );
-
     }
     
 }

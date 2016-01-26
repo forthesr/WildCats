@@ -2,12 +2,9 @@ import java.util.Scanner;
 
 public class Map extends Setting {
 
-    private String image;
-    private String text;
-  
   //Constructor
   public Map(){
-     private String[][] image = new String[][]
+     image = new String[][]
 	    {{"____________________","______________________________","____________________"}, //0
 	     {"       _____        ","                              ","        __________  "}, //1
 	     {"      / _ _ \\_      ","   \\    ///        ))       ","        ||||||||||  "},
