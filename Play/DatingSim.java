@@ -347,7 +347,7 @@ public class DatingSim {
 
     //
     public void date(){
-	if (datingPartner.affection > 50 && playa.stamina > 5){
+	if (datingPartner.affection > 40 && playa.stamina > 5){
 	    onDate = true;
 	    playa.stamina -= 5;
 	    System.out.println("Where would you like to go? You can visit park, class, mcdonuds or never21");
