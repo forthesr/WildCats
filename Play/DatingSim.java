@@ -434,6 +434,7 @@ public class DatingSim {
 	String ans = Keyboard.readString();
 	if (ans.equals("n")) {
 	    setView(Map);
+	    currentPlace = Map;
 	}
 	else  {
 	    System.out.println("Good night!");
@@ -442,6 +443,7 @@ public class DatingSim {
 	    System.out.println(game);
 	    System.out.println("You wake up feeling refreshed and ready to go!");
 	    System.out.println("Only" + playa.days + "left to go before prom!");
+	    currentPlace = Map;
 	}
     }
     
