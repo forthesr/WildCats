@@ -318,8 +318,13 @@ public class DatingSim {
         }  
 	setView(choice);
 	currentPlace = choice;
-        System.out.println(game);
-	System.out.println(currentPlace.text);
+	if (onDate == true) {
+	    return;
+	}
+	else {
+	    System.out.println(game);
+	    System.out.println(currentPlace.text);
+	}
     }
     
     public void overlay(DatableSO person){
@@ -350,6 +355,7 @@ public class DatingSim {
 	    dateSpot = Keyboard.readString(); //need dateSpot variable
 	    transport();
 	    overlay(datingPartner);
+	    System.out.println(game);
 	    while (playa.stamina > 2) {
 		System.out.println("Do you want to chat with them?(y/n): ");
 		String ans = Keyboard.readString();
