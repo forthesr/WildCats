@@ -1,43 +1,19 @@
 # WildCats
 Final Project
 
-To-do list
+How to Launch:
+- Download the folder play
+- Javac all of it. All of it. (javac *.java)
+- java DatingSim to play
 
-Premise: Need a date for prom
+How to Play:
+- Run DatingSim
+- Load the welcome screen. Read the instructions!
+- You are in home. Go and explore the world and get a date.
+- Get a date.
+- Date your date.
+- ???
+- Profit.
+- If you are uncertain whether you truly "won" the game or not, you will get an end story from your character if you managed to win their heart. 
 
-Order of work:
-Priorities:
-Start/End screens
-General Map (go to home, date, etc.)
-Home (regain stamina, day++)
-Date (chat, go on actual date, etc.)
-- Also important 
-    - Gift/money 
-    - Cutscenes/graphics
-    - user pick (chose text response)
-    - name input
-- Less important
-    - harem ending ;))))
-    - fantastic art/text
-    - inventory
-    - skeletons
-    - minigames (ways to get money, maybe)
-    - bonus stats(attractiveness)
 
-Files:                                Variables:
- Main GAMEPLAY file                    - Money
- Character class                    - Affection
- DatablePeople class                    - Day/Time passed/remaining
-                            - Stamina (reset per day)
-Game order upon playing:
-Start  screen
-User input name
-Map
-Home/Location/Work
-Home: Sleep option
-    Location: Chat/Gift(optional)/Date
-        Date: Chat/Gift(optional)/Kiss(aka end date)
-    Work: Earn $$$
-    6)Eventual Endgame where you can pick who is your S.O. (or harem idk)
-
-How to launch
