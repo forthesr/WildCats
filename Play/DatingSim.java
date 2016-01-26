@@ -13,6 +13,7 @@ public class DatingSim {
 
     //~~~~~~~~~~~~~~~INSTANCE VARS~~~~~~~~~~~~~~~~
     private Playa playa;
+    private DatingSim game;
     private DatableSO datingPartner;
     private String[][] view;
     private Setting currentPlace;
@@ -266,7 +267,7 @@ public class DatingSim {
 
     
     public static void main(String[] args){
-	DatingSim game = new DatingSim();
+	game = new DatingSim();
 
 	while( playa.days > 0) {
 	    oneDay();

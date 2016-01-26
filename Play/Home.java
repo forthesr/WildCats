@@ -36,13 +36,11 @@ public class Home extends Setting {
   //sleep
   public void sleep(){
     System.out.println("Good night!");
-    stamina = 15;
-    days --;
+    playa.stamina = 15;
+    play.days --;
+    System.out.println(datingSim.view);
     System.out.println("You wake up feeling refreshed and ready to go!");
     System.out.println("Only" + days + "left to go before prom!");
-    System.out.println(image);
-    System.out.println(text);
-    setView(map.getImage() );
   }
   
 
