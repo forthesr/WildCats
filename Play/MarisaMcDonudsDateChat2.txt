@@ -1,0 +1,38 @@
+Marisa
+1
+"This is an interesting store, don't ya think Sport?"
+~
+name
+1
+"Oh, yeah. They have good food."
+~
+Marisa
+1
+"Oh, my! Sport do you see what I see? Is that a living donut?"
+-
+~
+name
+1
+"...Why yes it is."
+-
+name
+1
+"What?! Really? Where?"
+-
+name
+1
+"Oh, yes. I think her name is Daphne."
+-
+~
+Marisa
+1
+"Well! What a day Sport! I like this place you've brought me to. Interesting people to see."
+-
+Marisa
+2
+"Over there! Behind the counter. A real life living donut."
+-
+Marisa
+1
+"You know her! Oh, I must talk to her."
+-

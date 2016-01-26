@@ -1,0 +1,38 @@
+name
+1
+"Hi Marisa...Who's that person sitting on the bench over there? Is she talking to someone...?"
+~
+Marisa
+1
+"The one with the purple hair? Oh, yes Sport. I've noticed her for the past few weeks."
+~
+Marisa
+1
+"She does always seem to be talking to the air. With my excellent investigational skills I have determined that she is actually talking to an invisible man!"
+-
+~
+name
+1
+"Really? Wow that's cool."
+-
+name
+1
+"Eh, no. I think she's just crazy and talking to the voices in her head."
+-
+name
+1
+"Oh, yeah, I've met him. He's an...interesting guy."
+-
+~
+Marisa
+1
+"Yes, not something you see everyday, huh Sport?"
+-
+Marisa
+4
+"You cannot just call someone crazy! And I know what I saw."
+-
+Marisa
+1
+"Really? Oh my, Sport, you should introduce me to him."
+-

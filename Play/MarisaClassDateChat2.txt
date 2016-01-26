@@ -1,0 +1,37 @@
+Marisa
+1
+"Sport, did you bring me to a classroom?"
+-
+name
+1
+"Er... yeah?"
+-
+Marisa
+1
+"Sport, I don't understand. Why are we here?"
+-
+~
+name
+1
+"There is a scoop with a skeleton here. A walking, magic skeleton."
+-
+name
+1
+"To review your grammatical errors, duh."
+-
+name
+1
+"Did you go to this school? Take a trip down memory lane."
+-
+~
+Marisa
+4
+"Ooh sport, you brought me to a scoop!?"
+-
+marisa
+3
+"Sport!"
+-
+Marisa
+1
+"Well, I suppose."

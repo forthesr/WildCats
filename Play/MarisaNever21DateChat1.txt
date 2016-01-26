@@ -1,0 +1,38 @@
+Marisa
+2
+"Oh sport, isn't this dress divine?"
+~
+Marisa
+1
+"I could wear it under the red curtains."
+~
+Marisa
+4
+"As a reporter superstar."
+-
+~
+name
+1
+"A reporter superstar?"
+-
+name
+1
+"Don't you mean over the red carpet?"
+-
+name
+1
+"Does a red, er, curtain even exist for reporters?"
+-
+~
+Marisa
+3
+"Of course, sport! Red as far as the eyes can see!"
+-
+Marisa
+4
+"Oh sport, no I mean red curtain."
+-
+Marisa
+3
+"Are you doubting my quotes, sport?"
+-

@@ -1,0 +1,38 @@
+Marisa
+1
+"What, sport? You think I should buy clothing from a place like this?"
+-
+Marisa
+2
+"You don't think I look a good twenty one?"
+-
+Marisa
+3
+"Well, it has been a while. But you don't think I can pass for that?"
+-
+~
+name
+1
+"N-n-noooo you can totally pass. Totally. Yep."
+-
+name
+1
+"You are totally. Uh. Twenty one."
+-
+name
+1
+"You look twenty one. Without a doubt."
+-
+~
+Marisa
+3
+"Really sport? Really sure?"
+-
+Marisa
+1
+"Right. I suppose that you think you're good at bluffing too."
+-
+Marisa
+4
+"Well sport, you did your best."
+-

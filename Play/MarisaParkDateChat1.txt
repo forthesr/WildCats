@@ -1,0 +1,37 @@
+Marisa
+3
+"Why, did you see that sport?"
+-
+Marisa
+3
+"A man running past! A pink purse in hand! The police sirens after them!"
+-
+Marisa
+3
+"It must be the car chase of a cishet cop chasing a poor homosexual! Quick sport, let's follow the scoop!"
+-
+~
+name
+1
+"What? Are you cray-cray you old bat?!"
+-
+name
+1
+"No! Let us not follow this scoop!"
+-
+name
+1
+"That's probably not safe. Marisa! Marisa!"
+-
+~
+Marisa
+3
+"Of course not! Why would you say that sport?"
+-
+Marisa
+1
+"What sport, are you a hetero cis too?"
+-
+Marisa
+4
+"Oh sport, no worries. I'll be fine. Quick, let's go!"

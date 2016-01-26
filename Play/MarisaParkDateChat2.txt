@@ -1,0 +1,38 @@
+Marisa
+1
+"We are going out to a park again, sport?"
+-
+Marisa
+1
+"Don't mind me. I don't feel any dislike towards this place."
+-
+Marisa
+2
+"What? Sport, what's wrong?"
+-
+~
+name
+1
+"Nothing. Is the park really that bad?"
+-
+name
+1
+"Wait, why do you come here if you dislike it?"
+-
+name
+1
+"What do you like about it then?"
+-
+~
+Marisa
+2
+"I never said it was bad, sport."
+-
+Marisa
+3
+"I don't dislike it, sport!"
+-
+Marisa
+4
+"What isn't there to like? All the best news come from here."
+-

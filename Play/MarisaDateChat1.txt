@@ -1,0 +1,38 @@
+Marisa
+1
+"So Sport, this is a nice place here."
+~
+name
+1
+"Thanks, I thought you would like it."
+~
+Marisa
+1
+"Hmm, but can you tell why I like it? Investigation lesson time Sport!"
+-
+~
+name
+1
+"Um, this place is pretty?"
+-
+name
+1
+"Well, it's an open area and our table is in a place that it is possible observe everyone else without them noticing."
+-
+name
+1
+"You like being here because I'm here, of course,"
+-
+~
+Marisa
+3
+"No sport! Because it is a perfect place to observe people! Haven't I taught you anything?"
+-
+Marisa
+1
+"Well done Sport! You might be an investigator after all."
+-
+Marisa
+4
+"Oh, well, Sport, you flirt. I guess, yes, that could be a reason."
+-
