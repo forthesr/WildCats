@@ -65,27 +65,26 @@ public class DatingSim {
     }
 
     public void transport(){
-        System.out.println(currentPlace.text);
         String nearChoice = Keyboard.readString();
         if (nearChoice == "Home"){
             Setting choice = home;}
         else if (nearChoice == "mall"){
-            Setting choice = mall;
+            Setting choice = Mall;
         }
         else if (nearChoice == "mcDonuds"){
-            Setting choice = mcDonuds;
+            Setting choice = McDonuds;
         }
         else if (nearChoice == "never21"){
-            Setting choice = never21;
+            Setting choice = Never21;
         }
         else if (nearChoice == "Park"){
-            Setting choice = park;
+            Setting choice = Park;
         }
         else if (nearChoice == "School") {
-            Setting choice = school;
+            Setting choice = School;
         }
         else if (nearChoice == "class") {
-            Setting choice = class;
+            Setting choice = Class;
         }
         else {
             System.out.println("You didn't type in the right word");
@@ -94,7 +93,8 @@ public class DatingSim {
         }
 	setView(choice.getImage());
 	currentPlace = choice;
-        System.out.println(this);
+        System.out.println(game);
+	System.out.println(currentPlace.text);
     }
     
     public void overlay(DateableSO person){
@@ -209,7 +209,8 @@ public class DatingSim {
 	while (currentPlace != Home) {
 		setView(Map);
 		Map.transport();
-		currentPlace.transport();
+		if (currentPlace != park) 
+		    currentPlace.transport();
 
 		setDatingPartner(Keyboard.readString());//maybe fix?
 		view.overlay(datingPartner);
