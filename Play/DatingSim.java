@@ -87,65 +87,36 @@ public class DatingSim {
       return datingPartner;
     }
 
-    public void transport(){
-	Setting choice = Map;
-        String nearChoice = Keyboard.readString();
-	if (onDate == true) {
-	    nearChoice = dateSpot;
-        if (nearChoice.equals("Home")){
-            choice = Home;}
-        else if (nearChoice.equals("Mall")){
-            choice = Mall;
+    public void setDatingPartner(String person){
+	DatableSO choice = TD;
+
+        if (person.equals("Daphne")){
+            choice = TD;
+	}
+        else if (person.equals("Richard")){
+            choice = CC;
         }
-        else if (nearChoice.equals("McDonuds")){
-            choice = McDonuds;
+        else if (person.equals("Marisa")){
+            choice = RWFL;
         }
-        else if (nearChoice.equals("Never21")){
-            choice = Never21;
+        else if (person.equals("InvisibleMan")){
+            choice = IM;
         }
-        else if (nearChoice.equals("Park")){
-            choice = Park;
+        else if (person.equals("Nico")){
+            choice = NOI;
         }
-        else if (nearChoice.equals("School")) {
-            choice = School;
+        else if (person.equals("Sans")) {
+            choice = S;
         }
-        else if (nearChoice.equals("Class")) {
-            choice = Class;
-        }
-        else {
-            System.out.println("You didn't type in the right word");
-            System.out.println("Try again");
-            transport();
-        }  }
-         if (nearChoice.equals("Home")){
-            choice = Home;}
-        else if (nearChoice.equals("Mall")){
-            choice = Mall;
-        }
-        else if (nearChoice.equals("McDonuds")){
-            choice = McDonuds;
-        }
-        else if (nearChoice.equals("Never21")){
-            choice = Never21;
-        }
-        else if (nearChoice.equals("Park")){
-            choice = Park;
-        }
-        else if (nearChoice.equals("School")) {
-            choice = School;
-        }
-        else if (nearChoice.equals("Class")) {
-            choice = Class;
+        else if (person.equals("Naomi")) {
+            choice = AW;
         }
         else {
             System.out.println("You didn't type in the right word");
             System.out.println("Try again");
             transport();
-        }  
-	setView(choice);
-	currentPlace = choice;
-        System.out.println(game);
-	System.out.println(currentPlace.text);
+        }
+	datingPartner = choice;
     }
 
     //read dialogue files
@@ -175,7 +146,7 @@ public class DatingSim {
 		    o.setEmotion(Integer.parseInt(x));
 		    o.setAppearance();
 		    overlay(o);
-		    System.out.println(view);
+		    System.out.println(view.toString() );
 		    System.out.print(sectionsList.get(4*i) + ": ");
 		    System.out.println(sectionsList.get(4*i + 2));
 		    System.out.println("\n");
@@ -320,6 +291,31 @@ public class DatingSim {
             System.out.println("Try again");
             transport();
         }  }
+         if (nearChoice.equals("Home")){
+            choice = Home;}
+        else if (nearChoice.equals("Mall")){
+            choice = Mall;
+        }
+        else if (nearChoice.equals("McDonuds")){
+            choice = McDonuds;
+        }
+        else if (nearChoice.equals("Never21")){
+            choice = Never21;
+        }
+        else if (nearChoice.equals("Park")){
+            choice = Park;
+        }
+        else if (nearChoice.equals("School")) {
+            choice = School;
+        }
+        else if (nearChoice.equals("Class")) {
+            choice = Class;
+        }
+        else {
+            System.out.println("You didn't type in the right word");
+            System.out.println("Try again");
+            transport();
+        }  
 	setView(choice);
 	currentPlace = choice;
         System.out.println(game);
@@ -390,7 +386,6 @@ public class DatingSim {
 	readerNorm(datingPartner, fileName);
     }
 
-    //chatting with DatableSO
     //chatting with DatableSO
     public void chat(){
 	String fileName = "";
@@ -536,3 +531,6 @@ public class DatingSim {
     }
     
 }
+
+
+
