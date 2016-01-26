@@ -1,0 +1,38 @@
+Naomi
+3
+"I do not understand your insistance on this out going situation."
+~
+name
+1
+"In English...?"
+~
+Naomi
+2
+"I mean to say that these dates are unneccessary."
+-
+~
+name
+1
+"Well, if it's fun, why not?"
+-
+name
+1
+"Hey, it's fine, isn't it?"
+-
+name
+1
+"It's only unneccessary if you deem it so."
+-
+~
+Naomi
+1
+"I suppose so."
+-
+Naomi
+2
+"It is not arguably horrid."
+-
+Naomi
+4
+"I do not deem it unneccessary to such an extent."
+-
