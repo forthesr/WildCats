@@ -1,47 +1,47 @@
 import java.util.Scanner;
 
-public class Home extends Setting {
+public class Map extends Setting {
 
-  protected String[] image;
-  protected String text;
+    private String image;
+    private String text;
   
-  //constructors
-  public Home(){
-   private String[][] image = new String[][]
+  //Constructor
+  public Map(){
+     private String[][] image = new String[][]
 	    {{"____________________","______________________________","____________________"}, //0
-	     {"                    ","                              ","                    "}, //1
-	     {"       __________   ","                 ____________ ","             Y\\     "},
-	     {"      |   _  _  |   ","                |            |","            Y |\\    "}, //3
-	     {"      |  / \\/_\\_|___","_________       |            |","           Y  | \\   "},
-	     {"      | |  |\\ ______","__________\\     |    _-_     |","          Y   |  \\  "}, //5
-	     {"      |  \\ | |      ","          |     |   /XXX\\    |","         Y    |   \\ "},
-	     {"      |   \\| |      ","          |     |   \\XXX/    |","        Y     |    Y"}, //7
-	     {"      |____| |   .__","______.   |     |   XXXXX    |","       Y______|   Y "},
-	     {"           | |   | \\","    / |   |     |   XXXXX  o |","      |\\       \\ Y  "}, //9
-	     {"     ___   | |   |  ","\\  /  |   |     |            |","      | \\       Y   "},
-	     {"    | = |  | |___|  ","/  \\  |___|     |            |","      |  \\     Y    "}, //11
-	     {"    |_=_|  | |  _|_/","____\\_|___|     |            |","      ||\\ \\   Y     "},
-	     {"           |  \\|    ","           \\    |            |","      || \\ \\ Y      "}, //13
-	     {"___________|   | \\  ","            \\___|____________|","______|| .\\ |       "},
-	     {"           |   |  \\ ","              \\               ","      | \\  ||       "}, //15
-	     {"           |   |   \\","               \\              ","      ||\\ ||       "},
-	     {"            \\  |    "," \\               \\            ","      || \\||       "}, //17
-	     {"             \\  \\   ","  \\               \\           ","      || .\\ |       "},
-	     {"              \\  \\  ","   \\                          ","      \\ \\  ||       "}  //19
-	    } ;
-    text = "Welcome home! Time to go to sleep! \n" + 
-	"Sleeping will regain full stamina and one day will pass.";
+	     {"       _____        ","                              ","        __________  "}, //1
+	     {"      / _ _ \\_      ","   \\    ///        ))       ","        ||||||||||  "},
+	     {"     / |_|_| \\|     ","   ((O)  (O))   /)  (o0)-.    ","        ||-||||-||  "}, //3
+	     {"    /_________\\     ","    | \\  / |  (o)(O) | (_))   ","        ||||||||||  "},
+	     {"     |       |      ","    ||\\//||   //\\  | .-'    ","        ||| |.||||  "}, //5
+	     {"     |   _   |      ","    || \\/ ||  |(__)| |(       ","  __   __    _  _   "},
+	     {"     |__|_|__|      ","    ||    ||  /,-. |  \\)      "," / _| /_|| |/ \\/ \\| "}, //7
+	     {"                    ","   (_/    \\_)-'   ''  (       "," \\_ \\||_ |-| .| .|| "},
+	     {"       _  _  _  _   ","      .....                   "," |__/ \\_|| |\\_/\\_/| "}, //9
+	     {"   |_|/.\\| \\/ |/_\\_ ","    ::::::::                  ","                    "},
+	     {"   | |\\_/|_||_|\\__/ ","    :::::::: .:.              ","                    "}, //11
+	     {"                    ","  .` ::::::  / :`       +     ","       +            "},
+	     {"                    "," .:\\. \\||//--      +  ________","__+_______          "}, //13
+	     {"                    ","  ` \\__||/   \\:.    +| _  _  _","_         |         "},
+	     {"       __  _  __    ","       ||    ::`     || \\/ |/ ","_\\ |  |   |  +      "}, //15
+	     {"      | _|/ || _||/ ","       ||          + ||_||_|_|"," | |_ |_  |         "},
+	     {"      || / -|| \\ |\\ ","       ||            |    _ _ ","          | +       "}, //17
+	     {"      ||/_/_||_`\\| \\","      /MM\\           |___|_|_|","__________|         "},
+	     {"                    ","                              ","                    "}  //19
+	    };;
+
+  text = "Where would you like to go? \n" +
+          "You can go to the following places:\n" +
+      "1-School\2-Mall\3-Park\4-Home\n" + 
+      "Enter the name of the place you wish to go:";
   }
   
-  //sleep
-  public void sleep(){
-    System.out.println("Good night!");
-    stamina = 15;
-    playa.days --;
-    System.out.println(DatingSim.view);
-    System.out.println("You wake up feeling refreshed and ready to go!");
-    System.out.println("Only" + days + "left to go before prom!");
-    setView(map.getImage());
+  //methods
+  public String getImage(){
+    return image;
   }
- 
+  
+  public String getText(){
+    return text;}
+    
 }
