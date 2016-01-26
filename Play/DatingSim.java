@@ -205,13 +205,11 @@ public class DatingSim {
     }
 
     public void oneDay(){
-	
 	while (currentPlace != Home) {
 		setView(Map);
 		Map.transport();
 		if (currentPlace != park) 
 		    currentPlace.transport();
-
 		setDatingPartner(Keyboard.readString());//maybe fix?
 		view.overlay(datingPartner);
 		
