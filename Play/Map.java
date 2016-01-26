@@ -1,60 +1,58 @@
 import java.util.Scanner;
 
-public class Map extends Setting {
+public class Home extends Setting {
 
-    private String image;
-    private String text;
+  protected String[] image;
+  protected String text;
   
-  //Constructor
-  public Map(){
-     private String[][] image = new String[][]
+  //constructors
+  public Home(){
+   private String[][] image = new String[][]
 	    {{"____________________","______________________________","____________________"}, //0
-	     {"       _____        ","                              ","        __________  "}, //1
-	     {"      / _ _ \_      ","   \\\    ///        ))       ","        ||||||||||  "},
-	     {"     / |_|_| \|     ","   ((O)  (O))   /)  (o0)-.    ","        ||-||||-||  "}, //3
-	     {"    /_________\     ","    | \  / |  (o)(O) | (_))   ","        ||||||||||  "},
-	     {"     |       |      ","    ||\\//||   //\\  | .-'    ","        ||| |.||||  "}, //5
-	     {"     |   _   |      ","    || \/ ||  |(__)| |(       ","  __   __    _  _   "},
-	     {"     |__|_|__|      ","    ||    ||  /,-. |  \)      "," / _| /_|| |/ \/ \| "}, //7
-	     {"                    ","   (_/    \_)-'   ''  (       "," \_ \||_ |-| .| .|| "},
-	     {"       _  _  _  _   ","      .....                   "," |__/ \_|| |\_/\_/| "}, //9
-	     {"   |_|/.\| \/ |/_\_ ","    ::::::::                  ","                    "},
-	     {"   | |\_/|_||_|\__/ ","    :::::::: .:.              ","                    "}, //11
-	     {"                    ","  .` ::::::  / :`       +     ","       +            "},
-	     {"                    "," .:\. \||//--      +  ________","__+_______          "}, //13
-	     {"                    ","  ` \__||/   \:.    +| _  _  _","_         |         "},
-	     {"       __  _  __    ","       ||    ::`     || \/ |/ ","_\ |  |   |  +      "}, //15
-	     {"      | _|/ || _||/ ","       ||          + ||_||_|_|"," | |_ |_  |         "},
-	     {"      || / -|| \ |\ ","       ||            |    _ _ ","          | +       "}, //17
-	     {"      ||/_/_||_`\| \","      /MM\           |___|_|_|","__________|         "},
-	     {"                    ","                              ","                    "}  //19
-	    };;
-
-  text = "Where would you like to go?
-          You can go to the following places:\n" +
-      "1-School\2-Mall\3-Park\4-Home\n" + 
-      "Enter the name of the place you wish to go:";
+	     {"                    ","                              ","                    "}, //1
+	     {"       __________   ","                 ____________ ","             Y\\     "},
+	     {"      |   _  _  |   ","                |            |","            Y |\\    "}, //3
+	     {"      |  / \\/_\\_|___","_________       |            |","           Y  | \\   "},
+	     {"      | |  |\\ ______","__________\\     |    _-_     |","          Y   |  \\  "}, //5
+	     {"      |  \\ | |      ","          |     |   /XXX\\    |","         Y    |   \\ "},
+	     {"      |   \\| |      ","          |     |   \\XXX/    |","        Y     |    Y"}, //7
+	     {"      |____| |   .__","______.   |     |   XXXXX    |","       Y______|   Y "},
+	     {"           | |   | \\","    / |   |     |   XXXXX  o |","      |\\       \\ Y  "}, //9
+	     {"     ___   | |   |  ","\\  /  |   |     |            |","      | \\       Y   "},
+	     {"    | = |  | |___|  ","/  \\  |___|     |            |","      |  \\     Y    "}, //11
+	     {"    |_=_|  | |  _|_/","____\\_|___|     |            |","      ||\\ \\   Y     "},
+	     {"           |  \\|    ","           \\    |            |","      || \\ \\ Y      "}, //13
+	     {"___________|   | \\  ","            \\___|____________|","______|| .\\ |       "},
+	     {"           |   |  \\ ","              \\               ","      | \\  ||       "}, //15
+	     {"           |   |   \\","               \\              ","      ||\\ ||       "},
+	     {"            \\  |    "," \               \\            ","      || \\||       "}, //17
+	     {"             \\  \\   ","  \               \\           ","      || .\\ |       "},
+	     {"              \\  \\  ","   \                          ","      \\ \\  ||       "}  //19
+	    } ;
+    text = "Welcome home! Time to go to sleep! \n
+            Sleeping will regain full stamina and one day will pass.";
   }
   
   //methods
-  public String getImage(){
+  //gets
+  public String[] getImage(){
     return image;
   }
   
   public String getText(){
-    return text;}
-    
-    public void transport(){
-        System.out.println(getText() );
-        Setting choice = Keyboard.readString();
-        setView(choice.getImage() ); }
-
-
-
-	DatingSim.view = choice.getImage();
-	System.out.println (choice);
-      
-        System.out.println(DatingSim.view);
-        System.out.println("You are now at " + location);
-    }
+    return text;
+  }
+  
+  //sleep
+  public void sleep(){
+    System.out.println("Good night!");
+    stamina = 15;
+    days --;
+    System.out.println("You wake up feeling refreshed and ready to go!");
+    System.out.println("Only" + days + "left to go before prom!");
+    System.out.println(image);
+    System.out.println(text);
+    setView(map.getImage() );
+  }
+ 
 }
