@@ -247,7 +247,7 @@ public class DatingSim {
 	    o.setEmotion(Integer.parseInt(chatResponses.get(4*input + 2)));
 	    o.setAppearance();
 	    overlay(o);
-	    System.out.println(view);
+	    System.out.println(game);
 	    System.out.print(chatResponses.get(4*input + 1) + ": ");
 	    System.out.println(chatResponses.get(4*input + 3));
 	    System.out.println("\n");
