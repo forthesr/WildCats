@@ -28,13 +28,4 @@ public class Prom extends Setting {
 	    "Who is your date?\n" +
 	    "Sans\tNico\tReporterWaifu\tInvisibleMan\tDaphne\tRichard\n" +
 	    "Enter the name of the person you want to take to prom:";
-
-	public getImage(){
-		return image;
-	}
-	
-	public getText(){
-		return text;
-	}
-
 }

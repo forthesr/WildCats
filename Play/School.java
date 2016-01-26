@@ -33,17 +33,6 @@ public class School extends Setting {
 	    "Enter the name of the place you wish to go:";
     }
 
-    public String toString() {
-	String s = "";
-	for (String[] a : image) {
-	    for (String b : a) {
-		s += b;
-	    }
-	    s += "\n";
-	}
-	return s;
-    }
-
     public static void main(String[] args) {
 	Setting foo = new School();
 	System.out.print(foo);
