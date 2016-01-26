@@ -70,4 +70,4 @@ January 24, 2016
 January 25, 2016 (extended day yayyy)
   Jordan:
   Lisa:
-  Jordan + Lisa: EVERYTHING LEFT TO BE DONE
+  Jordan + Lisa: EVERYTHING LEFT TO BE DONE. Everything
