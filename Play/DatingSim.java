@@ -378,7 +378,7 @@ public class DatingSim {
 
     public void kiss(){
 	String fileName;
-	if (datingPartner.affection > 60){
+	if (datingPartner.affection > 50){
 	    datingPartner.setAffection(5);
 	    //read datingPartner + "kissacceptance.txt";
 	    fileName = datingPartner.name + "KissAcceptance.txt";
@@ -419,7 +419,7 @@ public class DatingSim {
 		    fileName = datingPartner.name + "Chat" + chatNum + ".txt";
 		}
 		playa.stamina -= 2;
-		datingPartner.setAffection(100);
+		datingPartner.setAffection(4);
 	    }
 	}
 	else
