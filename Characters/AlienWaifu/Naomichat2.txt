@@ -9,6 +9,7 @@ Naomi
 Naomi
 1
 "Well, what do you think?"
+-
 ~
 name
 1
@@ -25,3 +26,4 @@ Naomi
 Naomi
 1
 "We are not interested in your idealoligies about appearance."
+-
