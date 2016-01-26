@@ -33,16 +33,6 @@ public class Home extends Setting {
 	"Sleeping will regain full stamina and one day will pass.";
   }
   
-  //methods
-  //gets
-  public String[] getImage(){
-    return image;
-  }
-  
-  public String getText(){
-    return text;
-  }
-  
   //sleep
   public void sleep(){
     System.out.println("Good night!");

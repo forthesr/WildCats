@@ -25,34 +25,23 @@ public class Home extends Setting {
 	     {"___________|   | \\  ","            \\___|____________|","______|| .\\ |       "},
 	     {"           |   |  \\ ","              \\               ","      | \\  ||       "}, //15
 	     {"           |   |   \\","               \\              ","      ||\\ ||       "},
-	     {"            \\  |    "," \               \\            ","      || \\||       "}, //17
-	     {"             \\  \\   ","  \               \\           ","      || .\\ |       "},
-	     {"              \\  \\  ","   \                          ","      \\ \\  ||       "}  //19
+	     {"            \\  |    "," \\               \\            ","      || \\||       "}, //17
+	     {"             \\  \\   ","  \\               \\           ","      || .\\ |       "},
+	     {"              \\  \\  ","   \\                          ","      \\ \\  ||       "}  //19
 	    } ;
-    text = "Welcome home! Time to go to sleep! \n
-            Sleeping will regain full stamina and one day will pass.";
-  }
-  
-  //methods
-  //gets
-  public String[] getImage(){
-    return image;
-  }
-  
-  public String getText(){
-    return text;
+    text = "Welcome home! Time to go to sleep! \n" + 
+	"Sleeping will regain full stamina and one day will pass.";
   }
   
   //sleep
   public void sleep(){
     System.out.println("Good night!");
     stamina = 15;
-    days --;
+    playa.days --;
+    System.out.println(DatingSim.view);
     System.out.println("You wake up feeling refreshed and ready to go!");
     System.out.println("Only" + days + "left to go before prom!");
-    System.out.println(image);
-    System.out.println(text);
-    setView(map.getImage() );
+    setView(map.getImage());
   }
  
 }
