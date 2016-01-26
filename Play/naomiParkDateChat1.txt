@@ -1,0 +1,38 @@
+Naomi
+2
+"The sky... is so bright on Earth."
+~
+Naomi
+2
+"And the wind... is a breeze."
+~
+Naomi
+2
+"The sound of laughter and children sparkles."
+-
+~
+name
+1
+"You sound like InvisibleMan."
+-
+name
+1
+"Yeah,  it's pretty nice, huh?"
+-
+name
+1
+"Isn't this place a great place for a date?"
+-
+~
+Naomi
+3
+"Invisible... man?"
+-
+Naomi
+4
+"Yes... Earth is."
+-
+Naomi
+1
+"You did well."
+-

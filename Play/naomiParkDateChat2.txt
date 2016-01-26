@@ -1,0 +1,38 @@
+Naomi
+2
+"Ah... he-hey... child?"
+~
+name
+1
+"Naomi, what are you?"
+~
+Naomi
+2
+"A little kid is... pulling on my dress."
+-
+~
+name
+1
+"Ah, that's kind of cute."
+-
+name
+1
+"Don't mind them. Just walk a little faster."
+-
+name
+1
+"Pose for a picture!"
+-
+~
+Naomi
+4
+"Cute... am I?"
+-
+Naomi
+3
+"Ah, okay."
+-
+Naomi
+4
+"I-is this alright?"
+-
