@@ -8,7 +8,6 @@ public class Naomi extends DatableSO{
     public Naomi(){
       name = "Naomi";
       emotion = 1;
-      setAppearance(); 
       affection = 0;
       firstMeeting = true;
     }
