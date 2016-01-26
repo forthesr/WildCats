@@ -460,7 +460,7 @@ public class DatingSim {
 		transport();
 		if (currentPlace == Home)
 		    break;
-		if (currentPlace != Home) 
+		if (currentPlace != Home && currentPlace != Park) 
 		    transport();
 		setDatingPartner(Keyboard.readString());//maybe fix?
 		overlay(datingPartner);
