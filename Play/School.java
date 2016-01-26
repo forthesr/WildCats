@@ -4,7 +4,7 @@ public class School extends Setting {
 
     public School() {
 	//20 X 3 array, 20, 30, 20 characters, temp design to test
-	 String[][] image = new String[][]
+	 image = new String[][]
 	    {{"____________________","______________________________","____________________"}, //0
 	     {"                    ","                              ","                    "}, //1
 	     {"     .-')           ","    ('-. .-.                  ","                    "},
