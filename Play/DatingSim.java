@@ -263,9 +263,7 @@ public class DatingSim {
 
     public void transport(){
 	Setting choice = Map;
-	if (onDate != true){
         String nearChoice = Keyboard.readString();
-	}
 	if (onDate == true) {
 	    nearChoice = dateSpot;
         if (nearChoice.equals("Home")){
@@ -366,8 +364,9 @@ public class DatingSim {
 		else
 		    break;
 	    }
-	    onDate = false;
+	    System.out.println("Then it's time for a kiss.")
 	    kiss();
+	    onDate = false;
 	}
 	else if (playa.stamina < 5){
 	    System.out.println("You look a bit tired, shouldn't you go to sleep to regain some energy?");
@@ -382,12 +381,12 @@ public class DatingSim {
 	if (datingPartner.affection > 60){
 	    datingPartner.setAffection(5);
 	    //read datingPartner + "kissacceptance.txt";
-	    fileName = datingPartner + "KissAcceptance.txt";
+	    fileName = datingPartner.name + "KissAcceptance.txt";
 	}
 	else {
 	    datingPartner.setAffection(-10);
 	    //read datingPartner + "kissrejection.txt";
-	    fileName = datingPartner + "KissRejection.txt";
+	    fileName = datingPartner.name + "KissRejection.txt";
 	}
 	//read fileName
 	readerNorm(datingPartner, fileName);
@@ -420,7 +419,7 @@ public class DatingSim {
 		    fileName = datingPartner.name + "Chat" + chatNum + ".txt";
 		}
 		playa.stamina -= 2;
-		datingPartner.setAffection(3);
+		datingPartner.setAffection(100);
 	    }
 	}
 	else
