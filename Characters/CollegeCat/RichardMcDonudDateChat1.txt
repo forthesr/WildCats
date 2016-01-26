@@ -1,0 +1,38 @@
+Richard
+3
+"Hummmm...!"
+~
+name
+1
+"Er, Richard? Is something wrong?"
+~
+Richard
+2
+"Oh! Ah, sorry! Nothing!"
+-
+~
+name
+1
+"Richard, seriously, what's up?"
+-
+name
+1
+"Urgh, it's not that rude donut is it?"
+-
+name
+1
+"Richard look at me. What's going on?"
+-
+~
+Richard
+2
+"It's just... Daphne."
+-
+Richard
+3
+"Don't say that! Daphne is a really nice donut!"
+-
+Richard
+1
+"I'm okay. Don't you worry!"
+-
