@@ -26,13 +26,7 @@ public class Class extends Setting {
 	    };
     private String text = "Welcome to the classroom! " +
 	    "Who would you like to talk to?\n" +
-	    "Sans?\n" +
+	    "Sans\n" +
 	    "Enter the name of the person you want to talk to:";
-	public getImage(){
-		return image;
-	}
-	
-	public getText(){
-		return text;
-	}
+
 }

@@ -32,16 +32,7 @@ public class Map extends Setting {
 
   text = "Where would you like to go? \n" +
           "You can go to the following places:\n" +
-      "1-School\2-Mall\3-Park\4-Home\n" + 
+      "School, Mall, Park, Home\n" + 
       "Enter the name of the place you wish to go:";
   }
-  
-  //methods
-  public String getImage(){
-    return image;
-  }
-  
-  public String getText(){
-    return text;}
-    
 }

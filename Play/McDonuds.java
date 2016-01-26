@@ -24,9 +24,9 @@ private String[][] image = new String[][]
 	     {"                    ","                              ","                    "},
 	     {"                    ","                              ","                    "}  //19
 	    };;
-    private String text = "Welcome to McDonuds! " +
-	    "There are two workers currently." +
-	    "Daphne and Richard" +
+    private String text = "Welcome to McDonuds! \n" +
+	    "There are two workers currently: \t" +
+	    "Daphne and Richard\n" +
 	    "Enter the name of the person you wish to talk to:";
    
 }

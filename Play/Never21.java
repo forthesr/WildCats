@@ -25,8 +25,8 @@ public class Never21 extends Setting {
 	     {"||||||||||||||||||||","||||||||     |||     |||||||||","|||||||| |||||||||||"}  //19
 	    };;
     private String text = "Welcome to Never21! " +
-	    "There are two people in the store:\n" +
-	    "Shopkeeper\tName\t\n" +
+	    "There is one person in the store:\n" +
+	    "Naomi\n" +
 	    "Enter the name of the person you wish to talk to:";
    
 }
