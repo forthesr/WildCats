@@ -264,7 +264,7 @@ public class DatingSim {
     public void transport(){
 	Setting choice = Map;
         String nearChoice = Keyboard.readString();
-	if (onDate)
+	if (onDate == true) {
 	    nearChoice = dateSpot;
         if (nearChoice.equals("Home")){
             choice = Home;}
@@ -290,7 +290,7 @@ public class DatingSim {
             System.out.println("You didn't type in the right word");
             System.out.println("Try again");
             transport();
-        }
+        }  }
 	setView(choice);
 	currentPlace = choice;
         System.out.println(game);
@@ -431,7 +431,6 @@ public class DatingSim {
     public void oneDay(){
 	while (currentPlace != Home) {
 		setView(Map);
-		System.out.println(game);
 		System.out.println(Map.text);
 		transport();
 		if (currentPlace != Park) 
