@@ -325,7 +325,7 @@ public class DatingSim {
     public void overlay(DatableSO person){
 	for (int x = view.length- person.getAppearance().length; x < view.length; x++){
 	    for (int i = 0; i < person.getAppearance().length; i++){
-		view[x][2] = person.getAppearance()[i];
+		view[x][1] = person.getAppearance()[i];
 	    }
 	}
     }
