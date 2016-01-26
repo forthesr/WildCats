@@ -1,0 +1,38 @@
+Richard
+1
+"This classroom is so small compared to my school."
+~
+Richard
+1
+"Ah! Is that a little table lamp? Oh, and a notebook holder?"
+~
+Richard
+1
+"Mew! A little wooden case! Cute!"
+-
+~
+name
+1
+"Ergh, what?"
+-
+name
+1
+"You like those sort of things? Really?"
+-
+name
+1
+"You want one?"
+-
+~
+Richard
+2
+"What? Isn't it cute?"
+-
+Richard
+3
+"It's nice, isn't it! It is!"
+-
+Richard
+4
+"Really? Mew! Mew!"
+-
