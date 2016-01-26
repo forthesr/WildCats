@@ -1,0 +1,38 @@
+Richard
+1
+"Hmm, it's so nice outside!"
+~
+Richard
+1
+"The wind is whistling so nicely. Mew."
+~
+Richard
+2
+"Hm? What are you looking at?"
+-
+~
+name
+1
+"Er, nothing really."
+-
+name
+1
+"It's not. Well. You're just really beautiful like that."
+-
+name
+1
+"Don't make me say something so obvious!
+-
+~
+Richard
+2
+"?"
+-
+Richard
+4
+"Ehehe? You really think so?"
+-
+Richard
+3
+"Whaaat?"
+-
