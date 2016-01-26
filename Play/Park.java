@@ -2,7 +2,8 @@ import java.util.Scanner;
 
 public class Park extends Setting {
     //20 X 3 array, 20, 30, 20 characters, temp design to test
-    private String[][] image = new String[][]
+    public Park(){
+    image = new String[][]
 	    {{"____________________","______________________________","____________________"}, //0
 	     {"  _|   \\            ","                   ;;;        ","                    "}, //1
 	     {" |__|____\\          ","              ;;;;;;;;;      ","                    "},
@@ -24,9 +25,9 @@ public class Park extends Setting {
 	     {"\\  // //             ","\\____________|\\              ","     \\    |         "},
 	     {"   ||//               "," \\_____________\\             ","      \\   |         "}  //19
 	    };
-    private String text = "Welcome to the Park! " +
+     text = "Welcome to the Park! " +
 	    "Who would you like to talk to?\n" +
 	    "ReporterWaifu, InvisibleMan, or Nico?\n" +
-	    "Enter the name of the person you want to talk to:";
+	    "Enter the name of the person you want to talk to:"; }
 
 }
