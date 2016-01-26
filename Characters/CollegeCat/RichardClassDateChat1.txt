@@ -1,0 +1,38 @@
+Richard
+2
+"Huh? What are we doing at a school?"
+-
+Richard
+2
+"Wait, you're not going to make me go back to an ivy league school right?"
+-
+Richard
+2
+"They're tiny! Like little leaves!"
+-
+~
+name
+1
+"Relax, it's just a visit to the classroom."
+-
+name
+1
+"Wait what? Ivy leagues little leaves?"
+-
+name
+1
+"Don't be such an idiot. Obviously you can't attend this high school."
+-
+~
+Richard
+4
+"Ah... haha... er. Much better then!"
+-
+Richard
+2
+"It's just little schools!"
+-
+Richard
+3
+"Wow, don't be so mean!"
+-
