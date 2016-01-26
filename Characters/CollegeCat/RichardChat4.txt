@@ -9,6 +9,7 @@ Richard
 Richard
 1
 "I'm trying to beat my record for most donuts sold in a shift. The goal is 120 donuts."
+-
 ~
 name
 1
@@ -16,11 +17,12 @@ name
 -
 name
 1
-"I can help you with that! I'll take 5 jelly-filled donuts and 5 "
+"I can help you with that! I'll take 5 jelly-filled donuts and 5 chocolate chip!"
 -
 name
 1
 "That's a lot of donuts! I don't know if you can beat that."
+-
 ~
 Richard
 1
@@ -33,4 +35,4 @@ Richard
 Richard
 3
 "I think I can do it. You don't have to be so negative. I try my best every day."
-~
+-
