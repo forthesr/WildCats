@@ -26,6 +26,6 @@ public class Prom extends Setting {
 	    };
      text = "Welcome to Prom! " +
 	    "Who is your date?\n" +
-	    "Sans\tNico\tReporterWaifu\tInvisibleMan\tDaphne\tRichard\n" +
+	    "Sans\tNico\tMarisa\tDaphne\tRichard\tNaomi\n" +
 	    "Enter the name of the person you want to take to prom:"; }
 }
