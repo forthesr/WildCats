@@ -418,7 +418,7 @@ public class DatingSim {
 		    fileName = datingPartner.name + "Chat" + chatNum + ".txt";
 		}
 		playa.stamina -= 2;
-		datingPartner.setAffection(2);
+		datingPartner.setAffection(3);
 	    }
 	}
 	else
