@@ -1,0 +1,38 @@
+Nico
+1
+"Nico Nico Nii!"
+~
+Nico
+1
+"Are you going to watch me give another live, Nico?"
+~
+Nico
+1
+"Hehe, you better!"
+-
+~
+name
+1
+"Yep! I'm here to support you all the way!"
+-
+name
+1
+"Definetly, Nico!"
+-
+name
+1
+"Um, can I not?"
+-
+~
+Nico
+1
+"Yay! Let's Nico Nico Niiiiiii!"
+-
+Nico
+4
+"I'm so happy! Let's do it, Nico!"
+-
+Nico
+3
+"Nico Nico NO!"
+-

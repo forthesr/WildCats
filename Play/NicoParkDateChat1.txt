@@ -1,0 +1,38 @@
+Nico
+3
+"Eurgh!!"
+~
+name
+1
+"Nico? Is something wrong?"
+~
+Nico
+1
+"N-nothing! Nico!"
+-
+~
+name
+1
+"... Riiiighhhttt."
+-
+name
+1
+"Come on Nico, you know you can trust me!"
+-
+name
+1
+"Seriously Nico, what's wrong?"
+-
+~
+Nico
+3
+"Seriously! Nico!"
+-
+Nico
+2
+"... It's nothing really. Really!"
+-
+Nico
+2
+"Just... sometimes a partner might not be... the best... work. Idol. I... Nico."
+-

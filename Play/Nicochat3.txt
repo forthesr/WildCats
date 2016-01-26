@@ -1,0 +1,38 @@
+Nico
+2
+"Nico puri! Nico nico! Anata wa no sora akitaaaa!"
+~
+name
+1
+"Huh? Are you practicing still? Don't you get tired?"
+~
+Nico
+1
+"Nico nico nope! Nico is the number one idol- she can't get tired this easily!"
+-
+~
+name
+1
+"Calm down and take a break. The world isn't rushing ahead, you know."
+-
+name
+1
+"Well, is there anyway for me to help?"
+-
+name
+1
+"The number one idol should know when to stop practicing, don't you think?"
+-
+~
+Nico
+3
+"I won't be left behind again!"
+-
+Nico
+1
+"No thank you!"
+-
+Nico
+3
+"Humph!"
+-

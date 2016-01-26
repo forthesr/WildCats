@@ -1,0 +1,30 @@
+Nico
+1
+"Ah! This is Nico's old homeroom!"
+~
+Nico
+1
+"Nozomi was here! And Eli! And there, we practiced together!"
+~
+Nico
+2
+"It was the! The! The..."
+-
+~
+name
+1
+"The...?"
+-
+name
+1
+"It's okay Nico. It's in the past now."
+-
+~
+Nico
+2
+"... the..."
+~
+Nico
+2
+"... Is it... really?"
+-

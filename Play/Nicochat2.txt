@@ -1,0 +1,38 @@
+Nico
+2
+"..."
+~
+name
+1
+"Er, hey, Nico? Are you okay?"
+~
+Nico
+1
+"! Ah, er, yep! Nico Nii is just a little curious about the school, that's all!"
+-
+~
+name
+1
+"Curious? Oh that's right. Aren't you a student there?"
+-
+name
+1
+"Ah, you're not skipping class for something like this, are you?"
+-
+name
+1
+"Doesn't an idol like you have to focus on performing instead of school?"
+-
+~
+Nico
+2
+"... Yeah. Nico was."
+-
+Nico
+1
+"N-Nico noooooo?"
+-
+Nico
+3
+"Huh? Being an idol means having an all-around skill set, dumbie!"
+-

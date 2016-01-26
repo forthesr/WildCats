@@ -1,0 +1,38 @@
+Nico
+1
+"Nico's being taken on a date! Yay!"
+~
+Nico
+3
+"A-ah! Were you watching?"
+~
+Nico
+3
+"I-I'm not excited! I have plenty of experience dating!"
+-
+~
+name
+1
+"... Don't tell that to your date."
+-
+name
+1
+"Don't mind me. I'm happy that you're happy."
+-
+name
+1
+"Experience dating? Aren't idols supposed to be pure?"
+-
+~
+Nico
+2
+"...humph!"
+-
+Nico
+4
+"D-don't say that so easily, nico!"
+-
+Nico
+2
+"Relationships between girls are always pure."
+-

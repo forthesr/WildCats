@@ -1,0 +1,38 @@
+Nico
+1
+"Nico nico niii!"
+~
+name
+1
+"Er, hey, why do you keep saying that?"
+~
+Nico
+3
+"Eeeehhhh? Why do you want to know, nico?"
+-
+~
+name
+1
+"Just a little curious, that's all."
+-
+name
+1
+"It's a little annoying, can you please stop?"
+-
+name
+1
+"Please tell me, nicooooo?"
+-
+~
+Nico
+1
+"It's an idol's secret!"
+-
+Nico
+3
+"Haaaaahhhh? No way!"
+-
+Nico
+1
+"Nope! Follow me. Nico... nico... Nii!"
+-

@@ -1,0 +1,38 @@
+Nico
+2
+"... Why are we at school?"
+~
+Nico
+2
+"... Why are we in a classroom even...?"
+~
+Nico
+2
+"Hey! What the heck is this?! Did you find out about that sixty?"
+-
+~
+name
+1
+"No? I- wait, you're practicing to be an idol and you got a sixty!?"
+-
+name
+1
+"It's just a trial thing... I guess... er, haha.."
+-
+name
+1
+"I mean, why not?"
+-
+~
+Nico
+3
+"D-don't talk about Nico like that!"
+-
+Nico
+2
+"Oookay, Nico?"
+-
+Nico
+1
+"Well, if you say so!"
+-

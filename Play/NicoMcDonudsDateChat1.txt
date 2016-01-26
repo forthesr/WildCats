@@ -1,0 +1,38 @@
+Nico
+1
+"Well? What donut should we make today, nico?"
+~
+name
+1
+"... Er, we're buying it, not making it."
+~
+Nico
+2
+"Obviously Nico knows that! It's for the aesthetic! Aesthetic!"
+-
+~
+name
+1
+"Right... well, what do you want then?"
+-
+name
+1
+"A... ethetic? In McDonuds?"
+-
+name
+1
+"Why not ask the cashier?"
+-
+~
+Nico
+1
+"Strawberry shortcake, obviously!"
+-
+Nico
+3
+"Yes. Just ask that darling donut if you want!"
+-
+Nico
+2
+"... Why don't you ask her then!"
+-
