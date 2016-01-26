@@ -2,7 +2,7 @@ import java.util.Scanner;
 
 public class Class extends Setting {
     //20 X 3 array, 20, 30, 20 characters, temp design to test
-    private String[][] image = new String[][]
+    public Class () { image = new String[][]
 		{{"____________________","______________________________","____________________"}, //0
 	     {"   _            |   ","                              ","       |            "}, //1
 	     {"  / /|          |  _","______________________________","_      |           "},
@@ -24,9 +24,9 @@ public class Class extends Setting {
 	     {" /| `    /          "," /     | hoi   |             \\","               \\    "},
 	     {"/ |     /           ","/      |       |              ","                \\   "}  //19
 	    };
-    private String text = "Welcome to the classroom! " +
+     text = "Welcome to the classroom! " +
 	    "Who would you like to talk to?\n" +
 	    "Sans\n" +
-	    "Enter the name of the person you want to talk to:";
+	    "Enter the name of the person you want to talk to:"; }
 
 }
