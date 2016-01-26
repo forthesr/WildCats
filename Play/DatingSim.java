@@ -431,6 +431,7 @@ public class DatingSim {
     public void oneDay(){
 	while (currentPlace != Home) {
 		setView(Map);
+		System.out.println(game);
 		System.out.println(Map.text);
 		transport();
 		if (currentPlace != Park) 
