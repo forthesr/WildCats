@@ -1,0 +1,37 @@
+Naomi
+2
+"..."
+~
+Naomi
+2
+"..."
+~
+Naomi
+2
+"..."
+-
+~
+name
+1
+"Did something happen?"
+-
+name
+1
+"Er, is something wrong with you?"
+-
+name
+1
+"... is that sweat."
+~
+Naomi
+4
+"Yes! I got promoted to manager! It is... very nice!"
+-
+Naomi
+2
+"... Not really."
+-
+Naomi
+3
+"I do not... sweat."
+-

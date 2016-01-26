@@ -1,0 +1,38 @@
+Naomi
+3
+"Why must you insist on visiting me at work?"
+~
+Naomi
+3
+"Even today, where I am not instructed to do so."
+~
+Naomi
+3
+"You wish to still see me."
+-
+~
+name
+1
+"I just like seeing you at work."
+-
+name
+1
+"Hey, the uniform looks good."
+-
+name
+1
+"Well, why not?"
+-
+~
+Naomi
+4
+"... Ah, I am... glad."
+-
+Naomi
+2
+" Is that so?"
+-
+Naomi
+2
+"That is not wrong."
+-

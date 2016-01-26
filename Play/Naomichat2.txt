@@ -1,0 +1,29 @@
+Naomi
+1
+"Does this piece go together?"
+~
+Naomi
+1
+"(It's a hot pink floral skirt with a black crop top. The shirt is too sizes too big for the mini skirt, probably kids size.)"
+~
+Naomi
+1
+"Well, what do you think?"
+-
+~
+name
+1
+"I-it could be better.... haha..."
+-
+name
+1
+"Iiiii'm sure it's goooooooood for aliens?"
+~
+Naomi
+3
+"Really?"
+-
+Naomi
+1
+"We are not interested in your idealoligies about appearance."
+-

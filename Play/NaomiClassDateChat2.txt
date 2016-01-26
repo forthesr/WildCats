@@ -1,0 +1,38 @@
+name
+1
+"Oh, look at these kiddish scribbles."
+~
+Naomi
+1
+"Java? And... two circles meeting with the base of a"
+~
+name
+1
+"Nope! Nope nope, we are not looking at that."
+-
+~
+name
+1
+"I am too old for these oh my god."
+-
+name
+1
+"Oh jeez is that one of my scribbles."
+-
+name
+1
+"Naomi, just don't bother with those kid things."
+-
+~
+Naomi
+4
+"Ahaha! You humans are endearing about the strangest things."
+-
+Naomi
+1
+"Is it really? That is interesting."
+-
+Naomi
+3
+"Humph. Research."
+-

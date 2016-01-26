@@ -1,0 +1,38 @@
+Naomi
+3
+"It is interesting to model my own uniform designs."
+~
+name
+1
+"Hey, it looks good on you!"
+~
+Naomi
+2
+"Does... it really? What... looks good?"
+-
+~
+name
+1
+"Huh! You're working in fashion but you don't know that?"
+-
+name
+1
+"I think. It's about colors and textures. And about the fit. And... just the emotion of the wearer."
+-
+name
+1
+"If the model is good, all clothes look nice."
+-
+~
+Naomi
+2
+"No, I was assigned this post."
+-
+Naomi
+4
+"That sounds eloquent!"
+-
+Naomi
+3
+"Is that really true?"
+-
